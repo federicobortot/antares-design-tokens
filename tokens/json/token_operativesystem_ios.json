@@ -1,0 +1,26 @@
+{
+  "+99 Notifications": {
+    "$type": "string",
+    "$value": "120"
+  },
+  "Notifications": {
+    "$type": "string",
+    "$value": "10"
+  },
+  "OS": {
+    "$type": "string",
+    "$value": "ios"
+  },
+  "Trailing Title": {
+    "$type": "string",
+    "$value": "Trailing Title Example"
+  },
+  "container": {
+    "$type": "number",
+    "$value": 343
+  },
+  "viewport width": {
+    "$type": "number",
+    "$value": 375
+  }
+}

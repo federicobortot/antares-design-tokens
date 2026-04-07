@@ -1,0 +1,802 @@
+{
+  "accent": {
+    "100": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Sisal.Orange.900}"
+    }
+  },
+  "brand": {
+    "$type": "string",
+    "$value": "sisal-casino"
+  },
+  "cornerRadius": {
+    "2xl": {
+      "$type": "number",
+      "$value": "{Size.24}"
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": "{Size.28}"
+    },
+    "4xl": {
+      "$type": "number",
+      "$value": "{Size.32}"
+    },
+    "badge": {
+      "$type": "number",
+      "$value": "{Size.12}"
+    },
+    "button": {
+      "$type": "number",
+      "$value": "{Size.128}"
+    },
+    "full": {
+      "$type": "number",
+      "$value": "{Size.128}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{Size.16}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{Size.12}"
+    },
+    "none": {
+      "$type": "number",
+      "$value": "{Size.0}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{Size.8}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{Size.20}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{Size.4}"
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": "{Size.2}"
+    }
+  },
+  "error": {
+    "100": {
+      "$type": "color",
+      "$value": "{Sisal.Red.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Sisal.Red.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Sisal.Red.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Sisal.Red.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Sisal.Red.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Sisal.Red.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Sisal.Red.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Sisal.Red.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Sisal.Red.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Sisal.Red.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Sisal.Red.900}"
+    }
+  },
+  "highlight": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.400}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.400}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "info": {
+    "100": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.900}"
+    }
+  },
+  "jackpot": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Teal.200}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Teal.200}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    }
+  },
+  "live": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    }
+  },
+  "neutral": {
+    "100": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.900}"
+    },
+    "alpha": {
+      "0": {
+        "$type": "color",
+        "$value": "{CrossBrand.Gray.Alpha.0}"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "{CrossBrand.Gray.Alpha.800}"
+      }
+    },
+    "black": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "promo": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Gold.200}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Gold.200}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    }
+  },
+  "special": {
+    "bg": {
+      "$type": "color",
+      "$value": "{CrossBrand.Purple.600}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{CrossBrand.Purple.600}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "success": {
+    "100": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Sisal.Forest.900}"
+    }
+  },
+  "typography": {
+    "body": {
+      "caption": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "captionBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "microCaption": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.10}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "microCaptionBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.10}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "p": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "pBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "pLead": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "pLeadBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "pMedium": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Medium"
+        }
+      }
+    },
+    "display": {
+      "d1": {
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.32}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.28}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "d2": {
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.28}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.24}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.24}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.20}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "h2": {
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.20}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "h3": {
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      }
+    },
+    "interaction": {
+      "button": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "link": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "microButton": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "microLink": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      }
+    }
+  },
+  "warning": {
+    "100": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Sisal.Yellow.900}"
+    }
+  }
+}

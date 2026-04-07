@@ -1,0 +1,802 @@
+{
+  "accent": {
+    "100": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Pokerstars.Teal.900}"
+    }
+  },
+  "brand": {
+    "$type": "string",
+    "$value": "pokerstars"
+  },
+  "cornerRadius": {
+    "2xl": {
+      "$type": "number",
+      "$value": "{Size.28}"
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": "{Size.32}"
+    },
+    "4xl": {
+      "$type": "number",
+      "$value": "{Size.36}"
+    },
+    "badge": {
+      "$type": "number",
+      "$value": "{Size.128}"
+    },
+    "button": {
+      "$type": "number",
+      "$value": "{Size.128}"
+    },
+    "full": {
+      "$type": "number",
+      "$value": "{Size.128}"
+    },
+    "lg": {
+      "$type": "number",
+      "$value": "{Size.20}"
+    },
+    "md": {
+      "$type": "number",
+      "$value": "{Size.16}"
+    },
+    "none": {
+      "$type": "number",
+      "$value": "{Size.0}"
+    },
+    "sm": {
+      "$type": "number",
+      "$value": "{Size.12}"
+    },
+    "xl": {
+      "$type": "number",
+      "$value": "{Size.24}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{Size.8}"
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": "{Size.4}"
+    }
+  },
+  "error": {
+    "100": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.900}"
+    }
+  },
+  "highlight": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.400}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.400}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "info": {
+    "100": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Pokerstars.Blue.900}"
+    }
+  },
+  "jackpot": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "live": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{Pokerstars.Red.500}"
+    }
+  },
+  "neutral": {
+    "100": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.900}"
+    },
+    "alpha": {
+      "0": {
+        "$type": "color",
+        "$value": "{CrossBrand.Gray.Alpha.0}"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "{CrossBrand.Gray.Alpha.800}"
+      }
+    },
+    "black": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "promo": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Pokerstars.Magenta.400}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Pokerstars.Magenta.400}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "special": {
+    "bg": {
+      "$type": "color",
+      "$value": "{CrossBrand.Purple.600}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{CrossBrand.Purple.600}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    }
+  },
+  "success": {
+    "100": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Pokerstars.Green.900}"
+    }
+  },
+  "typography": {
+    "body": {
+      "caption": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "captionBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "microCaption": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.10}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "microCaptionBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.10}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "p": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "pBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "pLead": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        }
+      },
+      "pLeadBold": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "pMedium": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Medium"
+        }
+      }
+    },
+    "display": {
+      "d1": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.32}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.28}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "d2": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.28}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.24}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.24}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.20}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "h2": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.20}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      },
+      "h3": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "ExtraBold"
+        }
+      }
+    },
+    "interaction": {
+      "button": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "link": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.18}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "microButton": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "microLink": {
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{Size.16}"
+        },
+        "size": {
+          "$type": "number",
+          "$value": "{Size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      }
+    }
+  },
+  "warning": {
+    "100": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.100}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.1000}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.400}"
+    },
+    "50": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.50}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{Pokerstars.Yellow.900}"
+    }
+  }
+}

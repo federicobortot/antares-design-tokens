@@ -1,0 +1,10 @@
+{
+  "name": "design-tokens-build",
+  "version": "1.0.0",
+  "description": "Style Dictionary build per design token multi-brand × multi-mode",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "build:watch": "node --watch build.js"
+  }
+}

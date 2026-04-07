@@ -1,0 +1,52 @@
+{
+  "viewportWidth": {
+    "$type": "number",
+    "$value": 360,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5198:7193",
+      "com.figma.scopes": [
+        "WIDTH_HEIGHT",
+        "FONT_VARIATIONS"
+      ],
+      "com.figma.isOverride": true
+    }
+  },
+  "container": {
+    "$type": "number",
+    "$value": 328,
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5198:7194",
+      "com.figma.scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "com.figma.isOverride": true
+    }
+  },
+  "OS": {
+    "$type": "string",
+    "$value": "android",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:5830:207958",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.type": "string",
+      "com.figma.isOverride": true
+    }
+  },
+  "Notifications": {
+    "$type": "string",
+    "$value": "10",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:6564:30353",
+      "com.figma.scopes": [
+        "ALL_SCOPES"
+      ],
+      "com.figma.type": "string",
+      "com.figma.isOverride": true
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "android"
+  }
+}
