@@ -1,0 +1,64 @@
+# Decisioni di progetto
+
+Registro delle scelte non ovvie prese sul progetto, con motivazione.
+
+---
+
+## 1. Build system custom invece di Style Dictionary
+
+**Decisione:** `build.js` scritto da zero, nessuna dipendenza esterna.
+
+**Motivazione:** I token source hanno nodi che sono contemporaneamente gruppo e foglia — ad esempio esiste sia `color.text.neutral` (valore) sia `color.text.neutral.subtle` (valore figlio). Style Dictionary non supporta questa struttura e richiederebbe una trasformazione distruttiva dei sorgenti. Il build script custom gestisce nativamente i nodi ambigui emettendo entrambi.
+
+---
+
+## 2. L'output contiene solo token component
+
+**Decisione:** `flattenTokens` riceve `component` come radice, non l'intero tree mergiato.
+
+**Motivazione:** I file di output (CSS, SCSS, Swift, Android) sono pensati per essere consumati dai team di sviluppo che lavorano sui componenti. Esporre anche i token primitivi, brand e tema creerebbe rumore e renderebbe i file molto più grandi del necessario. I layer inferiori restano disponibili come contesto di risoluzione dei riferimenti ma non compaiono nell'output.
+
+---
+
+## 3. Nessun prefisso sulle variabili CSS
+
+**Decisione:** `PREFIX = ''` — le variabili CSS sono nella forma `--button-color-brand-primary-bg-default`, non `--dt-button-...`.
+
+**Motivazione:** Il prefisso `dt` non aggiungeva valore disambiguante significativo e allungava i nomi. Rimosso per mantenere i nomi il più compatti possibile.
+
+---
+
+## 4. I token numerici ricevono `px` automaticamente nell'output CSS/SCSS
+
+**Decisione:** Nel serializer CSS/SCSS, `type === 'number'` produce `value + 'px'`.
+
+**Motivazione:** I valori numerici nei token source sono espressi come numeri puri (es. `16`, `48`). Per essere valori CSS validi devono avere unità. L'aggiunta automatica di `px` è corretta per tutti i casi d'uso attuali (spacing, sizing, border). Se in futuro servissero unità diverse (es. `rem`, `em`) si valuterà l'aggiunta di un campo `unit` nel token source.
+
+---
+
+## 5. Token OS non risolti: scartati silenziosamente con conteggio
+
+**Decisione:** I token che referenziano collezioni non caricate nel merge (es. `{viewportWidth}` da `os.android.json` / `os.ios.json`) vengono saltati senza produrre output invalido. Il build riporta il conteggio: `(ignorati N token OS non risolti)`.
+
+**Motivazione:** I token dimensionali dipendenti dall'OS (es. `buttonGroup.size.sticky.width`) non hanno un valore unico cross-brand/mode: variano per piattaforma. Aggiungere una terza dimensione di build (brand × mode × os) è possibile ma non era prioritario. Per ora è preferibile escluderli dall'output piuttosto che produrre CSS invalido o warning rumorosi.
+
+**Lavoro futuro:** quando la dimensione OS sarà necessaria, aggiungere `os.android.json` e `os.ios.json` al merge e generare file separati per piattaforma.
+
+---
+
+## 6. Output Tailwind: preset con CSS custom properties (approccio "runtime")
+
+**Decisione:** L'output Tailwind sarà un singolo `dist/tailwind/tailwind.preset.js` in cui i valori fanno riferimento alle CSS vars già generate (`var(--token-name)`), non valori hardcoded.
+
+**Motivazione:** L'architettura del progetto è multi-brand e multi-tema: il cambio di brand/tema avviene a runtime impostando gli attributi `data-brand` e `data-theme` sull'elemento root, che attiva il foglio CSS corrispondente. Un preset con CSS vars si integra nativamente in questo modello — un'unica build Tailwind funziona per tutti i brand. L'alternativa (8 preset hardcoded, uno per brand×mode) richiederebbe una rebuild separata per ogni combinazione, incompatibile con lo switching runtime.
+
+**Alternativa scartata:** preset hardcoded per brand×mode — adatto solo a siti single-brand con build separate.
+
+**Categorizzazione token numerici nel preset:**
+- chiave contiene `radius` → `borderRadius`
+- chiave contiene `border-width` → `borderWidth`
+- altri token numerici → `spacing`
+
+**Nomina utility classes:** verbatim dal nome del token (es. `bg-[button-color-brand-primary-bg-default]`). Convenzione da confermare con il primo progetto consumer.
+
+**Stato:** implementato.

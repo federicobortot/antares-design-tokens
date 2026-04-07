@@ -46,8 +46,7 @@ function resolveRef(ref, tree, visited = new Set()) {
 
   const node = getByPath(tree, path);
   if (node === undefined) {
-    console.warn(`  ⚠ Riferimento non trovato: ${path}`);
-    return ref;
+    return ref; // lasciato non risolto, verrà scartato in flattenTokens
   }
 
   // Nodo con value (token leaf o ambiguo)
@@ -66,7 +65,7 @@ function resolveRef(ref, tree, visited = new Set()) {
   return ref;
 }
 
-function flattenTokens(obj, tree, prefix = '') {
+function flattenTokens(obj, tree, prefix = '', _skipped = { count: 0 }) {
   const result = {};
   for (const [key, val] of Object.entries(obj)) {
     // Salta chiavi meta
@@ -84,6 +83,8 @@ function flattenTokens(obj, tree, prefix = '') {
         if (typeof resolved === 'string' && resolved.startsWith('{')) {
           resolved = resolveRef(resolved, tree);
         }
+        // Scarta token con riferimenti non risolti (es. collezione OS non caricata)
+        if (typeof resolved === 'string' && resolved.startsWith('{')) { _skipped.count++; continue; }
         result[fullKey] = { value: resolved, type: val['type'] ?? 'unknown' };
       }
 
@@ -91,7 +92,8 @@ function flattenTokens(obj, tree, prefix = '') {
         Object.assign(result, flattenTokens(
           Object.fromEntries(children.map(k => [k, val[k]])),
           tree,
-          fullKey
+          fullKey,
+          _skipped
         ));
       }
     }
@@ -104,7 +106,7 @@ function flattenTokens(obj, tree, prefix = '') {
 function serializeCss(flat, brand, mode) {
   const selector = `:root[data-brand="${brand}"][data-theme="${mode}"]`;
   const vars = Object.entries(flat)
-    .map(([key, { value }]) => `  --${PREFIX ? PREFIX + '-' : ''}${key}: ${value};`)
+    .map(([key, { value, type }]) => `  --${PREFIX ? PREFIX + '-' : ''}${key}: ${type === 'number' ? value + 'px' : value};`)
     .join('\n');
   return `${selector} {\n${vars}\n}\n`;
 }
@@ -140,6 +142,53 @@ function serializeSwift(flat, brand, mode) {
     `struct ${structName} {`,
     props,
     `}`,
+    ``,
+  ].join('\n');
+}
+
+function serializeTailwindPreset(flat) {
+  const colors = {};
+  const spacing = {};
+  const borderRadius = {};
+  const borderWidth = {};
+
+  for (const [key, { type }] of Object.entries(flat)) {
+    const cssVar = `var(--${PREFIX ? PREFIX + '-' : ''}${key})`;
+    if (type === 'color') {
+      colors[key] = cssVar;
+    } else if (type === 'number') {
+      if (key.includes('radius')) {
+        borderRadius[key] = cssVar;
+      } else if (key.includes('border-width')) {
+        borderWidth[key] = cssVar;
+      } else {
+        spacing[key] = cssVar;
+      }
+    }
+  }
+
+  const toJs = (obj) => {
+    const entries = Object.entries(obj)
+      .map(([k, v]) => `      '${k}': '${v}'`)
+      .join(',\n');
+    return entries ? `{\n${entries}\n    }` : '{}';
+  };
+
+  return [
+    `// Tailwind CSS preset — generato automaticamente, non modificare manualmente`,
+    `// Usa variabili CSS definite in dist/css/*.css`,
+    `// Richiede che il file CSS del brand/tema attivo sia caricato nel progetto`,
+    `/** @type {import('tailwindcss').Config} */`,
+    `module.exports = {`,
+    `  theme: {`,
+    `    extend: {`,
+    `      colors: ${toJs(colors)},`,
+    `      spacing: ${toJs(spacing)},`,
+    `      borderRadius: ${toJs(borderRadius)},`,
+    `      borderWidth: ${toJs(borderWidth)},`,
+    `    },`,
+    `  },`,
+    `};`,
     ``,
   ].join('\n');
 }
@@ -242,7 +291,7 @@ function capitalize(str) {
 
 // ─── Build ────────────────────────────────────────────────────────────────────
 
-['dist/css', 'dist/scss', 'dist/ios', 'dist/android'].forEach(d => mkdirSync(d, { recursive: true }));
+['dist/css', 'dist/scss', 'dist/ios', 'dist/android', 'dist/tailwind'].forEach(d => mkdirSync(d, { recursive: true }));
 
 const primitives = loadJson('tokens/primitives.json');
 const modeLight  = loadJson('tokens/mode.light.json');
@@ -256,6 +305,8 @@ const brandFiles = {
   sisalCasino: loadJson('tokens/brand.sisalCasino.json'),
 };
 
+let tailwindWritten = false;
+
 for (const brand of BRANDS) {
   for (const mode of MODES) {
     console.log(`\nBuilding ${brand}.${mode}...`);
@@ -266,7 +317,8 @@ for (const brand of BRANDS) {
     // flattenTokens riceve solo component, così l'output contiene esclusivamente token component
     const tree = deepMerge(primitives, brandFiles[brand], modeTokens, component);
 
-    const flat = flattenTokens(component, tree);
+    const skipped = { count: 0 };
+    const flat = flattenTokens(component, tree, '', skipped);
     const count = Object.keys(flat).length;
 
     writeFileSync(`dist/css/${brand}.${mode}.css`,     serializeCss(flat, brand, mode),        'utf-8');
@@ -274,7 +326,13 @@ for (const brand of BRANDS) {
     writeFileSync(`dist/ios/${brand}.${mode}.swift`,   serializeSwift(flat, brand, mode),      'utf-8');
     writeFileSync(`dist/android/${brand}.${mode}.xml`, serializeAndroidXml(flat, brand, mode), 'utf-8');
 
-    console.log(`  ✓ ${count} token → CSS, SCSS, Swift, Android XML`);
+    if (!tailwindWritten) {
+      writeFileSync('dist/tailwind/tailwind.preset.js', serializeTailwindPreset(flat), 'utf-8');
+      tailwindWritten = true;
+    }
+
+    const skippedMsg = skipped.count > 0 ? ` (ignorati ${skipped.count} token OS non risolti)` : '';
+    console.log(`  ✓ ${count} token → CSS, SCSS, Swift, Android XML, Tailwind preset${skippedMsg}`);
   }
 }
 
