@@ -6,73 +6,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -80,73 +80,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -154,73 +154,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.secondary.subtle.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.subtle.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.subtle.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.secondary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.brand.primary.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.brand.primary.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.brand.primary.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.brand.primary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -230,73 +230,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.bold.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.bold.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.bold.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -304,73 +304,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.white.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.white.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.white.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -378,73 +378,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.alternate.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.alternate.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -454,73 +454,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -528,73 +528,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -602,73 +602,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.subtle.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.subtle.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.subtle.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.accent.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.accent.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.accent.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.accent.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.brand.primary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.accent.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.accent.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.accent.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -678,73 +678,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -752,73 +752,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.danger.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.danger.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.danger.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.danger.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.danger.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.danger.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.border.danger.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.border.danger.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -826,73 +826,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.subtle.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.subtle.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.subtle.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.danger.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.danger.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.danger.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.danger.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.danger.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.danger.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{neutral.alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -902,73 +902,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.subtle.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "pressed": {
               "$type": "color",
-              "$value": "{color.border.transparent}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.border.transparent}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.border.transparent}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.inverse.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -976,73 +976,73 @@
           "bg": {
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.disabled}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.hover}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{color.border.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.border.inverse}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.border.inverse}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -1050,73 +1050,73 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{CrossBrand.White.Alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.hover}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.pressed}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.inverse.alternate.disabled}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{CrossBrand.White.Alpha.0}"
+              "$value": "{unknown}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{CrossBrand.White.Alpha.0}"
+              "$value": "{unknown}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{CrossBrand.White.Alpha.0}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -1127,60 +1127,68 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.button}"
+            "$value": "{unknown}"
           }
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "$type": "number",
+          "$value": "{unknown}"
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.button}"
+            "$value": "{unknown}"
           }
+        },
+        "icon": {
+          "$type": "number",
+          "$value": "{unknown}"
         }
       }
     }
@@ -1189,49 +1197,49 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       },
       "height": {
         "$type": "number",
-        "$value": "{Size.48}"
+        "$value": "{unknown}"
       }
     },
     "color": {
       "icon": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       },
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "border": {
       "radius": {
         "$type": "number",
-        "$value": "{cornerRadius.sm}"
+        "$value": "{unknown}"
       },
       "width": {
         "$type": "number",
-        "$value": "{Size.1}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -1246,65 +1254,65 @@
           "bg": {
             "error": {
               "$type": "color",
-              "$value": "{color.bg.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.bg.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.bg.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.bg.success}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "error": {
               "$type": "color",
-              "$value": "{color.border.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.border.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.border.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.border.success}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "error": {
               "$type": "color",
-              "$value": "{color.icon.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.icon.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.icon.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.icon.success}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -1313,27 +1321,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1343,27 +1351,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1373,27 +1381,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1404,65 +1412,65 @@
           "bg": {
             "error": {
               "$type": "color",
-              "$value": "{color.bg.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.bg.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.bg.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.bg.success}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "error": {
               "$type": "color",
-              "$value": "{color.border.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.border.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.border.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.border.success}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "error": {
               "$type": "color",
-              "$value": "{color.icon.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.icon.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.icon.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.icon.success}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -1471,27 +1479,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1501,27 +1509,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1531,27 +1539,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1564,61 +1572,61 @@
           "bg": {
             "error": {
               "$type": "color",
-              "$value": "{color.bg.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.bg.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.bg.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.bg.success}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "error": {
               "$type": "color",
-              "$value": "{color.border.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.border.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.border.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.border.success}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "error": {
               "$type": "color",
-              "$value": "{color.icon.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.icon.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.icon.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.icon.success}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -1627,31 +1635,31 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               },
               "radius": {
                 "$type": "number",
-                "$value": "{cornerRadius.sm}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1661,31 +1669,31 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               },
               "radius": {
                 "$type": "number",
-                "$value": "{cornerRadius.sm}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1695,31 +1703,31 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               },
               "radius": {
                 "$type": "number",
-                "$value": "{cornerRadius.sm}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1730,65 +1738,65 @@
           "bg": {
             "error": {
               "$type": "color",
-              "$value": "{color.bg.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.bg.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.bg.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.bg.success}"
+              "$value": "{unknown}"
             }
           },
           "border": {
             "error": {
               "$type": "color",
-              "$value": "{color.border.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.border.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.border.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.border.success}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "error": {
               "$type": "color",
-              "$value": "{color.icon.danger}"
+              "$value": "{unknown}"
             },
             "warning": {
               "$type": "color",
-              "$value": "{color.icon.warning}"
+              "$value": "{unknown}"
             },
             "info": {
               "$type": "color",
-              "$value": "{color.icon.info}"
+              "$value": "{unknown}"
             },
             "success": {
               "$type": "color",
-              "$value": "{color.icon.success}"
+              "$value": "{unknown}"
             },
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -1797,31 +1805,31 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               },
               "radius": {
                 "$type": "number",
-                "$value": "{cornerRadius.sm}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1831,31 +1839,31 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               },
               "radius": {
                 "$type": "number",
-                "$value": "{cornerRadius.sm}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1865,31 +1873,31 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{unknown}"
               },
               "radius": {
                 "$type": "number",
-                "$value": "{cornerRadius.sm}"
+                "$value": "{unknown}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{unknown}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -1902,45 +1910,45 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.inverse.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.inverse.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.inverse.pressed}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.inverse.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.icon.inverse.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.inverse.default}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.48}"
+        "$value": "{unknown}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{unknown}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.full}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -1950,91 +1958,91 @@
       "promo": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.marketing.promo}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.promo}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.promo}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.promo}"
+          "$value": "{unknown}"
         }
       },
       "highlight": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.marketing.highlight}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.highlight}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.highlight}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.highlight}"
+          "$value": "{unknown}"
         }
       },
       "jackpot": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.marketing.jackpot}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.jackpot}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.jackpot}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.jackpot}"
+          "$value": "{unknown}"
         }
       },
       "live": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.live}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.live}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.live}"
+          "$value": "{unknown}"
         }
       },
       "default": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -2042,52 +2050,52 @@
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2097,28 +2105,28 @@
     "color": {
       "text": {
         "$type": "color",
-        "$value": "{neutral.white}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -2127,19 +2135,19 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2147,13 +2155,13 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     },
     "color": {
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       }
     },
     "xx": {
@@ -2165,37 +2173,37 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "sticky": {
         "width": {
           "$type": "number",
-          "$value": "{viewportWidth}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         }
       },
@@ -2203,16 +2211,16 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -2224,49 +2232,49 @@
           "default": {
             "bg": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.subtle.default}"
+              "$value": "{unknown}"
             },
             "border": {
               "$type": "color",
-              "$value": "{color.border.neutral.default}"
+              "$value": "{unknown}"
             }
           },
           "error": {
             "bg": {
               "$type": "color",
-              "$value": "{color.bg.danger}"
+              "$value": "{unknown}"
             },
             "icon": {
               "$type": "color",
-              "$value": "{color.icon.danger}"
+              "$value": "{unknown}"
             },
             "border": {
               "$type": "color",
-              "$value": "{color.border.danger}"
+              "$value": "{unknown}"
             }
           },
           "pressed": {
             "bg": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.subtle.pressed}"
+              "$value": "{unknown}"
             },
             "border": {
               "$type": "color",
-              "$value": "{color.border.brand.primary.pressed}"
+              "$value": "{unknown}"
             }
           },
           "disabled": {
             "bg": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.selected.disabled}"
+              "$value": "{unknown}"
             },
             "icon": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             },
             "border": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -2274,45 +2282,45 @@
           "disabled": {
             "bg": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.selected.disabled}"
+              "$value": "{unknown}"
             },
             "icon": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             },
             "border": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{unknown}"
             }
           },
           "pressed": {
             "bg": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.selected.pressed}"
+              "$value": "{unknown}"
             },
             "icon": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             }
           },
           "default": {
             "bg": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.selected.default}"
+              "$value": "{unknown}"
             },
             "icon": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             }
           },
           "error": {
             "bg": {
               "$type": "color",
-              "$value": "{color.bg.action.danger.default}"
+              "$value": "{unknown}"
             },
             "icon": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -2320,25 +2328,25 @@
       "default": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       },
       "pressed": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       },
       "disabled": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         }
       },
       "selected": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       },
       "Color": {
@@ -2348,7 +2356,7 @@
       "error": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.danger}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -2361,39 +2369,39 @@
         "ios": {
           "height": {
             "$type": "number",
-            "$value": "{Size.18}"
+            "$value": "{unknown}"
           },
           "border": {
             "radius": {
               "$type": "number",
-              "$value": "{cornerRadius.full}"
+              "$value": "{unknown}"
             },
             "width": {
               "$type": "number",
-              "$value": "{Size.1}"
+              "$value": "{unknown}"
             }
           }
         },
         "android": {
           "height": {
             "$type": "number",
-            "$value": "{Size.18}"
+            "$value": "{unknown}"
           },
           "border": {
             "radius": {
               "$type": "number",
-              "$value": "{cornerRadius.xxs}"
+              "$value": "{unknown}"
             },
             "width": {
               "$type": "number",
-              "$value": "{Size.1}"
+              "$value": "{unknown}"
             }
           }
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2401,7 +2409,7 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2410,169 +2418,169 @@
       "android": {
         "height": {
           "$type": "number",
-          "$value": "{Size.56}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           }
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           }
         }
       },
       "ios": {
         "height": {
           "$type": "number",
-          "$value": "{Size.44}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           }
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     },
     "color": {
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.disabled}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.text.danger}"
+          "$value": "{unknown}"
         }
       },
       "label": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.text.danger}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.icon.disabled}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.default.bold}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "default": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.border.neutral.disabled}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.border.neutral.pressed}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.border.selected.primary.main}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.border.danger}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -2582,77 +2590,77 @@
       "icon": {
         "danger": {
           "$type": "color",
-          "$value": "{color.icon.danger}"
+          "$value": "{unknown}"
         },
         "warning": {
           "$type": "color",
-          "$value": "{color.icon.warning}"
+          "$value": "{unknown}"
         },
         "success": {
           "$type": "color",
-          "$value": "{color.icon.success}"
+          "$value": "{unknown}"
         },
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "custom": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.icon.info}"
+          "$value": "{unknown}"
         }
       },
       "bg": {
         "custom": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{unknown}"
         },
         "danger": {
           "$type": "color",
-          "$value": "{color.bg.danger}"
+          "$value": "{unknown}"
         },
         "warning": {
           "$type": "color",
-          "$value": "{color.bg.warning}"
+          "$value": "{unknown}"
         },
         "success": {
           "$type": "color",
-          "$value": "{color.bg.success}"
+          "$value": "{unknown}"
         },
         "info": {
           "$type": "color",
-          "$value": "{color.bg.info}"
+          "$value": "{unknown}"
         },
         "default": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.24}"
+        "$value": "{unknown}"
       },
       "icon": {
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.64}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -2661,12 +2669,12 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       },
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -2675,29 +2683,29 @@
     "color": {
       "text": {
         "$type": "color",
-        "$value": "{neutral.white}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.sm}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2716,28 +2724,28 @@
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.icon.disabled}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2749,7 +2757,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2758,12 +2766,12 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.3}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2772,12 +2780,12 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2785,7 +2793,7 @@
     "color": {
       "border": {
         "$type": "color",
-        "$value": "{color.border.selected.primary.subtle}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2794,28 +2802,28 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.neutral.bold}"
+          "$value": "{unknown}"
         },
         "active": {
           "$type": "color",
-          "$value": "{color.bg.brand.primary.boldest}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.full}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2824,7 +2832,7 @@
       "color": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -2833,11 +2841,11 @@
         "text": {
           "subtle": {
             "$type": "color",
-            "$value": "{color.text.default.subtle}"
+            "$value": "{unknown}"
           },
           "default": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2846,7 +2854,7 @@
       "color": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -2855,11 +2863,11 @@
         "gap": {
           "sm": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           },
           "lg": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2869,7 +2877,7 @@
         "gap": {
           "sm": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2878,22 +2886,22 @@
       "gap": {
         "md": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         }
       },
       "padding": {
         "vertical": {
           "sm": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           },
           "lg": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "md": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2901,7 +2909,7 @@
     "icon": {
       "color": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -2911,11 +2919,11 @@
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.text.disabled}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2923,31 +2931,31 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.12}"
+        "$value": "{unknown}"
       }
     },
     "radioButton": {
       "default": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{color.icon.disabled}"
+        "$value": "{unknown}"
       },
       "checked": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.brand.primary.selected.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.icon.disabled}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "$type": "number",
-        "$value": "{Size.20}"
+        "$value": "{unknown}"
       }
     },
     "supportingText": {
@@ -2955,11 +2963,11 @@
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{color.text.default.subtle}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.text.disabled}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -2968,11 +2976,11 @@
       "size": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.2}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.2}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -2982,43 +2990,43 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.default}"
+          "$value": "{unknown}"
         },
         "focused": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.default}"
+          "$value": "{unknown}"
         },
         "typing": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.default}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.placeholder}"
+          "$value": "{unknown}"
         },
         "focused": {
           "$type": "color",
-          "$value": "{color.text.placeholder}"
+          "$value": "{unknown}"
         },
         "typing": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.placeholder}"
+          "$value": "{unknown}"
         },
         "focused": {
           "$type": "color",
-          "$value": "{color.icon.placeholder}"
+          "$value": "{unknown}"
         },
         "typing": {
           "$type": "color",
-          "$value": "{color.text.placeholder}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -3026,20 +3034,20 @@
       "padding": {
         "ios": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "android": {
           "default": {
             "$type": "number",
-            "$value": "{Size.24}"
+            "$value": "{unknown}"
           },
           "focused": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           },
           "typing": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         }
       },
@@ -3050,35 +3058,35 @@
         },
         "ios": {
           "$type": "number",
-          "$value": "{Size.36}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "ios": {
           "default": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{unknown}"
           },
           "focused": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{unknown}"
           },
           "typing": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{unknown}"
           }
         },
         "android": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "focused": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "typing": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -3088,16 +3096,16 @@
       "background": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.container.default}"
+          "$value": "{unknown}"
         }
       },
       "bg": {
         "$type": "color",
-        "$value": "{brand.secondary.150}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{brand.secondary.150}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -3105,13 +3113,13 @@
     "color": {
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -3121,102 +3129,102 @@
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{color.border.neutral.default}"
+            "$value": "{unknown}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.border.selected.primary.main}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.border.neutral.disabled}"
+            "$value": "{unknown}"
           },
           "error": {
             "$type": "color",
-            "$value": "{color.border.danger.default}"
+            "$value": "{unknown}"
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{color.text.default.subtle}"
+            "$value": "{unknown}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.text.disabled}"
+            "$value": "{unknown}"
           },
           "error": {
             "$type": "color",
-            "$value": "{color.text.danger.default}"
+            "$value": "{unknown}"
           }
         },
         "bg": {
           "disabled": {
             "$type": "color",
-            "$value": "{color.bg.action.brand.primary.disabled}"
+            "$value": "{unknown}"
           },
           "error": {
             "$type": "color",
-            "$value": "{color.bg.neutral.subtle}"
+            "$value": "{unknown}"
           },
           "default": {
             "$type": "color",
-            "$value": "{color.bg.neutral.subtle}"
+            "$value": "{unknown}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.bg.neutral.subtle}"
+            "$value": "{unknown}"
           }
         },
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{color.icon.default.subtle}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.icon.disabled}"
+            "$value": "{unknown}"
           },
           "error": {
             "$type": "color",
-            "$value": "{color.icon.danger}"
+            "$value": "{unknown}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.icon.default}"
+            "$value": "{unknown}"
           }
         }
       },
       "size": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           },
           "active": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       },
       "label": {
@@ -3224,19 +3232,19 @@
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             },
             "error": {
               "$type": "color",
-              "$value": "{color.text.danger.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             },
             "active": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -3246,36 +3254,36 @@
           "text": {
             "default": {
               "$type": "color",
-              "$value": "{color.text.default.subtle}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.text.disabled}"
+              "$value": "{unknown}"
             },
             "error": {
               "$type": "color",
-              "$value": "{color.text.danger}"
+              "$value": "{unknown}"
             }
           },
           "icon": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.default.subtle}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             },
             "error": {
               "$type": "color",
-              "$value": "{color.icon.danger}"
+              "$value": "{unknown}"
             }
           }
         },
         "size": {
           "gap": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -3297,27 +3305,27 @@
         "bg": {
           "default": {
             "$type": "color",
-            "$value": "{color.bg.action.neutral.inverse.subtle.default}"
+            "$value": "{unknown}"
           },
           "checked": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.brand.primary.selected.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.secondary.disabled}"
+              "$value": "{unknown}"
             }
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.bg.action.brand.primary.selected.disabled}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "disabled": {
             "$type": "color",
-            "$value": "{color.border.neutral.disabled}"
+            "$value": "{unknown}"
           }
         }
       },
@@ -3326,28 +3334,28 @@
           "width": {
             "android": {
               "$type": "number",
-              "$value": "{Size.56}"
+              "$value": "{unknown}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.56}"
+              "$value": "{unknown}"
             }
           },
           "height": {
             "android": {
               "$type": "number",
-              "$value": "{Size.32}"
+              "$value": "{unknown}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.32}"
+              "$value": "{unknown}"
             }
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
@@ -3358,21 +3366,21 @@
           "width": {
             "android": {
               "$type": "number",
-              "$value": "{Size.44}"
+              "$value": "{unknown}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.44}"
+              "$value": "{unknown}"
             }
           },
           "height": {
             "android": {
               "$type": "number",
-              "$value": "{Size.24}"
+              "$value": "{unknown}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.24}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -3382,20 +3390,20 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.icon.inverse.default}"
+              "$value": "{unknown}"
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.icon.disabled}"
+              "$value": "{unknown}"
             },
             "checked": {
               "default": {
                 "$type": "color",
-                "$value": "{color.icon.inverse.default}"
+                "$value": "{unknown}"
               },
               "disabled": {
                 "$type": "color",
-                "$value": "{color.icon.disabled}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -3405,21 +3413,21 @@
             "large": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.24}"
+                "$value": "{unknown}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.28}"
+                "$value": "{unknown}"
               }
             },
             "small": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.18}"
+                "$value": "{unknown}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.20}"
+                "$value": "{unknown}"
               }
             }
           },
@@ -3427,21 +3435,21 @@
             "large": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{unknown}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.28}"
+                "$value": "{unknown}"
               }
             },
             "small": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{unknown}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.20}"
+                "$value": "{unknown}"
               }
             }
           }
@@ -3451,18 +3459,18 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     },
     "color": {
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -3471,40 +3479,40 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.lg}"
+          "$value": "{unknown}"
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -3514,62 +3522,62 @@
       "default": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         }
       },
       "promo": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.marketing.promo}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.promo}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.promo}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.promo}"
+          "$value": "{unknown}"
         }
       },
       "highlight": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.marketing.highlight}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.highlight}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.highlight}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.highlight}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "heght": {
         "$type": "number",
-        "$value": "{Size.52}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -3578,73 +3586,73 @@
       "expired": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.disabled}"
+          "$value": "{unknown}"
         }
       },
       "warning": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.warning.bold}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.warning}"
+          "$value": "{unknown}"
         }
       },
       "danger": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.action.danger.default}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.inverse.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.danger.default}"
+          "$value": "{unknown}"
         }
       },
       "success": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.success.boldest}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.inverse.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.success}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -3652,52 +3660,52 @@
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       },
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -3708,19 +3716,19 @@
       "default": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.marketing.special}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.marketing.special}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.marketing.special}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.marketing.special}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -3728,52 +3736,52 @@
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       },
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -3784,39 +3792,39 @@
       "99": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.action.danger.default}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         }
       },
       "number": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.action.danger.default}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         }
       },
       "circle": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.action.danger.default}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -3824,36 +3832,36 @@
       "99": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       },
       "number": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       },
       "circle": {
         "height": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -3864,125 +3872,125 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.pressed}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.disabled}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.icon.disabled}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.icon.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "default": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.border.neutral.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.border.neutral.pressed}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.border.neutral.disabled}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.border.selected.primary.subtle}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{unknown}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         },
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         }
       },
       "width": {
         "min": {
           "$type": "number",
-          "$value": "{Size.88}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -3992,99 +4000,99 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.pressed}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.disabled}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.icon.disabled}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "default": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.border.neutral.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.border.neutral.pressed}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.border.neutral.disabled}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.56}"
+        "$value": "{unknown}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         },
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.full}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4094,16 +4102,16 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -4112,16 +4120,16 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.12}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -4129,17 +4137,17 @@
     "color": {
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "icon": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -4148,40 +4156,40 @@
       "color": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.secondary}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.xs}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -4190,40 +4198,40 @@
       "color": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.secondary}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.xs}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -4232,40 +4240,40 @@
       "color": {
         "bg": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.inverse.subtle.default}"
+          "$value": "{unknown}"
         },
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.inverse.default}"
+          "$value": "{unknown}"
         },
         "text": {
           "$type": "color",
-          "$value": "{color.text.inverse}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.xs}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -4273,7 +4281,7 @@
     "color": {
       "icon": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -4281,40 +4289,40 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{neutral.alpha.0}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{neutral.black}"
+        "$value": "{unknown}"
       },
       "icon": {
         "$type": "color",
-        "$value": "{neutral.black}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         },
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.xs}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4324,40 +4332,40 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.xs}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     },
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{neutral.alpha.0}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{neutral.black}"
+        "$value": "{unknown}"
       },
       "icon": {
         "$type": "color",
-        "$value": "{neutral.black}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -4366,47 +4374,47 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.pressed}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.disabled}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.44}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.xs}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4414,31 +4422,31 @@
   "dropdownItemList": {
     "bg": {
       "$type": "color",
-      "$value": "{color.elevation.element.default}"
+      "$value": "{unknown}"
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.sm}"
+          "$value": "{unknown}"
         }
       },
       "vertical": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       }
     },
     "border": {
       "$type": "color",
-      "$value": "{color.border.neutral.default}"
+      "$value": "{unknown}"
     }
   },
   "imageContainer": {
@@ -4446,7 +4454,7 @@
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.sm}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4456,89 +4464,89 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.subtle.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.subtle.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.subtle.pressed}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.bg.primary}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.selected.disabled}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.text.disabled}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "default": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.border.brand.primary.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.border.brand.primary.pressed}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.border.brand.primary.disabled}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.border.selected.primary.subtle}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.brand.primary.pressed}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "disabled": {
           "$type": "color",
-          "$value": "{color.icon.disabled}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -4547,60 +4555,60 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           }
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         }
       },
       "sm": {
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           }
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4609,163 +4617,163 @@
     "bg": {
       "default": {
         "$type": "color",
-        "$value": "{color.bg.action.brand.primary.default}"
+        "$value": "{unknown}"
       },
       "hover": {
         "$type": "color",
-        "$value": "{color.bg.action.brand.primary.hover}"
+        "$value": "{unknown}"
       },
       "pressed": {
         "$type": "color",
-        "$value": "{color.bg.action.brand.primary.pressed}"
+        "$value": "{unknown}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{color.bg.action.brand.primary.disabled}"
+        "$value": "{unknown}"
       }
     },
     "text": {
       "default": {
         "$type": "color",
-        "$value": "{color.text.inverse}"
+        "$value": "{unknown}"
       },
       "hover": {
         "$type": "color",
-        "$value": "{color.text.inverse}"
+        "$value": "{unknown}"
       },
       "pressed": {
         "$type": "color",
-        "$value": "{color.text.inverse}"
+        "$value": "{unknown}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{color.text.disabled}"
+        "$value": "{unknown}"
       }
     },
     "icon": {
       "default": {
         "$type": "color",
-        "$value": "{color.icon.inverse.default}"
+        "$value": "{unknown}"
       },
       "hover": {
         "$type": "color",
-        "$value": "{color.icon.inverse.default}"
+        "$value": "{unknown}"
       },
       "pressed": {
         "$type": "color",
-        "$value": "{color.icon.inverse.default}"
+        "$value": "{unknown}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{color.icon.disabled}"
+        "$value": "{unknown}"
       }
     },
     "border": {
       "pressed": {
         "$type": "color",
-        "$value": "{neutral.alpha.0}"
+        "$value": "{unknown}"
       },
       "hover": {
         "$type": "color",
-        "$value": "{neutral.alpha.0}"
+        "$value": "{unknown}"
       },
       "default": {
         "$type": "color",
-        "$value": "{neutral.alpha.0}"
+        "$value": "{unknown}"
       },
       "disabled": {
         "$type": "color",
-        "$value": "{color.border.neutral.disabled}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         }
       },
       "xs": {
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -4776,25 +4784,25 @@
       "header": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
+          "$value": "{unknown}"
         },
         "title": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "handle": {
           "$type": "color",
-          "$value": "{color.bg.neutral.bold}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         }
       },
       "body": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -4806,31 +4814,31 @@
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           },
           "radius": {
             "android": {
               "$type": "number",
-              "$value": "{Size.28}"
+              "$value": "{unknown}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.40}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -4838,23 +4846,23 @@
       "body": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4863,22 +4871,22 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "left": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "right": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4887,12 +4895,12 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4901,22 +4909,22 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.40}"
+        "$value": "{unknown}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.full}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4925,24 +4933,24 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.sunken}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.full}"
+          "$value": "{unknown}"
         }
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -4951,51 +4959,51 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.selected.primary.main}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.56}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.2}"
+            "$value": "{unknown}"
           }
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.24}"
+            "$value": "{unknown}"
           }
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{unknown}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.2}"
+            "$value": "{unknown}"
           }
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5006,21 +5014,21 @@
       "header": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
+          "$value": "{unknown}"
         },
         "title": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "handle": {
           "$type": "color",
-          "$value": "{color.bg.neutral.bold}"
+          "$value": "{unknown}"
         }
       },
       "body": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -5028,42 +5036,42 @@
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         }
       },
       "header": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{unknown}"
         },
         "horizontal": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         },
         "vertical": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       },
       "body": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "horizontal": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         },
         "vertical": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5074,27 +5082,27 @@
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.icon.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "selected": {
           "$type": "color",
-          "$value": "{color.border.selected.primary.main}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -5102,12 +5110,12 @@
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.2}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5115,35 +5123,35 @@
     "size": {
       "padding": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       }
     },
     "content": {
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       },
       "color": {
         "icon": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         }
       },
       "category": {
         "size": {
           "gap": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{unknown}"
           },
           "icon": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5151,13 +5159,13 @@
     "image": {
       "size": {
         "$type": "number",
-        "$value": "{Size.80}"
+        "$value": "{unknown}"
       }
     },
     "color": {
       "icon": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5165,18 +5173,18 @@
     "color": {
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -5184,7 +5192,7 @@
   "body": {
     "bg": {
       "$type": "color",
-      "$value": "{color.elevation.canvas}"
+      "$value": "{unknown}"
     }
   },
   "topNavigation": {
@@ -5192,38 +5200,38 @@
       "color": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.container.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.64}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "left": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             },
             "right": {
               "$type": "number",
-              "$value": "{Size.4}"
+              "$value": "{unknown}"
             }
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5232,38 +5240,38 @@
       "color": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.container.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "left": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             },
             "right": {
               "$type": "number",
-              "$value": "{Size.12}"
+              "$value": "{unknown}"
             }
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5273,13 +5281,13 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5288,26 +5296,26 @@
       "color": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.canvas}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5317,22 +5325,22 @@
         "color": {
           "bg": {
             "$type": "color",
-            "$value": "{neutral.black}"
+            "$value": "{unknown}"
           },
           "icon": {
             "$type": "color",
-            "$value": "{neutral.white}"
+            "$value": "{unknown}"
           }
         },
         "size": {
           "height": {
             "$type": "number",
-            "$value": "{Size.64}"
+            "$value": "{unknown}"
           },
           "border": {
             "radius": {
               "$type": "number",
-              "$value": "{cornerRadius.full}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -5340,16 +5348,16 @@
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5357,7 +5365,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5365,17 +5373,17 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5383,36 +5391,36 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{unknown}"
       },
       "width": {
         "min": {
           "$type": "number",
-          "$value": "{Size.88}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         },
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -5420,24 +5428,24 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.elevation.container.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.subtle.pressed}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "$type": "color",
-        "$value": "{color.icon.default}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5445,33 +5453,33 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "padding": {
         "horizontal": {
           "left": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "right": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           }
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     },
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5479,7 +5487,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5487,29 +5495,29 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       },
       "horizontal": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       },
       "radius": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5517,25 +5525,25 @@
     "color": {
       "elements": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.sunken}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default.subtle}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "$type": "number",
-        "$value": "{Size.40}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5545,39 +5553,39 @@
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         }
       },
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.56}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.3}"
+            "$value": "{unknown}"
           }
         }
       },
       "lg": {
         "height": {
           "$type": "number",
-          "$value": "{Size.64}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.full}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5586,29 +5594,29 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{neutral.alpha.400}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{neutral.alpha.800}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default.subtle}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.icon.default.subtle}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.default.bold}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -5617,18 +5625,18 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -5638,7 +5646,7 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -5648,11 +5656,11 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{color.bg.neutral.subtle}"
+              "$value": "{unknown}"
             },
             "striped": {
               "$type": "color",
-              "$value": "{color.bg.neutral}"
+              "$value": "{unknown}"
             }
           }
         }
@@ -5663,18 +5671,18 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.canvas}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -5683,40 +5691,40 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{unknown}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.lg}"
+          "$value": "{unknown}"
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -5725,7 +5733,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5733,44 +5741,44 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       },
       "label": {
         "$type": "color",
-        "$value": "{color.text.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{unknown}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -5780,56 +5788,56 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.pressed}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.40}"
+        "$value": "{unknown}"
       }
     }
   },
   "pagination": {
     "bg": {
       "$type": "color",
-      "$value": "{color.elevation.canvas}"
+      "$value": "{unknown}"
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5838,20 +5846,20 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{unknown}"
       }
     }
   },
@@ -5860,55 +5868,55 @@
       "bg": {
         "default": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.hover}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.bg.action.neutral.pressed}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.bg.action.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.text.brand.primary.selected.default}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "default": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "pressed": {
           "$type": "color",
-          "$value": "{color.icon.default}"
+          "$value": "{unknown}"
         },
         "selected": {
           "$type": "color",
-          "$value": "{color.icon.selected}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -5916,26 +5924,26 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5944,26 +5952,26 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{unknown}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{unknown}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           }
         },
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{cornerRadius.sm}"
+            "$value": "{unknown}"
           }
         }
       }
@@ -5973,32 +5981,32 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.container.default}"
+        "$value": "{unknown}"
       },
       "border": {
         "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{unknown}"
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -6008,22 +6016,22 @@
       "color": {
         "bg": {
           "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
+          "$value": "{unknown}"
         },
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         }
       },
       "size": {
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{unknown}"
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{unknown}"
           }
         }
       },
@@ -6032,23 +6040,23 @@
           "padding": {
             "horizontal": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             },
             "vertical": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             }
           },
           "gap": {
             "$type": "number",
-            "$value": "{Size.20}"
+            "$value": "{unknown}"
           }
         },
         "header": {
           "size": {
             "gap": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -6056,7 +6064,7 @@
           "size": {
             "gap": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -6076,11 +6084,11 @@
           "padding": {
             "horizontal": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             },
             "vertical": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             }
           },
           "width": {
@@ -6095,24 +6103,24 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.20}"
+        "$value": "{unknown}"
       }
     },
     "day": {
       "color": {
         "$type": "color",
-        "$value": "{UI-TEST}",
+        "$value": "{unknown}",
         "start": {
           "bg": {
             "selected": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.selected.bold.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "selected": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -6120,13 +6128,13 @@
           "bg": {
             "selected": {
               "$type": "color",
-              "$value": "{color.bg.action.neutral.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "selected": {
               "$type": "color",
-              "$value": "{color.text.default}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -6134,13 +6142,13 @@
           "bg": {
             "selected": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.selected.bold.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "selected": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -6148,79 +6156,79 @@
           "bg": {
             "selected": {
               "$type": "color",
-              "$value": "{color.bg.action.brand.primary.selected.bold.default}"
+              "$value": "{unknown}"
             }
           },
           "text": {
             "selected": {
               "$type": "color",
-              "$value": "{color.text.inverse}"
+              "$value": "{unknown}"
             }
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.text.disabled}"
+            "$value": "{unknown}"
           },
           "pressed": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           }
         },
         "bg": {
           "default": {
             "$type": "color",
-            "$value": "{UI-TEST}"
+            "$value": "{unknown}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.bg.action.neutral.subtle.hover}"
+            "$value": "{unknown}"
           },
           "disabled": {
             "$type": "color",
-            "$value": "{color.bg.action.neutral.subtle.disabled}"
+            "$value": "{unknown}"
           },
           "pressed": {
             "$type": "color",
-            "$value": "{color.bg.action.neutral.subtle.pressed}"
+            "$value": "{unknown}"
           }
         }
       },
       "size": {
         "width": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{unknown}"
         },
         "border": {
           "radius": {
             "topLeft": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{unknown}"
             },
             "topRight": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{unknown}"
             },
             "bottomRight": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{unknown}"
             },
             "bottomLeft": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{unknown}"
             }
           }
         },
@@ -6230,11 +6238,11 @@
               "radius": {
                 "topRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 },
                 "bottomRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 }
               }
             }
@@ -6244,19 +6252,19 @@
               "radius": {
                 "topLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 },
                 "topRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 },
                 "bottomRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 },
                 "bottomLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 }
               }
             }
@@ -6266,11 +6274,11 @@
               "radius": {
                 "topLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 },
                 "bottomLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{unknown}"
                 }
               }
             }
@@ -6286,7 +6294,7 @@
       "color": {
         "text": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         }
       }
     },
@@ -6295,14 +6303,14 @@
         "color": {
           "text": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           }
         }
       },
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -6312,18 +6320,18 @@
       "text": {
         "title": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "paragraph": {
           "$type": "color",
-          "$value": "{color.text.default.subtle}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.12}"
+        "$value": "{unknown}"
       },
       "min-width": {
         "$type": "number",
@@ -6336,79 +6344,79 @@
       "bg": {
         "progress": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         },
         "success": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.bg.neutral.subtle}"
+          "$value": "{unknown}"
         }
       },
       "text": {
         "progress": {
           "$type": "color",
-          "$value": "{color.text.disabled}",
+          "$value": "{unknown}",
           "percentage": {
             "$type": "color",
-            "$value": "{color.text.default}"
+            "$value": "{unknown}"
           }
         },
         "success": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.text.danger}"
+          "$value": "{unknown}"
         }
       },
       "icon": {
         "success": {
           "$type": "color",
-          "$value": "{color.icon.success}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.icon.danger}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "progress": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         },
         "success": {
           "$type": "color",
-          "$value": "{color.border.neutral.default}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.border.danger}"
+          "$value": "{unknown}"
         }
       },
       "hint": {
         "default": {
           "$type": "color",
-          "$value": "{color.text.default}"
+          "$value": "{unknown}"
         },
         "error": {
           "$type": "color",
-          "$value": "{color.text.danger}"
+          "$value": "{unknown}"
         }
       }
     },
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{unknown}"
       },
       "hint": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{unknown}"
         }
       },
       "padding": {
@@ -6416,31 +6424,31 @@
           "horizontal": {
             "left": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{unknown}"
             },
             "right": {
               "$type": "number",
-              "$value": "{Size.56}"
+              "$value": "{unknown}"
             }
           }
         },
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{unknown}"
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{unknown}"
         }
       }
     }
@@ -6449,32 +6457,32 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.elevation.overlay.inverse}"
+        "$value": "{unknown}"
       },
       "text": {
         "$type": "color",
-        "$value": "{color.text.inverse}"
+        "$value": "{unknown}"
       },
       "action": {
         "$type": "color",
-        "$value": "{color.text.inverse}"
+        "$value": "{unknown}"
       }
     },
     "size": {
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{unknown}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{unknown}"
         }
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.sm}"
+          "$value": "{unknown}"
         }
       },
       "max-width": {
@@ -6483,7 +6491,7 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{unknown}"
       }
     }
   }
