@@ -1,10 +1,46 @@
-import { readFileSync, writeFileSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
+import { join } from 'path';
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-const BRANDS = ['sisal', 'snai', 'pokerstars', 'sisalCasino'];
-const MODES  = ['light', 'dark'];
+const TOKENS_DIR = 'tokens';
 const PREFIX = '';
+
+// ─── Discovery ──────────────────────────────────────────────────────────────
+
+// Un DS valido è una sottocartella con component.json
+function discoverDs(tokensDir) {
+  return readdirSync(tokensDir, { withFileTypes: true })
+    .filter(e => {
+      if (!e.isDirectory()) return false;
+      try {
+        readFileSync(join(tokensDir, e.name, 'component.json'));
+        return true;
+      } catch { return false; }
+    })
+    .map(e => e.name);
+}
+
+// Tutti i .json che non sono brand/mode/os/component → layer base (primitivi, alias, ecc.)
+function discoverBaseFiles(dsDir) {
+  return readdirSync(dsDir)
+    .filter(f => f.endsWith('.json'))
+    .filter(f => !/^(brand|mode|os)\..+\.json$/.test(f) && f !== 'component.json');
+}
+
+// Estrae i brand dai file brand.{name}.json
+function discoverBrands(dsDir) {
+  return readdirSync(dsDir)
+    .filter(f => /^brand\..+\.json$/.test(f))
+    .map(f => f.replace(/^brand\./, '').replace(/\.json$/, ''));
+}
+
+// Estrae i mode dai file mode.{name}.json
+function discoverModes(dsDir) {
+  return readdirSync(dsDir)
+    .filter(f => /^mode\..+\.json$/.test(f))
+    .map(f => f.replace(/^mode\./, '').replace(/\.json$/, ''));
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -49,9 +85,9 @@ function resolveRef(ref, tree, visited = new Set()) {
     return ref; // lasciato non risolto, verrà scartato in flattenTokens
   }
 
-  // Nodo con value (token leaf o ambiguo)
-  if (node && typeof node === 'object' && 'value' in node) {
-    const val = node['value'];
+  // Nodo con value (token leaf o ambiguo) — supporta sia 'value' che '$value' (DTCG W3C)
+  if (node && typeof node === 'object' && ('value' in node || '$value' in node)) {
+    const val = node['$value'] ?? node['value'];
     if (typeof val === 'string' && val.startsWith('{')) {
       return resolveRef(val, tree, visited);
     }
@@ -67,25 +103,27 @@ function resolveRef(ref, tree, visited = new Set()) {
 
 function flattenTokens(obj, tree, prefix = '', _skipped = { count: 0 }) {
   const result = {};
+  const META_KEYS = ['type', '$type', 'value', '$value', 'description', '$description', 'extensions', '$extensions'];
+
   for (const [key, val] of Object.entries(obj)) {
     // Salta chiavi meta
-    if (['type', 'value', 'description', 'extensions'].includes(key)) continue;
+    if (META_KEYS.includes(key)) continue;
 
     const fullKey = prefix ? `${prefix}-${key}` : key;
 
     if (val && typeof val === 'object') {
-      const hasValue    = 'value' in val;
-      const children    = Object.keys(val).filter(k => !['type', 'value', 'description', 'extensions'].includes(k));
+      const hasValue    = 'value' in val || '$value' in val;
+      const children    = Object.keys(val).filter(k => !META_KEYS.includes(k));
       const hasChildren = children.length > 0;
 
       if (hasValue) {
-        let resolved = val['value'];
+        let resolved = val['$value'] ?? val['value'];
         if (typeof resolved === 'string' && resolved.startsWith('{')) {
           resolved = resolveRef(resolved, tree);
         }
         // Scarta token con riferimenti non risolti (es. collezione OS non caricata)
         if (typeof resolved === 'string' && resolved.startsWith('{')) { _skipped.count++; continue; }
-        result[fullKey] = { value: resolved, type: val['type'] ?? 'unknown' };
+        result[fullKey] = { value: resolved, type: val['$type'] ?? val['type'] ?? 'unknown' };
       }
 
       if (hasChildren) {
@@ -291,48 +329,77 @@ function capitalize(str) {
 
 // ─── Build ────────────────────────────────────────────────────────────────────
 
-['dist/css', 'dist/scss', 'dist/ios', 'dist/android', 'dist/tailwind'].forEach(d => mkdirSync(d, { recursive: true }));
+const dsList = discoverDs(TOKENS_DIR);
 
-const primitives = loadJson('tokens/primitives.json');
-const modeLight  = loadJson('tokens/mode.light.json');
-const modeDark   = loadJson('tokens/mode.dark.json');
-const component  = loadJson('tokens/component.json');
+if (dsList.length === 0) {
+  console.error(`❌ Nessun Design System trovato in '${TOKENS_DIR}/'. Ogni DS deve avere primitives.json e component.json.`);
+  process.exit(1);
+}
 
-const brandFiles = {
-  sisal:       loadJson('tokens/brand.sisal.json'),
-  snai:        loadJson('tokens/brand.snai.json'),
-  pokerstars:  loadJson('tokens/brand.pokerstars.json'),
-  sisalCasino: loadJson('tokens/brand.sisalCasino.json'),
-};
+console.log(`\nDesign System trovati: ${dsList.join(', ')}`);
 
-let tailwindWritten = false;
+for (const ds of dsList) {
+  const dsDir = join(TOKENS_DIR, ds);
+  const brands = discoverBrands(dsDir);
+  const modes  = discoverModes(dsDir);
 
-for (const brand of BRANDS) {
-  for (const mode of MODES) {
-    console.log(`\nBuilding ${brand}.${mode}...`);
+  console.log(`\n━━━ ${ds} ━━━`);
+  console.log(`  Brand: ${brands.join(', ')}`);
+  console.log(`  Mode:  ${modes.join(', ')}`);
 
-    const modeTokens = mode === 'light' ? modeLight : modeDark;
+  if (brands.length === 0) { console.warn(`  ⚠ Nessun brand trovato, skip.`); continue; }
+  if (modes.length === 0)  { console.warn(`  ⚠ Nessun mode trovato, skip.`);  continue; }
 
-    // tree serve solo come contesto di risoluzione dei riferimenti
-    // flattenTokens riceve solo component, così l'output contiene esclusivamente token component
-    const tree = deepMerge(primitives, brandFiles[brand], modeTokens, component);
+  // Crea directory di output per questo DS
+  for (const fmt of ['css', 'scss', 'ios', 'android', 'tailwind']) {
+    mkdirSync(join('dist', ds, fmt), { recursive: true });
+  }
 
-    const skipped = { count: 0 };
-    const flat = flattenTokens(component, tree, '', skipped);
-    const count = Object.keys(flat).length;
+  // Carica file condivisi del DS
+  const baseFiles = discoverBaseFiles(dsDir);
+  const primitives = baseFiles.length > 0
+    ? deepMerge(...baseFiles.map(f => loadJson(join(dsDir, f))))
+    : {};
+  if (baseFiles.length > 0) console.log(`  Base:  ${baseFiles.join(', ')}`);
+  const component  = loadJson(join(dsDir, 'component.json'));
 
-    writeFileSync(`dist/css/${brand}.${mode}.css`,     serializeCss(flat, brand, mode),        'utf-8');
-    writeFileSync(`dist/scss/${brand}.${mode}.scss`,   serializeScss(flat, brand, mode),       'utf-8');
-    writeFileSync(`dist/ios/${brand}.${mode}.swift`,   serializeSwift(flat, brand, mode),      'utf-8');
-    writeFileSync(`dist/android/${brand}.${mode}.xml`, serializeAndroidXml(flat, brand, mode), 'utf-8');
+  const brandFiles = {};
+  for (const brand of brands) {
+    brandFiles[brand] = loadJson(join(dsDir, `brand.${brand}.json`));
+  }
+  const modeFiles = {};
+  for (const mode of modes) {
+    modeFiles[mode] = loadJson(join(dsDir, `mode.${mode}.json`));
+  }
 
-    if (!tailwindWritten) {
-      writeFileSync('dist/tailwind/tailwind.preset.js', serializeTailwindPreset(flat), 'utf-8');
-      tailwindWritten = true;
+  let tailwindWritten = false;
+
+  for (const brand of brands) {
+    for (const mode of modes) {
+      console.log(`\n  Building ${brand}.${mode}...`);
+
+      // tree serve solo come contesto di risoluzione dei riferimenti
+      // flattenTokens riceve solo component, così l'output contiene esclusivamente token component
+      const tree = deepMerge(primitives, brandFiles[brand], modeFiles[mode], component);
+
+      const skipped = { count: 0 };
+      const flat = flattenTokens(component, tree, '', skipped);
+      const count = Object.keys(flat).length;
+
+      const distDs = join('dist', ds);
+      writeFileSync(join(distDs, 'css',     `${brand}.${mode}.css`),  serializeCss(flat, brand, mode),        'utf-8');
+      writeFileSync(join(distDs, 'scss',    `${brand}.${mode}.scss`), serializeScss(flat, brand, mode),       'utf-8');
+      writeFileSync(join(distDs, 'ios',     `${brand}.${mode}.swift`),serializeSwift(flat, brand, mode),      'utf-8');
+      writeFileSync(join(distDs, 'android', `${brand}.${mode}.xml`),  serializeAndroidXml(flat, brand, mode), 'utf-8');
+
+      if (!tailwindWritten) {
+        writeFileSync(join(distDs, 'tailwind', 'tailwind.preset.js'), serializeTailwindPreset(flat), 'utf-8');
+        tailwindWritten = true;
+      }
+
+      const skippedMsg = skipped.count > 0 ? ` (ignorati ${skipped.count} token OS non risolti)` : '';
+      console.log(`    ✓ ${count} token → CSS, SCSS, Swift, Android XML, Tailwind preset${skippedMsg}`);
     }
-
-    const skippedMsg = skipped.count > 0 ? ` (ignorati ${skipped.count} token OS non risolti)` : '';
-    console.log(`  ✓ ${count} token → CSS, SCSS, Swift, Android XML, Tailwind preset${skippedMsg}`);
   }
 }
 

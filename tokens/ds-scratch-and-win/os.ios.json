@@ -1,0 +1,14 @@
+{
+  "viewportWidth": {
+    "$type": "number",
+    "$value": 375
+  },
+  "container": {
+    "$type": "number",
+    "$value": 343
+  },
+  "OS": {
+    "$type": "string",
+    "$value": "ios"
+  }
+}
