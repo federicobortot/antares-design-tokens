@@ -1,18 +1,18 @@
 {
   "viewportWidth": {
-    "type": "number",
-    "value": 375
+    "$type": "number",
+    "$value": 375
   },
   "container": {
-    "type": "number",
-    "value": 343
+    "$type": "number",
+    "$value": 343
   },
   "osName": {
-    "type": "string",
-    "value": "ios"
+    "$type": "string",
+    "$value": "ios"
   },
   "Notifications": {
-    "type": "string",
-    "value": "10"
+    "$type": "string",
+    "$value": "10"
   }
 }
