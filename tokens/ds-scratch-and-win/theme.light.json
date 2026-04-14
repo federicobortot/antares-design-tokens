@@ -652,6 +652,10 @@
           "$type": "color",
           "$value": "{special.bg}"
         }
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": "{CrossBrand.Black.Alpha.0}"
       }
     },
     "icon": {
