@@ -1,0 +1,956 @@
+{
+  "neutral": {
+    "50": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{DBOX.Grey.1000}"
+    },
+    "transparent": {
+      "$type": "color",
+      "$value": "rgba(0, 0, 0, 0)"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "alpha": {
+        "0": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0)"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.1)"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.2)"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.3)"
+        },
+        "40": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.4)"
+        },
+        "50": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.5)"
+        },
+        "60": {
+          "$type": "color",
+          "$value": "rgba(255, 255, 255, 0.6)"
+        }
+      }
+    },
+    "black": {
+      "$type": "color",
+      "$value": "#010101",
+      "alpha": {
+        "0": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0)"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0.1)"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0.2)"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0.3)"
+        },
+        "40": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0.4)"
+        },
+        "50": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0.5)"
+        },
+        "60": {
+          "$type": "color",
+          "$value": "rgba(1, 1, 1, 0.6)"
+        }
+      }
+    }
+  },
+  "brand": {
+    "$type": "string",
+    "$value": "dbox",
+    "primary": {
+      "50": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.50}"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.100}"
+      },
+      "150": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.150}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.300}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.400}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.500}"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.600}"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.700}"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.800}"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.900}"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "{DBOX.Primary.1000}"
+      }
+    },
+    "secondary": {
+      "50": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.50}"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.100}"
+      },
+      "150": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.150}"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.200}"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.300}"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.400}"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.500}"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.600}"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.700}"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.800}"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.900}"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "{DBOX.Secondary.1000}"
+      }
+    }
+  },
+  "accent": {
+    "50": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{DBOX.Lightgrey.1000}"
+    }
+  },
+  "error": {
+    "50": {
+      "$type": "color",
+      "$value": "{DBOX.Error.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{DBOX.Error.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{DBOX.Error.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{DBOX.Error.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{DBOX.Error.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{DBOX.Error.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{DBOX.Error.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{DBOX.Error.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{DBOX.Error.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{DBOX.Error.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{DBOX.Error.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{DBOX.Error.1000}"
+    }
+  },
+  "success": {
+    "50": {
+      "$type": "color",
+      "$value": "{DBOX.Success.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{DBOX.Success.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{DBOX.Success.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{DBOX.Success.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{DBOX.Success.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{DBOX.Success.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{DBOX.Success.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{DBOX.Success.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{DBOX.Success.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{DBOX.Success.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{DBOX.Success.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{DBOX.Success.1000}"
+    }
+  },
+  "warning": {
+    "50": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{DBOX.Warning.1000}"
+    }
+  },
+  "info": {
+    "50": {
+      "$type": "color",
+      "$value": "{DBOX.Info.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{DBOX.Info.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{DBOX.Info.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{DBOX.Info.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{DBOX.Info.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{DBOX.Info.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{DBOX.Info.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{DBOX.Info.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{DBOX.Info.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{DBOX.Info.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{DBOX.Info.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{DBOX.Info.1000}"
+    }
+  },
+  "promo": {
+    "bg": {
+      "$type": "color",
+      "$value": "#A0B52F"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#0D1519"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "#A0B52F"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#8B9D27"
+    }
+  },
+  "highlight": {
+    "bg": {
+      "$type": "color",
+      "$value": "#F8A984"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#0D1519"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "#F6854B"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#E06C2A"
+    }
+  },
+  "jackpot": {
+    "bg": {
+      "$type": "color",
+      "$value": "#FAC8B0"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#0D1519"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "#F8A984"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#F6854B"
+    }
+  },
+  "special": {
+    "bg": {
+      "$type": "color",
+      "$value": "#4CD1F8"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#0D1519"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "#3AB9DD"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#31A1C0"
+    }
+  },
+  "live": {
+    "bg": {
+      "$type": "color",
+      "$value": "#F44D69"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "#EDF5F9"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "#F67E8A"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "#CC294D"
+    }
+  },
+  "cornerRadius": {
+    "none": {
+      "$type": "number",
+      "$value": 0
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": 2
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 4
+    },
+    "sm": {
+      "$type": "number",
+      "$value": 6
+    },
+    "md": {
+      "$type": "number",
+      "$value": 8
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 12
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 16
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 24
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": 32
+    },
+    "4xl": {
+      "$type": "number",
+      "$value": 40
+    },
+    "full": {
+      "$type": "number",
+      "$value": 100
+    },
+    "button": {
+      "$type": "number",
+      "$value": 6
+    },
+    "badge": {
+      "$type": "number",
+      "$value": 100
+    }
+  },
+  "typography": {
+    "display": {
+      "d1": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.40}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.44}"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        }
+      },
+      "d2": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.32}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.40}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        }
+      }
+    },
+    "heading": {
+      "h1": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.24}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.28}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        }
+      },
+      "h2": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.20}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.24}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        }
+      },
+      "h3": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.18}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.20}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        }
+      }
+    },
+    "body": {
+      "pLead": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.16}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.20}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "pLeadBold": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.16}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.20}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "p": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.14}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.18}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "pMedium": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.14}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.18}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Medium"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "pBold": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.14}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.18}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "caption": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.12}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "captionBold": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.12}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.14}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "microCaption": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.10}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "microCaptionBold": {
+        "size": {
+          "$type": "number",
+          "$value": "{size.10}"
+        },
+        "line height": {
+          "$type": "number",
+          "$value": "{size.12}"
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      }
+    },
+    "interaction": {
+      "button": {
+        "size": {
+          "$type": "number",
+          "$value": 14
+        },
+        "line height": {
+          "$type": "number",
+          "$value": 16
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        }
+      },
+      "microButton": {
+        "size": {
+          "$type": "number",
+          "$value": 12
+        },
+        "line height": {
+          "$type": "number",
+          "$value": 14
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Bold"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Mulish"
+        }
+      },
+      "link": {
+        "size": {
+          "$type": "number",
+          "$value": 14
+        },
+        "line height": {
+          "$type": "number",
+          "$value": 16
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      },
+      "microLink": {
+        "size": {
+          "$type": "number",
+          "$value": 12
+        },
+        "line height": {
+          "$type": "number",
+          "$value": 14
+        },
+        "weight": {
+          "$type": "string",
+          "$value": "Regular"
+        },
+        "font": {
+          "$type": "string",
+          "$value": "Roboto"
+        }
+      }
+    }
+  }
+}

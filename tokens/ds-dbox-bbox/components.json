@@ -1,0 +1,2132 @@
+{
+  "button": {
+    "color": {
+      "primary": {
+        "bg": {
+          "default": {
+            "gradient": {
+              "start": {
+                "$type": "color",
+                "$value": "{unknown}"
+              },
+              "end": {
+                "$type": "color",
+                "$value": "{unknown}"
+              }
+            }
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0)"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0)"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0)"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "rgba(0, 0, 0, 0)"
+          }
+        }
+      },
+      "secondary": {
+        "bg": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "ghost": {
+        "bg": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{neutral.alpha.0}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{neutral.alpha.0}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{neutral.alpha.0}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{neutral.alpha.0}"
+          }
+        }
+      }
+    },
+    "size": {
+      "md": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "height": {
+          "min": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "icon": {
+          "size": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "width": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "radius": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "sm": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "height": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "width": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "size": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "width": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "radius": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    }
+  },
+  "buttonGroup": {
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      }
+    }
+  },
+  "buttonExit": {
+    "color": {
+      "text": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "floating": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "padding": {
+          "left": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "right": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      }
+    }
+  },
+  "feedback": {
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      }
+    },
+    "color": {
+      "icon": {
+        "icon": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "danger": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "success": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "warning": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "size": {
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "width": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "size": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    }
+  },
+  "feedbackTemplate": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "mobile": {
+        "body": {
+          "padding": {
+            "horizontal": {
+              "$type": "number",
+              "$value": 32
+            }
+          }
+        }
+      }
+    }
+  },
+  "footerBbox": {
+    "addressItem": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "color": {
+      "elements": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "headerBbox": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "height": {
+        "$type": "number",
+        "$value": 56
+      },
+      "mobile": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 16
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": 10
+          }
+        },
+        "trailing": {
+          "gap": {
+            "$type": "number",
+            "$value": 119
+          }
+        }
+      },
+      "desktop": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 32
+          }
+        },
+        "trailing": {
+          "gap": {
+            "$type": "number",
+            "$value": 100
+          }
+        }
+      }
+    },
+    "accountDetail": {
+      "textbox": {
+        "size": {
+          "gap": {
+            "$type": "number",
+            "$value": 0
+          }
+        }
+      },
+      "color": {
+        "divider": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "link": {
+    "color": {
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      },
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      },
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "rgba(0, 0, 0, 0)"
+        }
+      }
+    },
+    "size": {
+      "md": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 16
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": 8
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 8
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 5
+          }
+        },
+        "icon": {
+          "size": {
+            "$type": "number",
+            "$value": 16
+          }
+        }
+      },
+      "sm": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 16
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": 8
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 8
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 5
+          }
+        },
+        "icon": {
+          "size": {
+            "$type": "number",
+            "$value": 16
+          }
+        }
+      }
+    }
+  },
+  "loaderBbox": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "progress": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "menuBbox": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.elevation.container.default}"
+      }
+    },
+    "size": {
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": 16
+        }
+      }
+    },
+    "footer": {
+      "size": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 40
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": 16
+          }
+        }
+      }
+    }
+  },
+  "modalBbox": {
+    "header": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": "{unknown}"
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "width": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "body": {
+      "size": {
+        "padding": {
+          "padding": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "color": {
+        "border": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "footer": {
+      "size": {
+        "padding": {
+          "padding": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{size.0}"
+      },
+      "radius": {
+        "top": {
+          "$type": "number",
+          "$value": "{size.8}"
+        },
+        "bottom": {
+          "$type": "number",
+          "$value": "{size.0}"
+        },
+        "all": {
+          "$type": "number",
+          "$value": "{size.8}"
+        }
+      }
+    },
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "Color": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    }
+  },
+  "quicklinkBbox": {
+    "color": {
+      "text": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "vertical": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "height": {
+        "min": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "scrimOverlay": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "rgba(34, 41, 58, 0.5)"
+      }
+    }
+  },
+  "splashPage": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    }
+  },
+  "buttonSticky": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "radius": {
+          "top": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    }
+  },
+  "textbox": {
+    "textbox-element": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      }
+    }
+  },
+  "badge": {
+    "color": {
+      "default": {
+        "bg": {
+          "$type": "color",
+          "$value": "rgba(0, 0, 0, 0)"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      },
+      "info": {
+        "bg": {
+          "$type": "color",
+          "$value": "#67AAF9"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "#000000"
+        }
+      }
+    },
+    "size": {
+      "default": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 16
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": 8
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 12
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 100
+          }
+        }
+      },
+      "info": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": 8
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": 4
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": 10
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 100
+          }
+        }
+      }
+    }
+  },
+  "checkbox": {
+    "checkboxSwitch": {
+      "color": {
+        "bg": {
+          "checked": {
+            "default": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "error": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{unknown}"
+            }
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "icon": {
+          "checked": {
+            "default": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "error": {
+              "$type": "color",
+              "$value": "{unknown}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{unknown}"
+            }
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "size": {
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 4
+          },
+          "width": {
+            "$type": "number",
+            "$value": 1
+          }
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": 8
+      }
+    }
+  },
+  "counter": {
+    "color": {
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "timer": {
+    "color": {
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "separator": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": 8,
+        "horizontal": {
+          "$type": "number",
+          "$value": 8
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": 4
+        }
+      },
+      "label": {
+        "gap": {
+          "$type": "number",
+          "$value": 4
+        }
+      }
+    }
+  },
+  "note": {
+    "color": {
+      "border": {
+        "$type": "color",
+        "$value": "#FFBF00"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "size": {
+      "border": {
+        "width": {
+          "$type": "number",
+          "$value": 2
+        }
+      },
+      "padding": {
+        "left": {
+          "$type": "number",
+          "$value": 8
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": 8
+        }
+      }
+    }
+  },
+  "textField": {
+    "color": {
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "#828FA6"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "#F61D1E"
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "#BFD72F"
+        }
+      },
+      "label": {
+        "default": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "#F61D1E"
+        }
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "#151B24"
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": 8
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 4
+        },
+        "width": {
+          "$type": "number",
+          "$value": 1
+        }
+      }
+    }
+  },
+  "toggle": {
+    "color": {
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "thumb": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 100
+        }
+      }
+    }
+  },
+  "alert": {
+    "color": {
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "cardAction": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "slider": {
+    "handle": {
+      "color": {
+        "primary": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "dailyTimer": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "size": {
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 21
+          }
+        }
+      }
+    },
+    "progress": {
+      "color": {
+        "primary": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        },
+        "dailyTimer": {
+          "gradient": {
+            "0": {
+              "$type": "color",
+              "$value": "#D70A0A"
+            },
+            "20": {
+              "$type": "color",
+              "$value": "#FFB800"
+            },
+            "64": {
+              "$type": "color",
+              "$value": "#73980B"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#007D14"
+            }
+          }
+        }
+      },
+      "size": {
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 17
+          }
+        }
+      }
+    },
+    "track": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 17
+          }
+        }
+      }
+    },
+    "size": {
+      "padding": {
+        "bottom": {
+          "$type": "number",
+          "$value": 7
+        },
+        "left": {
+          "$type": "number",
+          "$value": 7
+        }
+      }
+    }
+  },
+  "cardBuyInSaldo": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "gap": {
+        "horizontal": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "cardBuyInInput": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "inner": {
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "width": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "cardBuyInImporto": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "cardBuyIn": {
+    "size": {
+      "gap": {
+        "vertical": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "horizontal": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "cardDailyTimer": {
+    "circularSlider": {
+      "color": {
+        "bg": {
+          "default": {
+            "$type": "color",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "progress": {
+        "color": {
+          "gradient": {
+            "33": {
+              "$type": "color",
+              "$value": "#007D14"
+            },
+            "52": {
+              "$type": "color",
+              "$value": "#73980B"
+            },
+            "80": {
+              "$type": "color",
+              "$value": "#FFB800"
+            },
+            "100": {
+              "$type": "color",
+              "$value": "#D70A0A"
+            }
+          }
+        }
+      },
+      "handle": {
+        "color": {
+          "bg": {
+            "$type": "color",
+            "$value": "{unknown}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "#D70A0A"
+          }
+        }
+      }
+    },
+    "totalTime": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "timer": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "gap": {
+          "axis": {
+            "$type": "number",
+            "$value": 42
+          },
+          "indicators": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      },
+      "linear": {
+        "size": {
+          "gap": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    },
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "padding": {
+        "$type": "number",
+        "$value": 16
+      },
+      "gap": {
+        "$type": "number",
+        "$value": 24
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 8
+        }
+      }
+    },
+    "header": {
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": 54
+        }
+      }
+    }
+  },
+  "gameCardCarousel": {
+    "gameCard": {
+      "color": {
+        "border": {
+          "selected": {
+            "$type": "color",
+            "$value": "{color.border.selected.primary.subtle}"
+          }
+        }
+      },
+      "size": {
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": "{size.8}"
+          },
+          "width": {
+            "$type": "number",
+            "$value": "{size.2}"
+          }
+        },
+        "height": {
+          "min": {
+            "$type": "number",
+            "$value": "{size.120}"
+          }
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{size.16}"
+      }
+    },
+    "cards": {
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": "{size.8}"
+        }
+      }
+    }
+  },
+  "buttonFloating": {
+    "color": {
+      "menu": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "close": {
+        "border": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "direction": {
+        "bg": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        },
+        "width": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "height": {
+        "min": {
+          "$type": "number",
+          "$value": 30
+        }
+      },
+      "icon": {
+        "size": {
+          "$type": "number",
+          "$value": 16
+        }
+      }
+    }
+  },
+  "footerDbox": {
+    "compact": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "elements": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    },
+    "menu": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "elements": {
+          "$type": "color",
+          "$value": "{unknown}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{unknown}"
+        }
+      },
+      "size": {
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      },
+      "elements": {
+        "size": {
+          "gap": {
+            "$type": "number",
+            "$value": "{unknown}"
+          }
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{unknown}"
+      }
+    }
+  },
+  "laoderDbox": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{unknown}"
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{unknown}"
+        }
+      }
+    }
+  },
+  "modalDbox": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "#151B24"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "separator": {
+        "$type": "color",
+        "$value": "#6D7278"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "footer": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "#212A39"
+        }
+      },
+      "size": {
+        "height": {
+          "$type": "number",
+          "$value": 64
+        }
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 8
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": 16
+        },
+        "vertical": {
+          "$type": "number",
+          "$value": 24
+        }
+      },
+      "icon": {
+        "size": {
+          "$type": "number",
+          "$value": 16
+        }
+      }
+    },
+    "header": {
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": 16
+        }
+      }
+    }
+  },
+  "progressBar": {
+    "track": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "#36455E"
+        }
+      }
+    },
+    "progress": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "#BED62F"
+        }
+      }
+    },
+    "color": {
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "#151B24"
+        }
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 100
+        }
+      },
+      "height": {
+        "$type": "number",
+        "$value": 10
+      }
+    }
+  },
+  "quicklinkDbox": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "#212A39"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 8
+        }
+      },
+      "height": {
+        "min": {
+          "$type": "number",
+          "$value": 56
+        }
+      },
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": 16
+        }
+      },
+      "gap": {
+        "$type": "number",
+        "$value": 8
+      },
+      "icon": {
+        "size": {
+          "$type": "number",
+          "$value": 24
+        }
+      }
+    }
+  },
+  "tab": {
+    "color": {
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "#BFD72F"
+        }
+      },
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "#BFD72F"
+        }
+      }
+    },
+    "indicator": {
+      "color": {
+        "bg": {
+          "selected": {
+            "$type": "color",
+            "$value": "#BFD72F"
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "$type": "number",
+          "$value": 4
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": 999
+          }
+        }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": 8
+      },
+      "icon": {
+        "size": {
+          "$type": "number",
+          "$value": 24
+        }
+      }
+    },
+    "group": {
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": 6
+        }
+      }
+    }
+  },
+  "timebar": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "#151B24"
+      }
+    },
+    "size": {
+      "padding": {
+        "horizontal": {
+          "$type": "number",
+          "$value": 8
+        }
+      }
+    }
+  },
+  "tooltip": {
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "#36455E"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "#FFFFFF"
+      }
+    },
+    "size": {
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": 7
+        }
+      },
+      "padding": {
+        "$type": "number",
+        "$value": 16
+      }
+    }
+  },
+  "paginator": {
+    "item": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "#FFFFFF"
+        }
+      }
+    }
+  }
+}
