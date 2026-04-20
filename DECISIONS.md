@@ -115,3 +115,18 @@ Registro delle scelte non ovvie prese sul progetto, con motivazione.
 **Motivazione:** Con la compressione HTTP attiva (standard su qualsiasi CDN o server moderno) il peso effettivo sul wire è comparabile a quello di una libreria UI leggera. Il costo non giustifica la complessità aggiuntiva nel build pipeline per i casi d'uso attuali.
 
 **Lavoro futuro:** se dovesse servire (es. ambienti senza compressione HTTP, bundle size critico), aggiungere una fase di minificazione al termine del build che rimuova spazi e newline ridondanti, portando il file a ~35–38KB grezzo.
+
+---
+
+## 10. Token tipografici assenti dall'output Swift e Android XML ⚠ da rivedere
+
+**Decisione:** I serializer Swift e Android XML ricevono solo `componentMobileFlat`. I token `typography.*` (fontSize, lineHeight, fontWeight, fontFamily) non compaiono nell'output nativo.
+
+**Motivazione:** Scelta implicita al momento dell'implementazione: la tipografia responsiva era pensata per il web (CSS/SCSS). Non era ancora chiaro come mappare i token tipografici nei sistemi nativi, che hanno convenzioni molto diverse da CSS.
+
+**Problemi aperti:**
+- **Swift / SwiftUI:** come esporre i token? Opzioni: costanti `CGFloat` per fontSize/lineHeight, `Font.Weight` per fontWeight, `String` per fontFamily — oppure una struct `TextStyle` con tutti i campi raggruppati per stile (es. `SisalLightTokens.Typography.d1`).
+- **Android XML:** `<dimen>` per fontSize/lineHeight in `sp` (non `dp`), `<string>` per fontFamily. I font-family però si gestiscono tipicamente con `font` resources e `TextAppearance` stili XML, non con semplici stringhe.
+- In entrambi i casi: la dimensione responsive non ha equivalente nativo (non esiste `@media` in Swift/Android); bisognerà decidere se esporre solo i valori mobile, solo quelli desktop, o entrambi come costanti separate.
+
+**Lavoro futuro:** prima di implementare, allinearsi con i team iOS e Android su quale struttura si aspettano di consumare.
