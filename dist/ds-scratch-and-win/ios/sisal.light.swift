@@ -826,6 +826,7 @@ struct SisalLightTokens {
   static let segmentedControlItemColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let segmentedControlItemSizeHeight: CGFloat = 40
   static let segmentedControlItemSizeBorderRadius: CGFloat = 128
+  static let segmentedControlItemSizePaddingHorizontal: CGFloat = 16
   static let segmentedControlColorBg = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let segmentedControlSizeBorderRadius: CGFloat = 128
   static let segmentedControlSizePaddingHorizontal: CGFloat = 4

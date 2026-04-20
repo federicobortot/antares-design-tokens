@@ -825,6 +825,7 @@
   <color name="segmentedcontrolitem_color_text">#FFFFFFFF</color>
   <dimen name="segmentedcontrolitem_size_height">40</dimen>
   <dimen name="segmentedcontrolitem_size_border_radius">128</dimen>
+  <dimen name="segmentedcontrolitem_size_padding_horizontal">16</dimen>
   <color name="segmentedcontrol_color_bg">#FF090909</color>
   <dimen name="segmentedcontrol_size_border_radius">128</dimen>
   <dimen name="segmentedcontrol_size_padding_horizontal">4</dimen>

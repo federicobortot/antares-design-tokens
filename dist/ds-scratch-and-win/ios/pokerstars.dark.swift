@@ -826,6 +826,7 @@ struct PokerstarsDarkTokens {
   static let segmentedControlItemColorText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let segmentedControlItemSizeHeight: CGFloat = 40
   static let segmentedControlItemSizeBorderRadius: CGFloat = 128
+  static let segmentedControlItemSizePaddingHorizontal: CGFloat = 16
   static let segmentedControlColorBg = Color(red: 0.0353, green: 0.0353, blue: 0.0353, opacity: 1.0)
   static let segmentedControlSizeBorderRadius: CGFloat = 128
   static let segmentedControlSizePaddingHorizontal: CGFloat = 4

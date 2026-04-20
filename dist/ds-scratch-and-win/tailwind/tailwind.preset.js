@@ -940,6 +940,7 @@ module.exports = {
       'navigationChip-size-gap': 'var(--navigationChip-size-gap)',
       'navigationChip-size-padding-vertical': 'var(--navigationChip-size-padding-vertical)',
       'segmentedControlItem-size-height': 'var(--segmentedControlItem-size-height)',
+      'segmentedControlItem-size-padding-horizontal': 'var(--segmentedControlItem-size-padding-horizontal)',
       'segmentedControl-size-padding-horizontal': 'var(--segmentedControl-size-padding-horizontal)',
       'segmentedControl-size-padding-vertical': 'var(--segmentedControl-size-padding-vertical)',
       'navigationTabItem-size-md-height': 'var(--navigationTabItem-size-md-height)',
