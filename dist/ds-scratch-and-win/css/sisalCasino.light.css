@@ -1,4 +1,4 @@
-:root[data-brand="sisal-casino"] {
+:root[data-brand="sisalcasino"] {
   --typography-d1-fontFamily: 'Roboto', sans-serif;
   --typography-d2-fontFamily: 'Roboto', sans-serif;
   --typography-h1-fontFamily: 'Mulish', sans-serif;
@@ -18,7 +18,7 @@
   --typography-link-micro-fontFamily: 'Roboto', sans-serif;
 }
 
-:root[data-brand="sisal-casino"][data-theme="light"] {
+:root[data-brand="sisalcasino"][data-theme="light"] {
   --button-color-brand-primary-bg-default: #FF3E4F;
   --button-color-brand-primary-bg-hover: #D41634;
   --button-color-brand-primary-bg-pressed: #A70023;
@@ -1287,7 +1287,7 @@
 }
 
 @media (min-width: 1024px) {
-  :root[data-brand="sisal-casino"][data-theme="light"] {
+  :root[data-brand="sisalcasino"][data-theme="light"] {
     --typography-d1-fontSize: 2.625rem;
     --typography-d1-lineHeight: 3rem;
     --typography-d2-fontSize: 1.75rem;
