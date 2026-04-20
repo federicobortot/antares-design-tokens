@@ -8,15 +8,14 @@ const PREFIX = '';
 
 // ─── Discovery ──────────────────────────────────────────────────────────────
 
-// Un DS valido è una sottocartella con component.json
+// Un DS valido è una sottocartella con component.json o components.json
 function discoverDs(tokensDir) {
   return readdirSync(tokensDir, { withFileTypes: true })
     .filter(e => {
       if (!e.isDirectory()) return false;
-      try {
-        readFileSync(join(tokensDir, e.name, 'component.json'));
-        return true;
-      } catch { return false; }
+      try { readFileSync(join(tokensDir, e.name, 'component.json'));  return true; } catch {}
+      try { readFileSync(join(tokensDir, e.name, 'components.json')); return true; } catch {}
+      return false;
     })
     .map(e => e.name);
 }
@@ -26,25 +25,25 @@ function discoverBaseFiles(dsDir) {
   return readdirSync(dsDir)
     .filter(f => f.endsWith('.json'))
     .filter(f =>
-      !/^(brand|mode|theme|os)\..+\.json$/.test(f) &&
-      f !== 'component.json' &&
+      !/^(brands?|modes?|themes?|os)\..+\.json$/.test(f) &&
+      f !== 'component.json' && f !== 'components.json' &&
       !/\.(mobile|desktop)\.json$/.test(f) &&
       f !== 'typography.json'
     );
 }
 
-// Estrae i brand dai file brand.{name}.json
+// Estrae i brand dai file brand.{name}.json o brands.{name}.json
 function discoverBrands(dsDir) {
   return readdirSync(dsDir)
-    .filter(f => /^brand\..+\.json$/.test(f))
-    .map(f => f.replace(/^brand\./, '').replace(/\.json$/, ''));
+    .filter(f => /^brands?\..+\.json$/.test(f))
+    .map(f => f.replace(/^brands?\./, '').replace(/\.json$/, ''));
 }
 
-// Estrae i mode dai file mode.{name}.json o theme.{name}.json
+// Estrae i mode dai file mode/modes/theme/themes.{name}.json
 function discoverModes(dsDir) {
   return readdirSync(dsDir)
-    .filter(f => /^(mode|theme)\..+\.json$/.test(f))
-    .map(f => f.replace(/^(mode|theme)\./, '').replace(/\.json$/, ''));
+    .filter(f => /^(modes?|themes?)\..+\.json$/.test(f))
+    .map(f => f.replace(/^(modes?|themes?)\./, '').replace(/\.json$/, ''));
 }
 
 // Carica typography.json se presente
@@ -421,18 +420,26 @@ for (const ds of dsList) {
     ? deepMerge(...baseFiles.map(f => loadJson(join(dsDir, f))))
     : {};
   if (baseFiles.length > 0) console.log(`  Base:  ${baseFiles.join(', ')}`);
-  const component  = loadJson(join(dsDir, 'component.json'));
+  let component;
+  try { component = loadJson(join(dsDir, 'component.json')); }
+  catch { component = loadJson(join(dsDir, 'components.json')); }
 
   const brandFiles = {};
   for (const brand of brands) {
-    brandFiles[brand] = loadJson(join(dsDir, `brand.${brand}.json`));
+    let brandFile;
+    try { brandFile = loadJson(join(dsDir, `brand.${brand}.json`)); }
+    catch { brandFile = loadJson(join(dsDir, `brands.${brand}.json`)); }
+    brandFiles[brand] = brandFile;
   }
   const modeFiles = {};
   for (const mode of modes) {
-    // Support both mode.{name}.json and theme.{name}.json
+    // Support mode/modes/theme/themes.{name}.json
+    const candidates = [`mode.${mode}.json`, `modes.${mode}.json`, `theme.${mode}.json`, `themes.${mode}.json`];
     let modeFile;
-    try { modeFile = loadJson(join(dsDir, `mode.${mode}.json`)); }
-    catch { modeFile = loadJson(join(dsDir, `theme.${mode}.json`)); }
+    for (const c of candidates) {
+      try { modeFile = loadJson(join(dsDir, c)); break; } catch {}
+    }
+    if (!modeFile) throw new Error(`Nessun file mode trovato per "${mode}" in ${dsDir}`);
     modeFiles[mode] = modeFile;
   }
 
