@@ -62,3 +62,56 @@ Registro delle scelte non ovvie prese sul progetto, con motivazione.
 **Nomina utility classes:** verbatim dal nome del token (es. `bg-[button-color-brand-primary-bg-default]`). Convenzione da confermare con il primo progetto consumer.
 
 **Stato:** implementato.
+
+---
+
+## 7. Token di tipografia: file separato con risoluzione tramite device file
+
+**Decisione:** I token di tipografia (`typography.json`) sono un file autonomo, con struttura piatta (le chiavi radice sono gli stili: `d1`, `d2`, `h1`, ecc.). I valori di `fontSize` e `lineHeight` non sono hardcoded ma referenziano la scala dimensionale tramite file `device.mobile.json` e `device.desktop.json`, che forniscono i valori effettivi per ciascun breakpoint. I valori `fontFamily` sono referenziati dai file brand (es. `{typography.fontFamily.body}`).
+
+**Motivazione:** Separare le dimensioni responsive (device file) dalla struttura dei token (typography.json) consente di modificare la scala tipografica per un breakpoint senza toccare la struttura token. Lo stesso meccanismo può essere esteso ad altri token che variano tra mobile e desktop senza aggiungere concetti nuovi al sistema.
+
+---
+
+## 8. Output CSS: struttura a tre sezioni con media query mobile-first
+
+**Decisione:** I file CSS brand×tema hanno la seguente struttura:
+
+```css
+/* 1. Font-family scoped al brand */
+:root[data-brand="X"] {
+  --typography-d1-fontFamily: '...', sans-serif;
+  ...
+}
+
+/* 2. Tutti i token component + tipografia (mobile-first, default) */
+:root[data-brand="X"][data-theme="Y"] {
+  --button-color-...: ...;
+  --typography-d1-fontSize: 1.75rem;
+  ...
+}
+
+/* 3. Solo i token che differiscono su desktop */
+@media (min-width: 1024px) {
+  :root[data-brand="X"][data-theme="Y"] {
+    --typography-d1-fontSize: 2.625rem;
+    ...
+  }
+}
+```
+
+**Motivazione:** Un singolo file per brand×tema evita richieste HTTP multiple. La sezione font-family è separata per permettere al browser di caricare i font prima che i token tema vengano applicati. Il blocco `@media` contiene solo i token che effettivamente differiscono tra mobile e desktop (nel caso attuale: 12 override tipografici su ~1265 token), minimizzando le ridondanze.
+
+**Unità CSS per tipografia:** `fontSize` e `lineHeight` sono convertiti da numero puro a `rem` (divisione per 16). `fontWeight` è emesso come numero puro senza unità. Gli altri token numerici mantengono `px`.
+
+**Breakpoint desktop:** `1024px`. Modificabile aggiornando la costante nel serializer `serializeResponsiveCss` in `build.js`.
+
+---
+
+## 9. Minificazione CSS: non implementata, valutare se necessario
+
+**Decisione:** I file CSS in output non sono minificati. I file pesano ~61KB non compressi (~8–12KB con gzip/brotli).
+
+**Motivazione:** Con la compressione HTTP attiva (standard su qualsiasi CDN o server moderno) il peso effettivo sul wire è comparabile a quello di una libreria UI leggera. Il costo non giustifica la complessità aggiuntiva nel build pipeline per i casi d'uso attuali.
+
+**Lavoro futuro:** se dovesse servire (es. ambienti senza compressione HTTP, bundle size critico), aggiungere una fase di minificazione al termine del build che rimuova spazi e newline ridondanti, portando il file a ~35–38KB grezzo.

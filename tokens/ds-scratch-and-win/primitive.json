@@ -829,7 +829,7 @@
       }
     }
   },
-  "Size": {
+  "size": {
     "0": {
       "$type": "number",
       "$value": 0
@@ -897,6 +897,10 @@
     "40": {
       "$type": "number",
       "$value": 40
+    },
+    "42": {
+      "$type": "number",
+      "$value": 42
     },
     "44": {
       "$type": "number",
@@ -985,6 +989,20 @@
     "128": {
       "$type": "number",
       "$value": 128
+    },
+    "fontWeight": {
+      "regular": {
+        "$type": "number",
+        "$value": 400
+      },
+      "bold": {
+        "$type": "number",
+        "$value": 700
+      },
+      "extraBold": {
+        "$type": "number",
+        "$value": 800
+      }
     }
   },
   "Snai": {

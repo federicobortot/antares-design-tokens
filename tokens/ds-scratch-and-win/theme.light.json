@@ -1073,11 +1073,11 @@
       },
       "x": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       },
       "y": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       },
       "blur": {
         "$type": "number",
@@ -1095,15 +1095,15 @@
       },
       "x": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       },
       "y": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "blur": {
         "$type": "number",
-        "$value": "{Size.24}"
+        "$value": "{size.24}"
       },
       "spread": {
         "$type": "number",
@@ -1117,15 +1117,15 @@
       },
       "x": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       },
       "y": {
         "$type": "number",
-        "$value": "{Size.32}"
+        "$value": "{size.32}"
       },
       "blur": {
         "$type": "number",
-        "$value": "{Size.56}"
+        "$value": "{size.56}"
       },
       "spread": {
         "$type": "number",

@@ -21,11 +21,16 @@ function discoverDs(tokensDir) {
     .map(e => e.name);
 }
 
-// Tutti i .json che non sono brand/mode/os/component → layer base (primitivi, alias, ecc.)
+// Tutti i .json che non sono brand/mode/theme/os/component/device/typography → layer base (primitivi, alias, ecc.)
 function discoverBaseFiles(dsDir) {
   return readdirSync(dsDir)
     .filter(f => f.endsWith('.json'))
-    .filter(f => !/^(brand|mode|os)\..+\.json$/.test(f) && f !== 'component.json');
+    .filter(f =>
+      !/^(brand|mode|theme|os)\..+\.json$/.test(f) &&
+      f !== 'component.json' &&
+      !/\.(mobile|desktop)\.json$/.test(f) &&
+      f !== 'typography.json'
+    );
 }
 
 // Estrae i brand dai file brand.{name}.json
@@ -35,11 +40,28 @@ function discoverBrands(dsDir) {
     .map(f => f.replace(/^brand\./, '').replace(/\.json$/, ''));
 }
 
-// Estrae i mode dai file mode.{name}.json
+// Estrae i mode dai file mode.{name}.json o theme.{name}.json
 function discoverModes(dsDir) {
   return readdirSync(dsDir)
-    .filter(f => /^mode\..+\.json$/.test(f))
-    .map(f => f.replace(/^mode\./, '').replace(/\.json$/, ''));
+    .filter(f => /^(mode|theme)\..+\.json$/.test(f))
+    .map(f => f.replace(/^(mode|theme)\./, '').replace(/\.json$/, ''));
+}
+
+// Carica typography.json se presente
+function discoverTypographyFile(dsDir) {
+  try { return loadJson(join(dsDir, 'typography.json')); } catch { return null; }
+}
+
+// Carica i file device.mobile.json e device.desktop.json se presenti
+function discoverBreakpointFiles(dsDir) {
+  const files = readdirSync(dsDir).filter(f => f.endsWith('.json'));
+  const mobileFile  = files.find(f => /\.mobile\.json$/.test(f));
+  const desktopFile = files.find(f => /\.desktop\.json$/.test(f));
+  if (!mobileFile || !desktopFile) return {};
+  return {
+    mobile:  loadJson(join(dsDir, mobileFile)),
+    desktop: loadJson(join(dsDir, desktopFile)),
+  };
 }
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -147,6 +169,44 @@ function serializeCss(flat, brand, mode) {
     .map(([key, { value, type }]) => `  --${PREFIX ? PREFIX + '-' : ''}${key}: ${type === 'number' ? value + 'px' : value};`)
     .join('\n');
   return `${selector} {\n${vars}\n}\n`;
+}
+
+function serializeResponsiveCss(mainFlat, desktopOverrides, fontFamilyVars, brand, mode) {
+  const REM_KEYS = ['fontSize', 'lineHeight'];
+
+  function formatValue(key, value, type) {
+    const seg = key.split('-').pop();
+    if (REM_KEYS.includes(seg) && type === 'number') return `${value / 16}rem`;
+    if (seg === 'fontWeight' && type === 'number') return String(value);
+    return type === 'number' ? value + 'px' : value;
+  }
+
+  const parts = [];
+
+  // Section 1: font-family vars scoped to brand only
+  if (Object.keys(fontFamilyVars).length > 0) {
+    const ffVars = Object.entries(fontFamilyVars)
+      .map(([key, { value }]) => `  --${key}: '${value}', sans-serif;`)
+      .join('\n');
+    parts.push(`:root[data-brand="${brand}"] {\n${ffVars}\n}\n`);
+  }
+
+  // Section 2: mobile-first defaults (component + typography, no fontFamily)
+  const mainSelector = `:root[data-brand="${brand}"][data-theme="${mode}"]`;
+  const mainVars = Object.entries(mainFlat)
+    .map(([key, { value, type }]) => `  --${key}: ${formatValue(key, value, type)};`)
+    .join('\n');
+  parts.push(`${mainSelector} {\n${mainVars}\n}\n`);
+
+  // Section 3: desktop overrides inside media query
+  if (Object.keys(desktopOverrides).length > 0) {
+    const desktopVars = Object.entries(desktopOverrides)
+      .map(([key, { value, type }]) => `    --${key}: ${formatValue(key, value, type)};`)
+      .join('\n');
+    parts.push(`@media (min-width: 1024px) {\n  ${mainSelector} {\n${desktopVars}\n  }\n}\n`);
+  }
+
+  return parts.join('\n');
 }
 
 // TODO: chiedere ai dev se preferiscono variabili SCSS ($var) invece di custom properties (--var)
@@ -369,8 +429,18 @@ for (const ds of dsList) {
   }
   const modeFiles = {};
   for (const mode of modes) {
-    modeFiles[mode] = loadJson(join(dsDir, `mode.${mode}.json`));
+    // Support both mode.{name}.json and theme.{name}.json
+    let modeFile;
+    try { modeFile = loadJson(join(dsDir, `mode.${mode}.json`)); }
+    catch { modeFile = loadJson(join(dsDir, `theme.${mode}.json`)); }
+    modeFiles[mode] = modeFile;
   }
+
+  const typographyJson  = discoverTypographyFile(dsDir);
+  const breakpointFiles = discoverBreakpointFiles(dsDir);
+  const hasBreakpoints  = !!(breakpointFiles.mobile && breakpointFiles.desktop);
+  if (typographyJson) console.log(`  Typography: typography.json`);
+  if (hasBreakpoints) console.log(`  Breakpoints: device.mobile.json + device.desktop.json`);
 
   let tailwindWritten = false;
 
@@ -378,27 +448,73 @@ for (const ds of dsList) {
     for (const mode of modes) {
       console.log(`\n  Building ${brand}.${mode}...`);
 
-      // tree serve solo come contesto di risoluzione dei riferimenti
-      // flattenTokens riceve solo component, così l'output contiene esclusivamente token component
-      const tree = deepMerge(primitives, brandFiles[brand], modeFiles[mode], component);
+      // Build resolution trees: mobile (default) and desktop
+      const mobileTree = hasBreakpoints
+        ? deepMerge(primitives, brandFiles[brand], modeFiles[mode], breakpointFiles.mobile)
+        : deepMerge(primitives, brandFiles[brand], modeFiles[mode]);
+      const desktopTree = hasBreakpoints
+        ? deepMerge(primitives, brandFiles[brand], modeFiles[mode], breakpointFiles.desktop)
+        : null;
 
+      // Component tokens
       const skipped = { count: 0 };
-      const flat = flattenTokens(component, tree, '', skipped);
-      const count = Object.keys(flat).length;
+      const componentMobileFlat  = flattenTokens(component, mobileTree,  '', skipped);
+      const componentDesktopFlat = desktopTree
+        ? flattenTokens(component, desktopTree, '', { count: 0 })
+        : componentMobileFlat;
 
+      // Typography tokens (optional)
+      let typographyMobileFlat  = {};
+      let typographyDesktopFlat = {};
+      let fontFamilyVars = {};
+
+      if (typographyJson) {
+        typographyMobileFlat  = flattenTokens(typographyJson, mobileTree,  'typography', { count: 0 });
+        typographyDesktopFlat = desktopTree
+          ? flattenTokens(typographyJson, desktopTree, 'typography', { count: 0 })
+          : typographyMobileFlat;
+
+        // Extract fontFamily tokens → brand-scoped :root block
+        for (const [key, val] of Object.entries(typographyMobileFlat)) {
+          if (key.endsWith('-fontFamily')) fontFamilyVars[key] = val;
+        }
+        for (const key of Object.keys(fontFamilyVars)) {
+          delete typographyMobileFlat[key];
+          delete typographyDesktopFlat[key];
+        }
+      }
+
+      // Merged mobile-first flat + desktop overrides (only tokens that differ)
+      const mainFlat   = { ...componentMobileFlat,  ...typographyMobileFlat  };
+      const desktopAll = { ...componentDesktopFlat, ...typographyDesktopFlat };
+      const desktopOverrides = {};
+      for (const [key, val] of Object.entries(desktopAll)) {
+        if (!mainFlat[key] || mainFlat[key].value !== val.value) {
+          desktopOverrides[key] = val;
+        }
+      }
+
+      const count  = Object.keys(mainFlat).length;
       const distDs = join('dist', ds);
-      writeFileSync(join(distDs, 'css',     `${brand}.${mode}.css`),  serializeCss(flat, brand, mode),        'utf-8');
-      writeFileSync(join(distDs, 'scss',    `${brand}.${mode}.scss`), serializeScss(flat, brand, mode),       'utf-8');
-      writeFileSync(join(distDs, 'ios',     `${brand}.${mode}.swift`),serializeSwift(flat, brand, mode),      'utf-8');
-      writeFileSync(join(distDs, 'android', `${brand}.${mode}.xml`),  serializeAndroidXml(flat, brand, mode), 'utf-8');
+
+      writeFileSync(join(distDs, 'css',     `${brand}.${mode}.css`),
+        serializeResponsiveCss(mainFlat, desktopOverrides, fontFamilyVars, brand, mode), 'utf-8');
+      writeFileSync(join(distDs, 'scss',    `${brand}.${mode}.scss`),
+        serializeResponsiveCss(mainFlat, desktopOverrides, fontFamilyVars, brand, mode), 'utf-8');
+      writeFileSync(join(distDs, 'ios',     `${brand}.${mode}.swift`),
+        serializeSwift(componentMobileFlat, brand, mode), 'utf-8');
+      writeFileSync(join(distDs, 'android', `${brand}.${mode}.xml`),
+        serializeAndroidXml(componentMobileFlat, brand, mode), 'utf-8');
 
       if (!tailwindWritten) {
-        writeFileSync(join(distDs, 'tailwind', 'tailwind.preset.js'), serializeTailwindPreset(flat), 'utf-8');
+        writeFileSync(join(distDs, 'tailwind', 'tailwind.preset.js'), serializeTailwindPreset(mainFlat), 'utf-8');
         tailwindWritten = true;
       }
 
       const skippedMsg = skipped.count > 0 ? ` (ignorati ${skipped.count} token OS non risolti)` : '';
-      console.log(`    ✓ ${count} token → CSS, SCSS, Swift, Android XML, Tailwind preset${skippedMsg}`);
+      const desktopMsg = Object.keys(desktopOverrides).length > 0
+        ? ` + ${Object.keys(desktopOverrides).length} desktop overrides` : '';
+      console.log(`    ✓ ${count} token → CSS/SCSS${desktopMsg}, Swift, Android XML, Tailwind preset${skippedMsg}`);
     }
   }
 }

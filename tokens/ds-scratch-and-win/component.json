@@ -1042,7 +1042,7 @@
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{color.border.inverse.disabled}"
             }
           }
         },
@@ -1116,7 +1116,7 @@
             },
             "disabled": {
               "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
+              "$value": "{color.border.inverse.disabled}"
             }
           }
         }
@@ -1127,17 +1127,17 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -1146,40 +1146,40 @@
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{size.48}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "icon": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.32}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.4}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -1188,7 +1188,7 @@
         },
         "icon": {
           "$type": "number",
-          "$value": "{Size.20}"
+          "$value": "{size.20}"
         }
       }
     }
@@ -1197,21 +1197,21 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       },
       "height": {
         "$type": "number",
-        "$value": "{Size.48}"
+        "$value": "{size.48}"
       }
     },
     "color": {
@@ -1239,7 +1239,7 @@
       },
       "width": {
         "$type": "number",
-        "$value": "{Size.1}"
+        "$value": "{size.1}"
       }
     }
   },
@@ -1277,11 +1277,11 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.48}"
+        "$value": "{size.48}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       },
       "border": {
         "radius": {
@@ -1388,22 +1388,22 @@
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -1414,22 +1414,22 @@
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -1455,16 +1455,16 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       }
     }
@@ -1480,12 +1480,12 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     }
   },
@@ -1493,7 +1493,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     },
     "color": {
@@ -1523,21 +1523,21 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         }
       },
@@ -1545,157 +1545,133 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{size.0}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{size.0}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     }
   },
   "checkbox": {
-    "color": {
-      "checkboxSwitch": {
-        "unchecked": {
+    "checkboxSwitch": {
+      "color": {
+        "bg": {
           "default": {
-            "bg": {
-              "$type": "color",
-              "$value": "{color.bg.action.brand.primary.subtle.default}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{color.border.neutral.default}"
-            }
+            "$type": "color",
+            "$value": "{color.bg.action.neutral.subtle.default}"
           },
-          "error": {
-            "bg": {
-              "$type": "color",
-              "$value": "{color.bg.danger}"
-            },
-            "icon": {
-              "$type": "color",
-              "$value": "{color.icon.danger}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{color.border.danger}"
-            }
-          },
-          "pressed": {
-            "bg": {
-              "$type": "color",
-              "$value": "{color.bg.action.brand.primary.subtle.pressed}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{color.border.brand.primary.pressed}"
-            }
-          },
-          "disabled": {
-            "bg": {
+          "selected": {
+            "disabled": {
               "$type": "color",
               "$value": "{color.bg.action.brand.primary.selected.disabled}"
             },
-            "icon": {
-              "$type": "color",
-              "$value": "{color.icon.disabled}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
-            }
-          }
-        },
-        "checked": {
-          "disabled": {
-            "bg": {
-              "$type": "color",
-              "$value": "{color.bg.action.brand.primary.selected.disabled}"
-            },
-            "icon": {
-              "$type": "color",
-              "$value": "{color.icon.disabled}"
-            },
-            "border": {
-              "$type": "color",
-              "$value": "{color.border.neutral.disabled}"
-            }
-          },
-          "pressed": {
-            "bg": {
+            "pressed": {
               "$type": "color",
               "$value": "{color.icon.brand.primary.selected.pressed}"
             },
-            "icon": {
-              "$type": "color",
-              "$value": "{color.icon.inverse.default}"
-            }
-          },
-          "default": {
-            "bg": {
+            "default": {
               "$type": "color",
               "$value": "{color.icon.brand.primary.selected.default}"
             },
-            "icon": {
+            "error": {
+              "$type": "color",
+              "$value": "{color.bg.action.danger.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{color.icon.brand.primary.selected.hover}"
+            }
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{color.bg.danger}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{color.bg.action.neutral.pressed}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.bg.action.brand.primary.selected.disabled}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.bg.action.neutral.hover}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.border.neutral.default}"
+          },
+          "selected": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{color.border.neutral.disabled}"
+            }
+          },
+          "error": {
+            "$type": "color",
+            "$value": "{color.border.danger}"
+          },
+          "pressed": {
+            "$type": "color",
+            "$value": "{color.border.neutral.pressed}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.border.neutral.disabled}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.border.neutral.hover}"
+          }
+        },
+        "icon": {
+          "selected": {
+            "disabled": {
+              "$type": "color",
+              "$value": "{color.icon.disabled}"
+            },
+            "default": {
+              "$type": "color",
+              "$value": "{color.icon.inverse.default}"
+            },
+            "error": {
+              "$type": "color",
+              "$value": "{color.icon.inverse.default}"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{color.icon.inverse.default}"
+            },
+            "hover": {
               "$type": "color",
               "$value": "{color.icon.inverse.default}"
             }
           },
           "error": {
-            "bg": {
-              "$type": "color",
-              "$value": "{color.bg.action.danger.default}"
-            },
-            "icon": {
-              "$type": "color",
-              "$value": "{color.icon.inverse.default}"
-            }
+            "$type": "color",
+            "$value": "{color.icon.danger}"
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{color.icon.disabled}"
           }
         }
       },
-      "default": {
-        "text": {
-          "$type": "color",
-          "$value": "{color.text.default}"
-        }
-      },
-      "pressed": {
-        "text": {
-          "$type": "color",
-          "$value": "{color.text.default}"
-        }
-      },
-      "disabled": {
-        "text": {
-          "$type": "color",
-          "$value": "{color.text.disabled}"
-        }
-      },
-      "selected": {
-        "text": {
-          "$type": "color",
-          "$value": "{color.text.default}"
-        }
-      },
-      "error": {
-        "text": {
-          "$type": "color",
-          "$value": "{color.text.danger}"
-        }
-      }
-    },
-    "size": {
-      "checkboxSwitch": {
+      "size": {
         "ios": {
           "height": {
             "$type": "number",
-            "$value": "{Size.18}"
+            "$value": "{size.18}"
           },
           "border": {
             "radius": {
@@ -1704,14 +1680,14 @@
             },
             "width": {
               "$type": "number",
-              "$value": "{Size.1}"
+              "$value": "{size.1}"
             }
           }
         },
         "android": {
           "height": {
             "$type": "number",
-            "$value": "{Size.18}"
+            "$value": "{size.18}"
           },
           "border": {
             "radius": {
@@ -1720,14 +1696,36 @@
             },
             "width": {
               "$type": "number",
-              "$value": "{Size.1}"
+              "$value": "{size.1}"
             }
           }
         }
-      },
+      }
+    },
+    "color": {
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        },
+        "selected": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{color.text.danger}"
+        }
+      }
+    },
+    "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     }
   },
@@ -1744,16 +1742,16 @@
       "android": {
         "height": {
           "$type": "number",
-          "$value": "{Size.56}"
+          "$value": "{size.56}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -1763,29 +1761,29 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           }
         }
       },
       "ios": {
         "height": {
           "$type": "number",
-          "$value": "{Size.44}"
+          "$value": "{size.44}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -1795,7 +1793,7 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     },
     "color": {
@@ -1975,7 +1973,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.24}"
+        "$value": "{size.24}"
       },
       "icon": {
         "border": {
@@ -1986,7 +1984,7 @@
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.64}"
+          "$value": "{size.64}"
         }
       }
     }
@@ -1995,12 +1993,12 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       },
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     }
@@ -2016,11 +2014,11 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       },
       "border": {
@@ -2031,7 +2029,7 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     }
   },
@@ -2061,7 +2059,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     }
   },
@@ -2069,7 +2067,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     }
   },
@@ -2078,12 +2076,12 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.3}"
+            "$value": "{size.3}"
           }
         }
       }
@@ -2092,12 +2090,12 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         }
       }
@@ -2125,7 +2123,7 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "border": {
         "radius": {
@@ -2135,7 +2133,7 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     }
   },
@@ -2175,11 +2173,11 @@
         "gap": {
           "sm": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           },
           "lg": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       }
@@ -2189,7 +2187,7 @@
         "gap": {
           "sm": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         }
       }
@@ -2198,22 +2196,22 @@
       "gap": {
         "md": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         }
       },
       "padding": {
         "vertical": {
           "sm": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           },
           "lg": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "md": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           }
         }
       }
@@ -2243,7 +2241,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.12}"
+        "$value": "{size.12}"
       }
     },
     "radioButton": {
@@ -2267,7 +2265,7 @@
       },
       "size": {
         "$type": "number",
-        "$value": "{Size.20}"
+        "$value": "{size.20}"
       }
     },
     "supportingText": {
@@ -2288,11 +2286,11 @@
       "size": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.2}"
+          "$value": "{size.0}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.2}"
+          "$value": "{size.4}"
         }
       }
     }
@@ -2346,59 +2344,59 @@
       "padding": {
         "ios": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "android": {
           "default": {
             "$type": "number",
-            "$value": "{Size.24}"
+            "$value": "{size.24}"
           },
           "focused": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           },
           "typing": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         }
       },
       "height": {
         "android": {
           "$type": "number",
-          "$value": "{Size.36}"
+          "$value": "{size.36}"
         },
         "ios": {
           "$type": "number",
-          "$value": "{Size.36}"
+          "$value": "{size.36}"
         }
       },
       "gap": {
         "ios": {
           "default": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{size.0}"
           },
           "focused": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{size.0}"
           },
           "typing": {
             "$type": "number",
-            "$value": "{Size.0}"
+            "$value": "{size.0}"
           }
         },
         "android": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "focused": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "typing": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         }
       }
     }
@@ -2431,7 +2429,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     }
   },
@@ -2514,15 +2512,15 @@
       "size": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{size.48}"
         },
         "border": {
           "radius": {
@@ -2531,12 +2529,12 @@
           },
           "active": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       },
       "label": {
@@ -2595,7 +2593,7 @@
         "size": {
           "gap": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         }
       }
@@ -2636,28 +2634,28 @@
           "width": {
             "android": {
               "$type": "number",
-              "$value": "{Size.56}"
+              "$value": "{size.56}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.56}"
+              "$value": "{size.56}"
             }
           },
           "height": {
             "android": {
               "$type": "number",
-              "$value": "{Size.32}"
+              "$value": "{size.32}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.32}"
+              "$value": "{size.32}"
             }
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -2668,21 +2666,21 @@
           "width": {
             "android": {
               "$type": "number",
-              "$value": "{Size.44}"
+              "$value": "{size.44}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.44}"
+              "$value": "{size.44}"
             }
           },
           "height": {
             "android": {
               "$type": "number",
-              "$value": "{Size.24}"
+              "$value": "{size.24}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.24}"
+              "$value": "{size.24}"
             }
           }
         }
@@ -2715,21 +2713,21 @@
             "large": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.24}"
+                "$value": "{size.24}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.28}"
+                "$value": "{size.28}"
               }
             },
             "small": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.18}"
+                "$value": "{size.18}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.20}"
+                "$value": "{size.20}"
               }
             }
           },
@@ -2737,21 +2735,21 @@
             "large": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.28}"
+                "$value": "{size.28}"
               }
             },
             "small": {
               "android": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{size.12}"
               },
               "ios": {
                 "$type": "number",
-                "$value": "{Size.20}"
+                "$value": "{size.20}"
               }
             }
           }
@@ -2761,7 +2759,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     },
     "color": {
@@ -2795,7 +2793,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       },
       "border": {
         "radius": {
@@ -2804,24 +2802,24 @@
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       }
     }
   },
   "badgeRibbon": {
     "color": {
-      "default": {
+      "exclusive": {
         "bg": {
           "$type": "color",
           "$value": "{color.bg.neutral}"
@@ -2879,7 +2877,7 @@
     "size": {
       "heght": {
         "$type": "number",
-        "$value": "{Size.52}"
+        "$value": "{size.52}"
       }
     }
   },
@@ -2962,22 +2960,22 @@
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -2988,22 +2986,22 @@
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -3015,45 +3013,43 @@
   },
   "badgeSpecial": {
     "color": {
-      "default": {
-        "bg": {
-          "$type": "color",
-          "$value": "{color.bg.marketing.special}"
-        },
-        "text": {
-          "$type": "color",
-          "$value": "{color.text.marketing.special}"
-        },
-        "icon": {
-          "$type": "color",
-          "$value": "{color.icon.marketing.special}"
-        },
-        "border": {
-          "$type": "color",
-          "$value": "{color.border.marketing.special}"
-        }
+      "bg": {
+        "$type": "color",
+        "$value": "{color.bg.marketing.special}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.text.marketing.special}"
+      },
+      "icon": {
+        "$type": "color",
+        "$value": "{color.icon.marketing.special}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.marketing.special}"
       }
     },
     "size": {
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -3064,22 +3060,22 @@
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -3134,7 +3130,7 @@
       "99": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "border": {
           "radius": {
@@ -3146,7 +3142,7 @@
       "number": {
         "height": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "border": {
           "radius": {
@@ -3158,7 +3154,7 @@
       "circle": {
         "height": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         },
         "border": {
           "radius": {
@@ -3263,26 +3259,26 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{size.64}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         },
         "radius": {
           "$type": "number",
@@ -3292,7 +3288,7 @@
       "width": {
         "min": {
           "$type": "number",
-          "$value": "{Size.88}"
+          "$value": "{size.88}"
         }
       }
     }
@@ -3375,22 +3371,22 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.56}"
+        "$value": "{size.56}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         },
         "radius": {
           "$type": "number",
@@ -3404,16 +3400,16 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       }
     }
   },
@@ -3422,16 +3418,16 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.12}"
+        "$value": "{size.12}"
       }
     }
   },
@@ -3449,7 +3445,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     }
   },
@@ -3473,20 +3469,20 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         },
         "border": {
           "radius": {
@@ -3514,21 +3510,21 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.24}"
+          "$value": "{size.24}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "border": {
           "radius": {
@@ -3556,21 +3552,21 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{size.32}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "border": {
           "radius": {
@@ -3610,17 +3606,17 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         },
         "radius": {
           "$type": "number",
@@ -3634,11 +3630,11 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       },
       "border": {
@@ -3649,7 +3645,7 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     },
     "color": {
@@ -3705,12 +3701,12 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.44}"
+        "$value": "{size.44}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         }
       },
       "border": {
@@ -3730,7 +3726,7 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       },
       "border": {
@@ -3742,7 +3738,7 @@
       "vertical": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       }
     },
@@ -3857,21 +3853,21 @@
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -3880,28 +3876,28 @@
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         }
       },
       "sm": {
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -3910,7 +3906,7 @@
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{size.32}"
         }
       }
     }
@@ -3992,20 +3988,20 @@
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{size.48}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
@@ -4015,27 +4011,27 @@
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
@@ -4045,33 +4041,33 @@
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         }
       },
       "xs": {
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{size.32}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.8}"
+            "$value": "{size.8}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "$type": "number",
@@ -4112,35 +4108,35 @@
       "header": {
         "height": {
           "$type": "number",
-          "$value": "{Size.36}"
+          "$value": "{size.36}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           },
           "radius": {
             "android": {
               "$type": "number",
-              "$value": "{Size.28}"
+              "$value": "{size.28}"
             },
             "ios": {
               "$type": "number",
-              "$value": "{Size.40}"
+              "$value": "{size.40}"
             }
           }
         }
@@ -4148,16 +4144,16 @@
       "body": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       },
@@ -4173,22 +4169,22 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "padding": {
         "horizontal": {
           "left": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "right": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     }
@@ -4197,12 +4193,12 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     }
@@ -4221,7 +4217,7 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.40}"
+        "$value": "{size.40}"
       },
       "border": {
         "radius": {
@@ -4248,11 +4244,11 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       }
     }
@@ -4276,36 +4272,36 @@
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.56}"
+          "$value": "{size.56}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.2}"
+            "$value": "{size.2}"
           }
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.24}"
+            "$value": "{size.24}"
           }
         }
       },
       "sm": {
         "height": {
           "$type": "number",
-          "$value": "{Size.32}"
+          "$value": "{size.32}"
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.2}"
+            "$value": "{size.2}"
           }
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       }
@@ -4344,36 +4340,36 @@
       "header": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.0}"
+          "$value": "{size.0}"
         },
         "horizontal": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         },
         "vertical": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       },
       "body": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "horizontal": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         },
         "vertical": {
           "padding": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       }
@@ -4412,12 +4408,12 @@
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.2}"
+        "$value": "{size.2}"
       }
     }
   },
@@ -4425,18 +4421,18 @@
     "size": {
       "padding": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       }
     },
     "content": {
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       },
       "color": {
@@ -4449,11 +4445,11 @@
         "size": {
           "gap": {
             "$type": "number",
-            "$value": "{Size.4}"
+            "$value": "{size.4}"
           },
           "icon": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       }
@@ -4461,7 +4457,7 @@
     "image": {
       "size": {
         "$type": "number",
-        "$value": "{Size.80}"
+        "$value": "{size.80}"
       }
     },
     "color": {
@@ -4481,12 +4477,12 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       }
     }
@@ -4512,28 +4508,28 @@
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.64}"
+          "$value": "{size.64}"
         },
         "padding": {
           "horizontal": {
             "left": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             },
             "right": {
               "$type": "number",
-              "$value": "{Size.4}"
+              "$value": "{size.4}"
             }
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         }
       }
@@ -4552,28 +4548,28 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{size.48}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "padding": {
           "horizontal": {
             "left": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             },
             "right": {
               "$type": "number",
-              "$value": "{Size.12}"
+              "$value": "{size.12}"
             }
           }
         },
         "border": {
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         }
       }
@@ -4589,7 +4585,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       }
     }
   },
@@ -4608,16 +4604,16 @@
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       }
@@ -4637,7 +4633,7 @@
         "size": {
           "height": {
             "$type": "number",
-            "$value": "{Size.64}"
+            "$value": "{size.64}"
           },
           "border": {
             "radius": {
@@ -4650,16 +4646,16 @@
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         }
       }
@@ -4667,7 +4663,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       }
     }
   },
@@ -4685,7 +4681,7 @@
     "size": {
       "padding": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       }
     }
   },
@@ -4693,32 +4689,32 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{size.64}"
       },
       "width": {
         "min": {
           "$type": "number",
-          "$value": "{Size.88}"
+          "$value": "{size.88}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         }
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         },
         "radius": {
           "$type": "number",
@@ -4755,22 +4751,22 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "padding": {
         "horizontal": {
           "left": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "right": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           }
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     },
@@ -4789,7 +4785,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       }
     }
   },
@@ -4808,18 +4804,18 @@
       "padding": {
         "vertical": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       },
       "horizontal": {
         "padding": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       },
       "radius": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     }
   },
@@ -4845,7 +4841,7 @@
     "size": {
       "padding": {
         "$type": "number",
-        "$value": "{Size.40}"
+        "$value": "{size.40}"
       }
     }
   },
@@ -4860,13 +4856,13 @@
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         }
       },
       "md": {
         "height": {
           "$type": "number",
-          "$value": "{Size.56}"
+          "$value": "{size.56}"
         },
         "border": {
           "radius": {
@@ -4875,14 +4871,14 @@
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.3}"
+            "$value": "{size.3}"
           }
         }
       },
       "lg": {
         "height": {
           "$type": "number",
-          "$value": "{Size.64}"
+          "$value": "{size.64}"
         },
         "border": {
           "radius": {
@@ -4997,27 +4993,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               }
             }
           }
@@ -5027,27 +5023,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{size.12}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5057,27 +5053,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5155,27 +5151,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5185,27 +5181,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{size.12}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5215,27 +5211,27 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               }
             },
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5311,17 +5307,17 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               },
               "radius": {
                 "$type": "number",
@@ -5331,11 +5327,11 @@
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5345,17 +5341,17 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{size.12}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               },
               "radius": {
                 "$type": "number",
@@ -5365,11 +5361,11 @@
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5379,17 +5375,17 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               },
               "radius": {
                 "$type": "number",
@@ -5399,11 +5395,11 @@
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5481,17 +5477,17 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               },
               "radius": {
                 "$type": "number",
@@ -5501,11 +5497,11 @@
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5515,17 +5511,17 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.12}"
+                "$value": "{size.12}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               },
               "radius": {
                 "$type": "number",
@@ -5535,11 +5531,11 @@
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5549,17 +5545,17 @@
             "padding": {
               "horizontal": {
                 "$type": "number",
-                "$value": "{Size.16}"
+                "$value": "{size.16}"
               },
               "vertical": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             },
             "border": {
               "width": {
                 "$type": "number",
-                "$value": "{Size.1}"
+                "$value": "{size.1}"
               },
               "radius": {
                 "$type": "number",
@@ -5569,11 +5565,11 @@
             "gap": {
               "title": {
                 "$type": "number",
-                "$value": "{Size.4}"
+                "$value": "{size.4}"
               },
               "action": {
                 "$type": "number",
-                "$value": "{Size.8}"
+                "$value": "{size.8}"
               }
             }
           }
@@ -5596,7 +5592,7 @@
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       }
     }
@@ -5606,7 +5602,7 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     },
@@ -5642,7 +5638,7 @@
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       }
     }
@@ -5666,16 +5662,16 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.16}"
+        "$value": "{size.16}"
       },
       "border": {
         "radius": {
@@ -5684,7 +5680,7 @@
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       }
     }
@@ -5693,7 +5689,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       }
     }
   },
@@ -5719,11 +5715,11 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{size.64}"
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "border": {
         "radius": {
@@ -5732,13 +5728,13 @@
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       },
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       }
     }
@@ -5785,7 +5781,7 @@
     "size": {
       "height": {
         "$type": "number",
-        "$value": "{Size.40}"
+        "$value": "{size.40}"
       }
     }
   },
@@ -5797,7 +5793,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     }
   },
@@ -5806,20 +5802,20 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "height": {
         "$type": "number",
-        "$value": "{Size.64}"
+        "$value": "{size.64}"
       }
     }
   },
@@ -5884,21 +5880,21 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           }
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "border": {
           "radius": {
@@ -5912,20 +5908,20 @@
       "size": {
         "height": {
           "$type": "number",
-          "$value": "{Size.48}"
+          "$value": "{size.48}"
         },
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "padding": {
           "horizontal": {
             "$type": "number",
-            "$value": "{Size.16}"
+            "$value": "{size.16}"
           },
           "vertical": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           }
         },
         "border": {
@@ -5952,21 +5948,21 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.0}"
+        "$value": "{size.0}"
       },
       "border": {
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       }
     }
@@ -5987,11 +5983,11 @@
         "border": {
           "radius": {
             "$type": "number",
-            "$value": "{Size.12}"
+            "$value": "{size.12}"
           },
           "width": {
             "$type": "number",
-            "$value": "{Size.1}"
+            "$value": "{size.1}"
           }
         }
       },
@@ -6000,23 +5996,23 @@
           "padding": {
             "horizontal": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             },
             "vertical": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             }
           },
           "gap": {
             "$type": "number",
-            "$value": "{Size.20}"
+            "$value": "{size.20}"
           }
         },
         "header": {
           "size": {
             "gap": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             }
           }
         },
@@ -6024,7 +6020,7 @@
           "size": {
             "gap": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             }
           }
         },
@@ -6044,11 +6040,11 @@
           "padding": {
             "horizontal": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             },
             "vertical": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             }
           },
           "width": {
@@ -6063,7 +6059,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.20}"
+        "$value": "{size.20}"
       }
     },
     "day": {
@@ -6166,29 +6162,29 @@
       "size": {
         "width": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         },
         "height": {
           "$type": "number",
-          "$value": "{Size.40}"
+          "$value": "{size.40}"
         },
         "border": {
           "radius": {
             "topLeft": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{size.8}"
             },
             "topRight": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{size.8}"
             },
             "bottomRight": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{size.8}"
             },
             "bottomLeft": {
               "$type": "number",
-              "$value": "{Size.8}"
+              "$value": "{size.8}"
             }
           }
         },
@@ -6198,11 +6194,11 @@
               "radius": {
                 "topRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 },
                 "bottomRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 }
               }
             }
@@ -6212,19 +6208,19 @@
               "radius": {
                 "topLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 },
                 "topRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 },
                 "bottomRight": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 },
                 "bottomLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 }
               }
             }
@@ -6234,11 +6230,11 @@
               "radius": {
                 "topLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 },
                 "bottomLeft": {
                   "$type": "number",
-                  "$value": "{Size.0}"
+                  "$value": "{size.0}"
                 }
               }
             }
@@ -6270,7 +6266,7 @@
       "size": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       }
     }
@@ -6291,7 +6287,7 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.12}"
+        "$value": "{size.12}"
       },
       "min-width": {
         "$type": "number",
@@ -6371,12 +6367,12 @@
     "size": {
       "gap": {
         "$type": "number",
-        "$value": "{Size.8}"
+        "$value": "{size.8}"
       },
       "hint": {
         "gap": {
           "$type": "number",
-          "$value": "{Size.4}"
+          "$value": "{size.4}"
         }
       },
       "padding": {
@@ -6384,21 +6380,21 @@
           "horizontal": {
             "left": {
               "$type": "number",
-              "$value": "{Size.16}"
+              "$value": "{size.16}"
             },
             "right": {
               "$type": "number",
-              "$value": "{Size.56}"
+              "$value": "{size.56}"
             }
           }
         },
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.16}"
+          "$value": "{size.16}"
         }
       },
       "border": {
@@ -6408,7 +6404,7 @@
         },
         "width": {
           "$type": "number",
-          "$value": "{Size.1}"
+          "$value": "{size.1}"
         }
       }
     }
@@ -6432,11 +6428,11 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{Size.12}"
+          "$value": "{size.12}"
         },
         "vertical": {
           "$type": "number",
-          "$value": "{Size.8}"
+          "$value": "{size.8}"
         }
       },
       "border": {
@@ -6451,7 +6447,7 @@
       },
       "gap": {
         "$type": "number",
-        "$value": "{Size.4}"
+        "$value": "{size.4}"
       }
     }
   }
