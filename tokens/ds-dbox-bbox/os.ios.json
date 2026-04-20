@@ -1,0 +1,10 @@
+{
+  "viewportWidth": {
+    "$type": "number",
+    "$value": 375
+  },
+  "osName": {
+    "$type": "string",
+    "$value": "ios"
+  }
+}
