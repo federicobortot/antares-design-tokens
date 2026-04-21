@@ -99,9 +99,7 @@
         "$type": "color",
         "$value": "{Pokerstars.Red.1000}"
       }
-    },
-    "$type": "string",
-    "$value": "pokerstars"
+    }
   },
   "accent": {
     "50": {
@@ -550,6 +548,10 @@
       "$type": "number",
       "$value": "{size.128}"
     }
+  },
+  "brandName": {
+    "$type": "string",
+    "$value": "pokerstars"
   },
   "promo": {
     "bg": {

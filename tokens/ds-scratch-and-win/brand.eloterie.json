@@ -99,9 +99,7 @@
         "$type": "color",
         "$value": "{Eloterie.Blue.1000}"
       }
-    },
-    "$type": "string",
-    "$value": "eloterie"
+    }
   },
   "accent": {
     "50": {
@@ -550,6 +548,10 @@
       "$type": "number",
       "$value": "{size.12}"
     }
+  },
+  "brandName": {
+    "$type": "string",
+    "$value": "eloterie"
   },
   "promo": {
     "bg": {

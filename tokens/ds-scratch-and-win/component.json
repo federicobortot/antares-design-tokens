@@ -2433,8 +2433,8 @@
       }
     }
   },
-  "textField": {
-    "inputText": {
+  "inputText": {
+    "textField": {
       "color": {
         "border": {
           "default": {
@@ -2596,6 +2596,12 @@
             "$value": "{size.4}"
           }
         }
+      }
+    },
+    "size": {
+      "gap": {
+        "$type": "number",
+        "$value": "{size.8}"
       }
     }
   },
@@ -4205,13 +4211,61 @@
   },
   "segmentedControlItem": {
     "color": {
-      "bg": {
-        "$type": "color",
-        "$value": "{color.bg.neutral.subtle}"
+      "selected": {
+        "bg": {
+          "$type": "color",
+          "$value": "{color.elevation.element.default}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{color.icon.default}"
+        }
       },
-      "text": {
-        "$type": "color",
-        "$value": "{color.text.default}"
+      "default": {
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{color.bg.action.neutral.subtle.alternate.default}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{color.icon.default}"
+        }
+      },
+      "hover": {
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        },
+        "bg": {
+          "$type": "color",
+          "$value": "{color.bg.action.neutral.subtle.alternate.hover}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{color.icon.default}"
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$type": "color",
+          "$value": "{color.bg.action.neutral.subtle.alternate.disabled}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        },
+        "icon": {
+          "$type": "color",
+          "$value": "{color.icon.disabled}"
+        }
       }
     },
     "size": {
