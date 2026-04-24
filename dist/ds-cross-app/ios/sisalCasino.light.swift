@@ -1,8 +1,8 @@
 import SwiftUI
 
-// Brand: sisalCasino | Mode: light
+// Brand: sisalcasino | Mode: light
 // Generato automaticamente — non modificare manualmente
-struct SisalCasinoLightTokens {
+struct SisalcasinoLightTokens {
   static let buttonColorBrandPrimaryBgDefault = Color(red: 1.0000, green: 0.2431, blue: 0.3098, opacity: 1.0)
   static let buttonColorBrandPrimaryBgHover = Color(red: 0.8314, green: 0.0863, blue: 0.2039, opacity: 1.0)
   static let buttonColorBrandPrimaryBgPressed = Color(red: 0.6549, green: 0.0000, blue: 0.1373, opacity: 1.0)
