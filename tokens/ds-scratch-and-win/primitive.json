@@ -60,19 +60,19 @@
         },
         "10": {
           "$type": "color",
-          "$value": "rgba(0, 0, 0, 0.1)"
+          "$value": "rgba(0, 0, 0, 0.04)"
         },
         "20": {
           "$type": "color",
-          "$value": "rgba(0, 0, 0, 0.2)"
+          "$value": "rgba(0, 0, 0, 0.12)"
         },
         "30": {
           "$type": "color",
-          "$value": "rgba(0, 0, 0, 0.3)"
+          "$value": "rgba(0, 0, 0, 0.2)"
         },
         "40": {
           "$type": "color",
-          "$value": "rgba(0, 0, 0, 0.4)"
+          "$value": "rgba(0, 0, 0, 0.32)"
         },
         "50": {
           "$type": "color",
@@ -94,15 +94,15 @@
         },
         "10": {
           "$type": "color",
-          "$value": "rgba(255, 255, 255, 0.1)"
+          "$value": "rgba(255, 255, 255, 0.08)"
         },
         "20": {
           "$type": "color",
-          "$value": "rgba(255, 255, 255, 0.2)"
+          "$value": "rgba(255, 255, 255, 0.16)"
         },
         "30": {
           "$type": "color",
-          "$value": "rgba(255, 255, 255, 0.3)"
+          "$value": "rgba(255, 255, 255, 0.24)"
         },
         "40": {
           "$type": "color",
@@ -989,20 +989,6 @@
     "128": {
       "$type": "number",
       "$value": 128
-    },
-    "fontWeight": {
-      "regular": {
-        "$type": "number",
-        "$value": 400
-      },
-      "bold": {
-        "$type": "number",
-        "$value": 700
-      },
-      "extraBold": {
-        "$type": "number",
-        "$value": 800
-      }
     }
   },
   "Snai": {
@@ -1660,7 +1646,7 @@
         "$value": "#010E03"
       }
     },
-    "Yellow": {
+    "Gold": {
       "50": {
         "$type": "color",
         "$value": "#FDF3D9"
@@ -1708,6 +1694,56 @@
       "1000": {
         "$type": "color",
         "$value": "#0E0901"
+      }
+    },
+    "Yellow": {
+      "50": {
+        "$type": "color",
+        "$value": "#FFF3D1"
+      },
+      "100": {
+        "$type": "color",
+        "$value": "#FFDD89"
+      },
+      "150": {
+        "$type": "color",
+        "$value": "#FACD4D"
+      },
+      "200": {
+        "$type": "color",
+        "$value": "#F2AE00"
+      },
+      "300": {
+        "$type": "color",
+        "$value": "#EF9817"
+      },
+      "400": {
+        "$type": "color",
+        "$value": "#D77A02"
+      },
+      "500": {
+        "$type": "color",
+        "$value": "#B15600"
+      },
+      "600": {
+        "$type": "color",
+        "$value": "#934516"
+      },
+      "700": {
+        "$type": "color",
+        "$value": "#69330F"
+      },
+      "800": {
+        "$type": "color",
+        "$value": "#431E08"
+      },
+      "900": {
+        "$type": "color",
+        "$value": "#271406"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "#100803"
       }
     }
   }

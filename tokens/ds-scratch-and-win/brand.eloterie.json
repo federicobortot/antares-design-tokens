@@ -104,51 +104,51 @@
   "accent": {
     "50": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.50}"
+      "$value": "{Eloterie.Gold.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.100}"
+      "$value": "{Eloterie.Gold.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.150}"
+      "$value": "{Eloterie.Gold.150}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.200}"
+      "$value": "{Eloterie.Gold.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.300}"
+      "$value": "{Eloterie.Gold.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.400}"
+      "$value": "{Eloterie.Gold.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.500}"
+      "$value": "{Eloterie.Gold.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.600}"
+      "$value": "{Eloterie.Gold.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.700}"
+      "$value": "{Eloterie.Gold.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.800}"
+      "$value": "{Eloterie.Gold.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.900}"
+      "$value": "{Eloterie.Gold.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.1000}"
+      "$value": "{Eloterie.Gold.1000}"
     }
   },
   "neutral": {
@@ -271,23 +271,23 @@
     "alpha": {
       "0": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.0}"
       },
       "100": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.150}"
       },
       "400": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.400}"
       },
       "800": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.800}"
       }
     },
     "transparent": {
@@ -430,19 +430,19 @@
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.700}"
+      "$value": "{Eloterie.Gold.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.800}"
+      "$value": "{Eloterie.Gold.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.900}"
+      "$value": "{Eloterie.Gold.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.1000}"
+      "$value": "{Eloterie.Gold.1000}"
     }
   },
   "info": {
@@ -652,6 +652,20 @@
       "body": {
         "$type": "string",
         "$value": "Titillium Web"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "$type": "number",
+        "$value": 400
+      },
+      "bold": {
+        "$type": "number",
+        "$value": 700
+      },
+      "extraBold": {
+        "$type": "number",
+        "$value": 700
       }
     }
   }

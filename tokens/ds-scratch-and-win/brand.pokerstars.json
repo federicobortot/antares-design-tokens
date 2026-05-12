@@ -271,23 +271,23 @@
     "alpha": {
       "0": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.0}"
       },
       "100": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.150}"
       },
       "400": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.400}"
       },
       "800": {
         "$type": "color",
-        "$value": "{unknown}"
+        "$value": "{CrossBrand.Gray.Alpha.800}"
       }
     },
     "transparent": {
@@ -652,6 +652,20 @@
       "body": {
         "$type": "string",
         "$value": "Roboto"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "$type": "number",
+        "$value": 400
+      },
+      "bold": {
+        "$type": "number",
+        "$value": 700
+      },
+      "extraBold": {
+        "$type": "number",
+        "$value": 800
       }
     }
   }

@@ -10,7 +10,7 @@
     },
     "fontWeight": {
       "$type": "number",
-      "$value": "{size.fontWeight.extraBold}"
+      "$value": "{typography.fontWeight.extraBold}"
     },
     "fontFamily": {
       "$type": "string",
@@ -24,7 +24,7 @@
     },
     "fontWeight": {
       "$type": "number",
-      "$value": "{size.fontWeight.extraBold}"
+      "$value": "{typography.fontWeight.extraBold}"
     },
     "fontSize": {
       "$type": "number",
@@ -42,7 +42,7 @@
     },
     "fontWeight": {
       "$type": "number",
-      "$value": "{size.fontWeight.extraBold}"
+      "$value": "{typography.fontWeight.extraBold}"
     },
     "fontSize": {
       "$type": "number",
@@ -60,7 +60,7 @@
     },
     "fontWeight": {
       "$type": "number",
-      "$value": "{size.fontWeight.extraBold}"
+      "$value": "{typography.fontWeight.extraBold}"
     },
     "fontSize": {
       "$type": "number",
@@ -78,7 +78,7 @@
     },
     "fontWeight": {
       "$type": "number",
-      "$value": "{size.fontWeight.extraBold}"
+      "$value": "{typography.fontWeight.extraBold}"
     },
     "fontSize": {
       "$type": "number",
@@ -97,7 +97,7 @@
       },
       "fontWeight": {
         "$type": "number",
-        "$value": "{size.fontWeight.regular}"
+        "$value": "{typography.fontWeight.regular}"
       },
       "fontSize": {
         "$type": "number",
@@ -115,7 +115,7 @@
       },
       "fontWeight": {
         "$type": "number",
-        "$value": "{size.fontWeight.bold}"
+        "$value": "{typography.fontWeight.bold}"
       },
       "fontSize": {
         "$type": "number",
@@ -134,7 +134,7 @@
         },
         "fontWeight": {
           "$type": "number",
-          "$value": "{size.fontWeight.regular}"
+          "$value": "{typography.fontWeight.regular}"
         },
         "fontSize": {
           "$type": "number",
@@ -152,7 +152,7 @@
         },
         "fontWeight": {
           "$type": "number",
-          "$value": "{size.fontWeight.regular}"
+          "$value": "{typography.fontWeight.bold}"
         },
         "fontSize": {
           "$type": "number",
@@ -173,7 +173,7 @@
       },
       "fontWeight": {
         "$type": "number",
-        "$value": "{size.fontWeight.regular}"
+        "$value": "{typography.fontWeight.regular}"
       },
       "fontSize": {
         "$type": "number",
@@ -191,7 +191,7 @@
       },
       "fontWeight": {
         "$type": "number",
-        "$value": "{size.fontWeight.bold}"
+        "$value": "{typography.fontWeight.bold}"
       },
       "fontSize": {
         "$type": "number",
@@ -210,7 +210,7 @@
         },
         "fontWeight": {
           "$type": "number",
-          "$value": "{size.fontWeight.regular}"
+          "$value": "{typography.fontWeight.regular}"
         },
         "fontSize": {
           "$type": "number",
@@ -228,7 +228,7 @@
         },
         "fontWeight": {
           "$type": "number",
-          "$value": "{size.fontWeight.bold}"
+          "$value": "{typography.fontWeight.bold}"
         },
         "fontSize": {
           "$type": "number",
