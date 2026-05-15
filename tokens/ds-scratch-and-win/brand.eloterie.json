@@ -542,7 +542,7 @@
     },
     "button": {
       "$type": "number",
-      "$value": "{size.128}"
+      "$value": "{size.8}"
     },
     "badge": {
       "$type": "number",

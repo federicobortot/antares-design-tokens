@@ -3,15 +3,15 @@
     "text": {
       "default": {
         "$type": "color",
-        "$value": "{neutral.900}",
-        "bold": {
-          "$type": "color",
-          "$value": "{neutral.1000}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{neutral.500}"
-        }
+        "$value": "{neutral.900}"
+      },
+      "bold": {
+        "$type": "color",
+        "$value": "{neutral.1000}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.500}"
       },
       "accent": {
         "default": {
@@ -661,21 +661,21 @@
     "icon": {
       "default": {
         "$type": "color",
-        "$value": "{neutral.900}",
-        "bold": {
-          "$type": "color",
-          "$value": "{neutral.1000}"
-        },
-        "subtle": {
-          "$type": "color",
-          "$value": "{neutral.500}"
-        }
+        "$value": "{neutral.900}"
       },
       "inverse": {
         "default": {
           "$type": "color",
           "$value": "{neutral.white}"
         }
+      },
+      "bold": {
+        "$type": "color",
+        "$value": "{neutral.1000}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.500}"
       },
       "brand": {
         "primary": {
@@ -997,11 +997,15 @@
       },
       "bold": {
         "$type": "color",
-        "$value": "{neutral.300}"
+        "$value": "{neutral.400}"
       },
       "transparent": {
         "$type": "color",
         "$value": "{neutral.white.alpha.0}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.100}"
       }
     },
     "elevation": {
