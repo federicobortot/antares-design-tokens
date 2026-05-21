@@ -5800,7 +5800,7 @@
       "padding": {
         "horizontal": {
           "$type": "number",
-          "$value": "{size.12}"
+          "$value": "{size.20}"
         },
         "vertical": {
           "$type": "number",
@@ -5811,9 +5811,13 @@
         "$type": "number",
         "$value": "{size.8}"
       },
-      "Number": {
-        "$type": "number",
-        "$value": 0
+      "child": {
+        "padding": {
+          "left": {
+            "$type": "number",
+            "$value": "{size.52}"
+          }
+        }
       }
     }
   },
@@ -6697,14 +6701,26 @@
       }
     },
     "size": {
-      "width": {
-        "$type": "number",
-        "$value": 256
+      "expanded": {
+        "width": {
+          "$type": "number",
+          "$value": 256
+        }
       },
       "border": {
         "width": {
           "$type": "number",
           "$value": "{size.1}"
+        }
+      },
+      "icon": {
+        "$type": "number",
+        "$value": "{size.24}"
+      },
+      "collapsed": {
+        "width": {
+          "$type": "number",
+          "$value": "{size.64}"
         }
       }
     }

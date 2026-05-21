@@ -1104,10 +1104,10 @@ struct SnaiDarkTokens {
   static let sideNavigationItemColorIconSelected = Color(red: 0.9373, green: 0.3922, blue: 0.0314, opacity: 1.0)
   static let sideNavigationItemColorIconDisabled = Color(red: 0.3176, green: 0.3843, blue: 0.4667, opacity: 1.0)
   static let sideNavigationItemSizeHeight: CGFloat = 40
-  static let sideNavigationItemSizePaddingHorizontal: CGFloat = 12
+  static let sideNavigationItemSizePaddingHorizontal: CGFloat = 20
   static let sideNavigationItemSizePaddingVertical: CGFloat = 12
   static let sideNavigationItemSizeGap: CGFloat = 8
-  static let sideNavigationItemSizeNumber: CGFloat = 0
+  static let sideNavigationItemSizeChildPaddingLeft: CGFloat = 52
   static let sideNavigationSizePaddingHorizontal: CGFloat = 0
   static let sideNavigationSizePaddingVertical: CGFloat = 8
   static let sideNavigationSizeGap: CGFloat = 0
@@ -1256,6 +1256,8 @@ struct SnaiDarkTokens {
   static let sidebarHeaderColorBorder = Color(red: 0.5176, green: 0.5922, blue: 0.6902, opacity: 1.0)
   static let sidebarColorBg = Color(red: 0.0745, green: 0.1020, blue: 0.1373, opacity: 1.0)
   static let sidebarColorBorder = Color(red: 0.5176, green: 0.5922, blue: 0.6902, opacity: 1.0)
-  static let sidebarSizeWidth: CGFloat = 256
+  static let sidebarSizeExpandedWidth: CGFloat = 256
   static let sidebarSizeBorderWidth: CGFloat = 1
+  static let sidebarSizeIcon: CGFloat = 24
+  static let sidebarSizeCollapsedWidth: CGFloat = 64
 }

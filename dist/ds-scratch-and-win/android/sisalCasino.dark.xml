@@ -1103,10 +1103,10 @@
   <color name="sidenavigationitem_color_icon_selected">#FFFF3E4F</color>
   <color name="sidenavigationitem_color_icon_disabled">#FF585858</color>
   <dimen name="sidenavigationitem_size_height">40</dimen>
-  <dimen name="sidenavigationitem_size_padding_horizontal">12</dimen>
+  <dimen name="sidenavigationitem_size_padding_horizontal">20</dimen>
   <dimen name="sidenavigationitem_size_padding_vertical">12</dimen>
   <dimen name="sidenavigationitem_size_gap">8</dimen>
-  <dimen name="sidenavigationitem_size_number">0</dimen>
+  <dimen name="sidenavigationitem_size_child_padding_left">52</dimen>
   <dimen name="sidenavigation_size_padding_horizontal">0</dimen>
   <dimen name="sidenavigation_size_padding_vertical">8</dimen>
   <dimen name="sidenavigation_size_gap">0</dimen>
@@ -1255,6 +1255,8 @@
   <color name="sidebar_header_color_border">#FF929292</color>
   <color name="sidebar_color_bg">#FF141414</color>
   <color name="sidebar_color_border">#FF929292</color>
-  <dimen name="sidebar_size_width">256</dimen>
+  <dimen name="sidebar_size_expanded_width">256</dimen>
   <dimen name="sidebar_size_border_width">1</dimen>
+  <dimen name="sidebar_size_icon">24</dimen>
+  <dimen name="sidebar_size_collapsed_width">64</dimen>
 </resources>

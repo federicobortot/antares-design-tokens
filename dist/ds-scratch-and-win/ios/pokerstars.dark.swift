@@ -1104,10 +1104,10 @@ struct PokerstarsDarkTokens {
   static let sideNavigationItemColorIconSelected = Color(red: 0.1294, green: 0.6667, blue: 0.5451, opacity: 1.0)
   static let sideNavigationItemColorIconDisabled = Color(red: 0.3451, green: 0.3451, blue: 0.3451, opacity: 1.0)
   static let sideNavigationItemSizeHeight: CGFloat = 40
-  static let sideNavigationItemSizePaddingHorizontal: CGFloat = 12
+  static let sideNavigationItemSizePaddingHorizontal: CGFloat = 20
   static let sideNavigationItemSizePaddingVertical: CGFloat = 12
   static let sideNavigationItemSizeGap: CGFloat = 8
-  static let sideNavigationItemSizeNumber: CGFloat = 0
+  static let sideNavigationItemSizeChildPaddingLeft: CGFloat = 52
   static let sideNavigationSizePaddingHorizontal: CGFloat = 0
   static let sideNavigationSizePaddingVertical: CGFloat = 8
   static let sideNavigationSizeGap: CGFloat = 0
@@ -1256,6 +1256,8 @@ struct PokerstarsDarkTokens {
   static let sidebarHeaderColorBorder = Color(red: 0.5725, green: 0.5725, blue: 0.5725, opacity: 1.0)
   static let sidebarColorBg = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let sidebarColorBorder = Color(red: 0.5725, green: 0.5725, blue: 0.5725, opacity: 1.0)
-  static let sidebarSizeWidth: CGFloat = 256
+  static let sidebarSizeExpandedWidth: CGFloat = 256
   static let sidebarSizeBorderWidth: CGFloat = 1
+  static let sidebarSizeIcon: CGFloat = 24
+  static let sidebarSizeCollapsedWidth: CGFloat = 64
 }

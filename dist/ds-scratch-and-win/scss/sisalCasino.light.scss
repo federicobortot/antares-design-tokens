@@ -1120,10 +1120,10 @@
   --sideNavigationItem-color-icon-selected: #D41634;
   --sideNavigationItem-color-icon-disabled: #A8A8A8;
   --sideNavigationItem-size-height: 40px;
-  --sideNavigationItem-size-padding-horizontal: 12px;
+  --sideNavigationItem-size-padding-horizontal: 20px;
   --sideNavigationItem-size-padding-vertical: 12px;
   --sideNavigationItem-size-gap: 8px;
-  --sideNavigationItem-size-Number: 0px;
+  --sideNavigationItem-size-child-padding-left: 52px;
   --sideNavigation-size-padding-horizontal: 0px;
   --sideNavigation-size-padding-vertical: 8px;
   --sideNavigation-size-gap: 0px;
@@ -1272,8 +1272,10 @@
   --sidebar-header-color-border: #D1D1D1;
   --sidebar-color-bg: #FFFFFF;
   --sidebar-color-border: #D1D1D1;
-  --sidebar-size-width: 256px;
+  --sidebar-size-expanded-width: 256px;
   --sidebar-size-border-width: 1px;
+  --sidebar-size-icon: 24px;
+  --sidebar-size-collapsed-width: 64px;
   --typography-d1-fontWeight: 800;
   --typography-d2-fontWeight: 800;
   --typography-h1-fontWeight: 800;
