@@ -1,4 +1,130 @@
 {
+  "neutral": {
+    "50": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.50}"
+    },
+    "100": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.100}"
+    },
+    "150": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.150}"
+    },
+    "200": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.200}"
+    },
+    "300": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.300}"
+    },
+    "400": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.400}"
+    },
+    "500": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.500}"
+    },
+    "600": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.600}"
+    },
+    "700": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.700}"
+    },
+    "800": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.800}"
+    },
+    "900": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.900}"
+    },
+    "1000": {
+      "$type": "color",
+      "$value": "{CrossBrand.Gray.1000}"
+    },
+    "transparent": {
+      "$type": "color",
+      "$value": "{CrossBrand.White.Alpha.0}"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}",
+      "alpha": {
+        "0": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.0}"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.10}"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.20}"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.30}"
+        },
+        "40": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.40}"
+        },
+        "50": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.50}"
+        },
+        "60": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.60}"
+        }
+      }
+    },
+    "black": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}",
+      "alpha": {
+        "0": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.0}"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.10}"
+        },
+        "20": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.20}"
+        },
+        "30": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.30}"
+        },
+        "40": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.40}"
+        },
+        "50": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.50}"
+        },
+        "60": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.60}"
+        }
+      }
+    }
+  },
+  "brandName": {
+    "$type": "string",
+    "$value": "sisal"
+  },
   "brand": {
     "primary": {
       "50": {
@@ -24,10 +150,6 @@
       "400": {
         "$type": "color",
         "$value": "{Sisal.Green.400}"
-      },
-      "450": {
-        "$type": "color",
-        "$value": "{Sisal.Green.450}"
       },
       "500": {
         "$type": "color",
@@ -153,150 +275,6 @@
     "1000": {
       "$type": "color",
       "$value": "{Sisal.Orange.1000}"
-    }
-  },
-  "neutral": {
-    "50": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.50}"
-    },
-    "100": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.100}"
-    },
-    "150": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.150}"
-    },
-    "200": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.200}"
-    },
-    "300": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.300}"
-    },
-    "400": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.400}"
-    },
-    "500": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.500}"
-    },
-    "600": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.600}"
-    },
-    "700": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.700}"
-    },
-    "800": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.800}"
-    },
-    "900": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.900}"
-    },
-    "1000": {
-      "$type": "color",
-      "$value": "{CrossBrand.Gray.1000}"
-    },
-    "white": {
-      "$type": "color",
-      "$value": "{CrossBrand.White}",
-      "alpha": {
-        "0": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.0}"
-        },
-        "10": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.10}"
-        },
-        "20": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.20}"
-        },
-        "30": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.30}"
-        },
-        "40": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.40}"
-        },
-        "50": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.50}"
-        },
-        "60": {
-          "$type": "color",
-          "$value": "{CrossBrand.White.Alpha.60}"
-        }
-      }
-    },
-    "black": {
-      "$type": "color",
-      "$value": "{CrossBrand.Black}",
-      "alpha": {
-        "0": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.0}"
-        },
-        "10": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.10}"
-        },
-        "20": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.20}"
-        },
-        "30": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.30}"
-        },
-        "40": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.40}"
-        },
-        "50": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.50}"
-        },
-        "60": {
-          "$type": "color",
-          "$value": "{CrossBrand.Black.Alpha.60}"
-        }
-      }
-    },
-    "alpha": {
-      "0": {
-        "$type": "color",
-        "$value": "{CrossBrand.Gray.Alpha.0}"
-      },
-      "100": {
-        "$type": "color",
-        "$value": "{CrossBrand.Gray.Alpha.100}"
-      },
-      "150": {
-        "$type": "color",
-        "$value": "{CrossBrand.Gray.Alpha.150}"
-      },
-      "400": {
-        "$type": "color",
-        "$value": "{CrossBrand.Gray.Alpha.400}"
-      },
-      "800": {
-        "$type": "color",
-        "$value": "{CrossBrand.Gray.Alpha.800}"
-      }
-    },
-    "transparent": {
-      "$type": "color",
-      "$value": "{CrossBrand.White.Alpha.0}"
     }
   },
   "error": {
@@ -499,10 +477,108 @@
       "$value": "{Sisal.Blue.1000}"
     }
   },
+  "promo": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Gold.200}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Gold.200}"
+    }
+  },
+  "highlight": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.400}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Blue.400}"
+    }
+  },
+  "jackpot": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Teal.200}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.Black}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Teal.200}"
+    }
+  },
+  "special": {
+    "bg": {
+      "$type": "color",
+      "$value": "{CrossBrand.Grape.600}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{CrossBrand.White}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{CrossBrand.Grape.600}"
+    }
+  },
+  "live": {
+    "bg": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "icon": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{Sisal.Red.500}"
+    }
+  },
   "cornerRadius": {
     "none": {
       "$type": "number",
       "$value": "{size.0}"
+    },
+    "xxs": {
+      "$type": "number",
+      "$value": "{size.2}"
+    },
+    "xs": {
+      "$type": "number",
+      "$value": "{size.4}"
     },
     "sm": {
       "$type": "number",
@@ -523,14 +599,6 @@
     "2xl": {
       "$type": "number",
       "$value": "{size.24}"
-    },
-    "xxs": {
-      "$type": "number",
-      "$value": "{size.2}"
-    },
-    "xs": {
-      "$type": "number",
-      "$value": "{size.4}"
     },
     "3xl": {
       "$type": "number",
@@ -553,100 +621,6 @@
       "$value": "{size.12}"
     }
   },
-  "brandName": {
-    "$type": "string",
-    "$value": "sisal"
-  },
-  "promo": {
-    "bg": {
-      "$type": "color",
-      "$value": "{Sisal.Gold.200}"
-    },
-    "text": {
-      "$type": "color",
-      "$value": "{CrossBrand.Black}"
-    },
-    "border": {
-      "$type": "color",
-      "$value": "{Sisal.Gold.200}"
-    },
-    "icon": {
-      "$type": "color",
-      "$value": "{CrossBrand.Black}"
-    }
-  },
-  "highlight": {
-    "bg": {
-      "$type": "color",
-      "$value": "{Sisal.Blue.400}"
-    },
-    "text": {
-      "$type": "color",
-      "$value": "{CrossBrand.White}"
-    },
-    "border": {
-      "$type": "color",
-      "$value": "{Sisal.Blue.400}"
-    },
-    "icon": {
-      "$type": "color",
-      "$value": "{CrossBrand.White}"
-    }
-  },
-  "jackpot": {
-    "bg": {
-      "$type": "color",
-      "$value": "{Sisal.Teal.200}"
-    },
-    "text": {
-      "$type": "color",
-      "$value": "{CrossBrand.Black}"
-    },
-    "icon": {
-      "$type": "color",
-      "$value": "{CrossBrand.Black}"
-    },
-    "border": {
-      "$type": "color",
-      "$value": "{Sisal.Teal.200}"
-    }
-  },
-  "live": {
-    "bg": {
-      "$type": "color",
-      "$value": "{Sisal.Red.500}"
-    },
-    "text": {
-      "$type": "color",
-      "$value": "{Sisal.Red.500}"
-    },
-    "border": {
-      "$type": "color",
-      "$value": "{Sisal.Red.500}"
-    },
-    "icon": {
-      "$type": "color",
-      "$value": "{Sisal.Red.500}"
-    }
-  },
-  "special": {
-    "bg": {
-      "$type": "color",
-      "$value": "{CrossBrand.Purple.600}"
-    },
-    "text": {
-      "$type": "color",
-      "$value": "{CrossBrand.White}"
-    },
-    "border": {
-      "$type": "color",
-      "$value": "{CrossBrand.Purple.600}"
-    },
-    "icon": {
-      "$type": "color",
-      "$value": "{CrossBrand.White}"
-    }
-  },
   "typography": {
     "fontFamily": {
       "heading": {
@@ -656,20 +630,6 @@
       "body": {
         "$type": "string",
         "$value": "Roboto"
-      }
-    },
-    "fontWeight": {
-      "regular": {
-        "$type": "number",
-        "$value": 400
-      },
-      "bold": {
-        "$type": "number",
-        "$value": 700
-      },
-      "extraBold": {
-        "$type": "number",
-        "$value": 800
       }
     }
   }

@@ -3,7 +3,7 @@ import SwiftUI
 // Brand: pokerstars | Mode: light
 // Generato automaticamente — non modificare manualmente
 struct PokerstarsLightTokens {
-  static let buttonColorBrandPrimaryBgDefault = Color(red: 0.1294, green: 0.6667, blue: 0.5451, opacity: 1.0)
+  static let buttonColorBrandPrimaryBgDefault = Color(red: 0.1529, green: 0.5255, blue: 0.4353, opacity: 1.0)
   static let buttonColorBrandPrimaryBgHover = Color(red: 0.0941, green: 0.4000, blue: 0.3255, opacity: 1.0)
   static let buttonColorBrandPrimaryBgPressed = Color(red: 0.0706, green: 0.2784, blue: 0.2275, opacity: 1.0)
   static let buttonColorBrandPrimaryBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
@@ -19,9 +19,9 @@ struct PokerstarsLightTokens {
   static let buttonColorBrandPrimaryBorderHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorBrandPrimaryBorderDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorBrandPrimaryBorderDisabled = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
-  static let buttonColorBrandSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0400)
-  static let buttonColorBrandSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let buttonColorBrandSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorBrandSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1000)
+  static let buttonColorBrandSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorBrandSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let buttonColorBrandSecondaryBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let buttonColorBrandSecondaryTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let buttonColorBrandSecondaryTextHover = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -67,9 +67,9 @@ struct PokerstarsLightTokens {
   static let buttonColorNeutralPrimaryBorderHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorNeutralPrimaryBorderDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorNeutralPrimaryBorderDisabled = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
-  static let buttonColorNeutralSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0400)
-  static let buttonColorNeutralSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let buttonColorNeutralSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorNeutralSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1000)
+  static let buttonColorNeutralSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorNeutralSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let buttonColorNeutralSecondaryBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let buttonColorNeutralSecondaryTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let buttonColorNeutralSecondaryTextHover = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -84,8 +84,8 @@ struct PokerstarsLightTokens {
   static let buttonColorNeutralSecondaryBorderPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorNeutralSecondaryBorderDisabled = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
   static let buttonColorNeutralGhostBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0000)
-  static let buttonColorNeutralGhostBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let buttonColorNeutralGhostBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorNeutralGhostBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorNeutralGhostBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let buttonColorNeutralGhostBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let buttonColorNeutralGhostTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let buttonColorNeutralGhostTextHover = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -115,9 +115,9 @@ struct PokerstarsLightTokens {
   static let buttonColorAccentPrimaryBorderHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorAccentPrimaryBorderDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorAccentPrimaryBorderDisabled = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
-  static let buttonColorAccentSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0400)
-  static let buttonColorAccentSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let buttonColorAccentSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorAccentSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1000)
+  static let buttonColorAccentSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorAccentSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let buttonColorAccentSecondaryBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let buttonColorAccentSecondaryTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let buttonColorAccentSecondaryTextHover = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -163,9 +163,9 @@ struct PokerstarsLightTokens {
   static let buttonColorDangerPrimaryBorderHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorDangerPrimaryBorderDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorDangerPrimaryBorderDisabled = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
-  static let buttonColorDangerSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0400)
-  static let buttonColorDangerSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let buttonColorDangerSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorDangerSecondaryBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1000)
+  static let buttonColorDangerSecondaryBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let buttonColorDangerSecondaryBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let buttonColorDangerSecondaryBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let buttonColorDangerSecondaryTextDefault = Color(red: 0.8431, green: 0.0392, blue: 0.0392, opacity: 1.0)
   static let buttonColorDangerSecondaryTextHover = Color(red: 0.7098, green: 0.0000, blue: 0.0118, opacity: 1.0)
@@ -212,9 +212,9 @@ struct PokerstarsLightTokens {
   static let buttonColorInversePrimaryBorderDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let buttonColorInversePrimaryBorderDisabled = Color(red: 0.3451, green: 0.3451, blue: 0.3451, opacity: 1.0)
   static let buttonColorInverseSecondaryBgDisabled = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
-  static let buttonColorInverseSecondaryBgPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.2400)
-  static let buttonColorInverseSecondaryBgDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0800)
-  static let buttonColorInverseSecondaryBgHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.1600)
+  static let buttonColorInverseSecondaryBgPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.3000)
+  static let buttonColorInverseSecondaryBgDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.1000)
+  static let buttonColorInverseSecondaryBgHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.2000)
   static let buttonColorInverseSecondaryIconDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let buttonColorInverseSecondaryIconHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let buttonColorInverseSecondaryIconPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
@@ -228,8 +228,8 @@ struct PokerstarsLightTokens {
   static let buttonColorInverseSecondaryBorderPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let buttonColorInverseSecondaryBorderDisabled = Color(red: 0.3451, green: 0.3451, blue: 0.3451, opacity: 1.0)
   static let buttonColorInverseGhostBgDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
-  static let buttonColorInverseGhostBgHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.1600)
-  static let buttonColorInverseGhostBgPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.2400)
+  static let buttonColorInverseGhostBgHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.2000)
+  static let buttonColorInverseGhostBgPressed = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.3000)
   static let buttonColorInverseGhostBgDisabled = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
   static let buttonColorInverseGhostTextDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let buttonColorInverseGhostTextHover = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
@@ -283,7 +283,6 @@ struct PokerstarsLightTokens {
   static let badgeDefaultColorYellowBg = Color(red: 1.0000, green: 0.7804, blue: 0.3765, opacity: 1.0)
   static let badgeDefaultColorYellowText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let badgeDefaultColorYellowIcon = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let badgeDefaultColorBlackBg = Color(red: 0.0039, green: 0.0039, blue: 0.0039, opacity: 1.0)
   static let badgeDefaultColorBlackText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeDefaultColorBlackIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeDefaultColorGreenBg = Color(red: 0.2745, green: 0.6784, blue: 0.2824, opacity: 1.0)
@@ -421,7 +420,6 @@ struct PokerstarsLightTokens {
   static let pageControlSizeBorderRadius: CGFloat = 128
   static let pageControlSizeGap: CGFloat = 4
   static let listingItemTitleColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let listingItemParagraphColorTextSubtle = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let listingItemParagraphColorTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let listingItemTrailingTextColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let listingItemLeadSizeGapSm: CGFloat = 8
@@ -440,7 +438,6 @@ struct PokerstarsLightTokens {
   static let radioRadioButtonCheckedDefault = Color(red: 0.1529, green: 0.5255, blue: 0.4353, opacity: 1.0)
   static let radioRadioButtonCheckedDisabled = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let radioRadioButtonSize: CGFloat = 20
-  static let radioSupportingTextColorTextDefault = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let radioSupportingTextColorTextDisabled = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let radioContentSizePadding: CGFloat = 0
   static let radioContentSizeGap: CGFloat = 4
@@ -485,7 +482,6 @@ struct PokerstarsLightTokens {
   static let inputTextColorBgDefault = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let inputTextColorBgHover = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
-  static let inputTextColorIconDefault = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let inputTextColorIconDisabled = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let inputTextColorIconError = Color(red: 0.8431, green: 0.0392, blue: 0.0392, opacity: 1.0)
   static let inputTextColorIconActive = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -528,7 +524,6 @@ struct PokerstarsLightTokens {
   static let toggleColorTextDisabled = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let cardColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let cardColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let cardColorBorder = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
   static let cardSizeGap: CGFloat = 16
   static let cardSizeBorderRadius: CGFloat = 20
   static let cardSizeBorderWidth: CGFloat = 1
@@ -684,7 +679,7 @@ struct PokerstarsLightTokens {
   static let timerLgSizeGap: CGFloat = 0
   static let timerLgSizeBorderRadius: CGFloat = 8
   static let timerColorIcon = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let jackpotInfoColorBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0000)
+  static let jackpotInfoColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let jackpotInfoColorText = Color(red: 0.0039, green: 0.0039, blue: 0.0039, opacity: 1.0)
   static let jackpotInfoColorIcon = Color(red: 0.0039, green: 0.0039, blue: 0.0039, opacity: 1.0)
   static let jackpotInfoColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
@@ -696,7 +691,7 @@ struct PokerstarsLightTokens {
   static let bingoInfoSizePaddingVertical: CGFloat = 4
   static let bingoInfoSizeBorderRadius: CGFloat = 8
   static let bingoInfoSizeGap: CGFloat = 4
-  static let bingoInfoColorBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0000)
+  static let bingoInfoColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 0.0000)
   static let bingoInfoColorText = Color(red: 0.0039, green: 0.0039, blue: 0.0039, opacity: 1.0)
   static let bingoInfoColorIcon = Color(red: 0.0039, green: 0.0039, blue: 0.0039, opacity: 1.0)
   static let bingoInfoColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
@@ -747,7 +742,7 @@ struct PokerstarsLightTokens {
   static let chipSizeSmBorderWidth: CGFloat = 1
   static let chipSizeSmBorderRadius: CGFloat = 12
   static let chipSizeSmHeight: CGFloat = 32
-  static let buttonFilterBgDefault = Color(red: 0.1294, green: 0.6667, blue: 0.5451, opacity: 1.0)
+  static let buttonFilterBgDefault = Color(red: 0.1529, green: 0.5255, blue: 0.4353, opacity: 1.0)
   static let buttonFilterBgHover = Color(red: 0.0941, green: 0.4000, blue: 0.3255, opacity: 1.0)
   static let buttonFilterBgPressed = Color(red: 0.0706, green: 0.2784, blue: 0.2275, opacity: 1.0)
   static let buttonFilterBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
@@ -810,7 +805,7 @@ struct PokerstarsLightTokens {
   static let segmentedControlItemColorDefaultBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0000)
   static let segmentedControlItemColorDefaultIcon = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let segmentedControlItemColorHoverText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let segmentedControlItemColorHoverBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
+  static let segmentedControlItemColorHoverBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
   static let segmentedControlItemColorHoverIcon = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let segmentedControlItemColorDisabledBg = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let segmentedControlItemColorDisabledText = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
@@ -931,7 +926,6 @@ struct PokerstarsLightTokens {
   static let quicklinkListingSizeRadius: CGFloat = 8
   static let footerColorElements = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let footerColorBg = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
-  static let footerColorText = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let footerColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let footerSizePadding: CGFloat = 40
   static let avatarSizeSmBorderRadius: CGFloat = 128
@@ -944,12 +938,9 @@ struct PokerstarsLightTokens {
   static let avatarSizeLgBorderRadius: CGFloat = 128
   static let avatarSizeLgBorderWidth: CGFloat = 1
   static let avatarColorDefaultBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0000)
-  static let avatarColorDefaultIcon = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let avatarColorDefaultBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
-  static let avatarColorHoverBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let avatarColorHoverIcon = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
-  static let avatarColorPressedBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
-  static let avatarColorPressedIcon = Color(red: 0.0353, green: 0.0353, blue: 0.0353, opacity: 1.0)
+  static let avatarColorHoverBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let avatarColorPressedBg = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let alertStickyColorBgError = Color(red: 1.0000, green: 0.9373, blue: 0.9373, opacity: 1.0)
   static let alertStickyColorBgWarning = Color(red: 0.9882, green: 0.9490, blue: 0.8824, opacity: 1.0)
   static let alertStickyColorBgInfo = Color(red: 0.9176, green: 0.9608, blue: 0.9922, opacity: 1.0)
@@ -1101,8 +1092,8 @@ struct PokerstarsLightTokens {
   static let tablecellSizeGap: CGFloat = 8
   static let tablecellSizeHeight: CGFloat = 64
   static let sideNavigationItemColorBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.0000)
-  static let sideNavigationItemColorBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.1200)
-  static let sideNavigationItemColorBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let sideNavigationItemColorBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.2000)
+  static let sideNavigationItemColorBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3000)
   static let sideNavigationItemColorBgSelected = Color(red: 0.8196, green: 0.9922, blue: 0.9333, opacity: 1.0)
   static let sideNavigationItemColorBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let sideNavigationItemColorTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -1137,7 +1128,7 @@ struct PokerstarsLightTokens {
   static let datePickerPopoverSidePanelSizePaddingVertical: CGFloat = 16
   static let datePickerPopoverSidePanelSizeWidth: CGFloat = 240
   static let calendarSizeGap: CGFloat = 20
-  static let calendarDayColor = Color(red: 1.0000, green: 0.0000, blue: 1.0000, opacity: 1.0)
+  static let calendarDayColor = Color(red: 1.0000, green: 0.0000, blue: 0.9412, opacity: 1.0)
   static let calendarDayColorStartBgSelected = Color(red: 0.1529, green: 0.5255, blue: 0.4353, opacity: 1.0)
   static let calendarDayColorStartTextSelected = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let calendarDayColorMiddleBgSelected = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
@@ -1150,7 +1141,7 @@ struct PokerstarsLightTokens {
   static let calendarDayColorTextHover = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let calendarDayColorTextDisabled = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let calendarDayColorTextPressed = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let calendarDayColorBgDefault = Color(red: 1.0000, green: 0.0000, blue: 1.0000, opacity: 1.0)
+  static let calendarDayColorBgDefault = Color(red: 1.0000, green: 0.0000, blue: 0.9412, opacity: 1.0)
   static let calendarDayColorBgHover = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let calendarDayColorBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let calendarDayColorBgPressed = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
@@ -1173,7 +1164,6 @@ struct PokerstarsLightTokens {
   static let calendarMonthWeekHeaderColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let calendarMonthSizeGap: CGFloat = 8
   static let uploadTitleColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
-  static let uploadParagraphColorText = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let uploadSizeGap: CGFloat = 12
   static let uploadSizeMinWidth: CGFloat = 280
   static let uploadItemColorProgressBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
@@ -1216,7 +1206,6 @@ struct PokerstarsLightTokens {
   static let fieldMessageColorIconError = Color(red: 0.8431, green: 0.0392, blue: 0.0392, opacity: 1.0)
   static let fieldMessageSizeGap: CGFloat = 4
   static let fieldInputGroupGap: CGFloat = 8
-  static let iconboxColorIcon = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let scrollBarColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let scrollBarColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let scrollBarSizeBorderWidth: CGFloat = 0.5
@@ -1272,16 +1261,33 @@ struct PokerstarsLightTokens {
   static let sidebarSizeBorderWidth: CGFloat = 1
   static let sidebarSizeIcon: CGFloat = 24
   static let sidebarSizeCollapsedWidth: CGFloat = 64
+  static let badgeColorGreenInverseBg = Color(red: 0.0431, green: 0.4902, blue: 0.2431, opacity: 1.0)
   static let badgeColorGreenInverseIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeColorGreenInverseText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let badgeColorGreenInverseBorder = Color(red: 0.5176, green: 0.7333, blue: 0.2667, opacity: 1.0)
+  static let badgeColorGreenDefaultBg = Color(red: 0.8510, green: 0.9294, blue: 0.5804, opacity: 1.0)
+  static let badgeColorGreenDefaultIcon = Color(red: 0.0431, green: 0.4902, blue: 0.2431, opacity: 1.0)
+  static let badgeColorGreenDefaultText = Color(red: 0.0431, green: 0.4902, blue: 0.2431, opacity: 1.0)
+  static let badgeColorGreenDefaultBorder = Color(red: 0.5176, green: 0.7333, blue: 0.2667, opacity: 1.0)
   static let badgeColorGreenSubtleBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let badgeColorGreenSubtleIcon = Color(red: 0.0431, green: 0.4902, blue: 0.2431, opacity: 1.0)
+  static let badgeColorGreenSubtleText = Color(red: 0.0431, green: 0.4902, blue: 0.2431, opacity: 1.0)
+  static let badgeColorGreenSubtleBorder = Color(red: 0.5176, green: 0.7333, blue: 0.2667, opacity: 1.0)
+  static let badgeColorPurpleInverseBg = Color(red: 0.4039, green: 0.2784, blue: 1.0000, opacity: 1.0)
   static let badgeColorPurpleInverseIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeColorPurpleInverseText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleInverseBorder = Color(red: 0.6078, green: 0.6078, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleDefaultBg = Color(red: 0.8863, green: 0.8941, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleDefaultIcon = Color(red: 0.4039, green: 0.2784, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleDefaultText = Color(red: 0.4039, green: 0.2784, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleDefaultBorder = Color(red: 0.6078, green: 0.6078, blue: 1.0000, opacity: 1.0)
   static let badgeColorPurpleSubtleBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
-  static let badgeColorNeutralInverseBg = Color(red: 0.3451, green: 0.3451, blue: 0.3451, opacity: 1.0)
+  static let badgeColorPurpleSubtleIcon = Color(red: 0.4039, green: 0.2784, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleSubtleText = Color(red: 0.4039, green: 0.2784, blue: 1.0000, opacity: 1.0)
+  static let badgeColorPurpleSubtleBorder = Color(red: 0.6078, green: 0.6078, blue: 1.0000, opacity: 1.0)
   static let badgeColorNeutralInverseIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeColorNeutralInverseText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
-  static let badgeColorNeutralInverseBorder = Color(red: 0.5725, green: 0.5725, blue: 0.5725, opacity: 1.0)
+  static let badgeColorNeutralInverseBorder = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let badgeColorNeutralDefaultBg = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let badgeColorNeutralDefaultIcon = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let badgeColorNeutralDefaultText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
@@ -1290,9 +1296,18 @@ struct PokerstarsLightTokens {
   static let badgeColorNeutralSubtleIcon = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let badgeColorNeutralSubtleText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let badgeColorNeutralSubtleBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
+  static let badgeColorRedInverseBg = Color(red: 0.8314, green: 0.0863, blue: 0.2039, opacity: 1.0)
   static let badgeColorRedInverseIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeColorRedInverseText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let badgeColorRedInverseBorder = Color(red: 1.0000, green: 0.4706, blue: 0.4706, opacity: 1.0)
+  static let badgeColorRedDefaultBg = Color(red: 1.0000, green: 0.8667, blue: 0.8588, opacity: 1.0)
+  static let badgeColorRedDefaultIcon = Color(red: 0.8314, green: 0.0863, blue: 0.2039, opacity: 1.0)
+  static let badgeColorRedDefaultText = Color(red: 0.8314, green: 0.0863, blue: 0.2039, opacity: 1.0)
+  static let badgeColorRedDefaultBorder = Color(red: 1.0000, green: 0.4706, blue: 0.4706, opacity: 1.0)
   static let badgeColorRedSubtleBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let badgeColorRedSubtleIcon = Color(red: 0.8314, green: 0.0863, blue: 0.2039, opacity: 1.0)
+  static let badgeColorRedSubtleText = Color(red: 0.8314, green: 0.0863, blue: 0.2039, opacity: 1.0)
+  static let badgeColorRedSubtleBorder = Color(red: 1.0000, green: 0.4706, blue: 0.4706, opacity: 1.0)
   static let badgeSizeSmPadding: CGFloat = 8
   static let badgeSizeSmHeight: CGFloat = 24
   static let badgeSizeSmGap: CGFloat = 4
