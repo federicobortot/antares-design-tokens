@@ -25,6 +25,10 @@
         "$type": "color",
         "$value": "{Sisal.Green.400}"
       },
+      "450": {
+        "$type": "color",
+        "$value": "{Sisal.Green.450}"
+      },
       "500": {
         "$type": "color",
         "$value": "{Sisal.Green.500}"

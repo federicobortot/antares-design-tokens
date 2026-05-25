@@ -1,10 +1,11 @@
-import { readFileSync, writeFileSync, mkdirSync, readdirSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, unlinkSync } from 'fs';
 import { join } from 'path';
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const TOKENS_DIR = 'tokens';
 const PREFIX = '';
+const OUTPUT_FORMATS = ['css', 'scss', 'ios', 'android', 'tailwind'];
 
 // ─── Discovery ──────────────────────────────────────────────────────────────
 
@@ -122,7 +123,7 @@ function resolveRef(ref, tree, visited = new Set()) {
   return ref;
 }
 
-function flattenTokens(obj, tree, prefix = '', _skipped = { count: 0 }) {
+function flattenTokens(obj, tree, prefix = '', _skipped = { count: 0 }, _unresolved = [], _context = 'default') {
   const result = {};
   const META_KEYS = ['type', '$type', 'value', '$value', 'description', '$description', 'extensions', '$extensions'];
 
@@ -143,7 +144,15 @@ function flattenTokens(obj, tree, prefix = '', _skipped = { count: 0 }) {
           resolved = resolveRef(resolved, tree);
         }
         // Scarta token con riferimenti non risolti (es. collezione OS non caricata)
-        if (typeof resolved === 'string' && resolved.startsWith('{')) { _skipped.count++; continue; }
+        if (typeof resolved === 'string' && resolved.startsWith('{')) {
+          _skipped.count++;
+          _unresolved.push({
+            context: _context,
+            token: fullKey,
+            reference: resolved,
+          });
+          continue;
+        }
         result[fullKey] = { value: resolved, type: val['$type'] ?? val['type'] ?? 'unknown' };
       }
 
@@ -153,11 +162,84 @@ function flattenTokens(obj, tree, prefix = '', _skipped = { count: 0 }) {
           tree,
           fullKey,
           _skipped
+          ,
+          _unresolved,
+          _context
         ));
       }
     }
   }
   return result;
+}
+
+function buildUnresolvedTokensReport(allDesignSystems) {
+  const escapeTableCell = (value) => String(value).replace(/\|/g, '\\|');
+  const generatedAt = new Date().toISOString();
+  const total = allDesignSystems.reduce(
+    (sum, dsEntry) => sum + dsEntry.variants.reduce((variantSum, entry) => variantSum + entry.items.length, 0),
+    0
+  );
+  const lines = [
+    `UNRESOLVED TOKENS REPORT`,
+    `======================`,
+    `Generato: ${generatedAt}`,
+    ``,
+  ];
+
+  if (total === 0) {
+    lines.push(`Nessun token non interpolato trovato durante la build.`);
+    lines.push(``);
+    return lines.join('\n');
+  }
+
+  lines.push(`Token non interpolati trovati: ${total}`);
+  lines.push(``);
+
+  for (const dsEntry of allDesignSystems) {
+    const dsTotal = dsEntry.variants.reduce((sum, entry) => sum + entry.items.length, 0);
+    lines.push(`Design system: ${dsEntry.ds}`);
+    lines.push(`Token non interpolati: ${dsTotal}`);
+    lines.push(``);
+
+    for (const entry of dsEntry.variants) {
+      if (entry.items.length === 0) continue;
+
+      lines.push(`${entry.brand}.${entry.mode}`);
+      lines.push(`----------------`);
+      lines.push(``);
+      lines.push(`| context | token | reference |`);
+      lines.push(`| --- | --- | --- |`);
+
+      for (const item of entry.items) {
+        lines.push(`| ${escapeTableCell(item.context)} | ${escapeTableCell(item.token)} | ${escapeTableCell(item.reference)} |`);
+      }
+
+      lines.push(``);
+    }
+
+    lines.push(``);
+  }
+
+  return lines.join('\n');
+}
+
+function writeUnresolvedTokensReport(distDir, allDesignSystems) {
+  const report = buildUnresolvedTokensReport(allDesignSystems);
+  writeFileSync(join(distDir, 'UNRESOLVED_TOKENS.txt'), report, 'utf-8');
+}
+
+function removeLegacyPerFormatReports(distDs) {
+  for (const format of OUTPUT_FORMATS) {
+    const legacyTxtPath = join(distDs, format, 'UNRESOLVED_TOKENS.txt');
+    if (existsSync(legacyTxtPath)) {
+      unlinkSync(legacyTxtPath);
+    }
+
+    const legacyReadmePath = join(distDs, format, 'README.md');
+    if (existsSync(legacyReadmePath)) {
+      unlinkSync(legacyReadmePath);
+    }
+  }
 }
 
 // ─── Serializers ──────────────────────────────────────────────────────────────
@@ -397,6 +479,8 @@ if (dsList.length === 0) {
 
 console.log(`\nDesign System trovati: ${dsList.join(', ')}`);
 
+const unresolvedByDs = [];
+
 for (const ds of dsList) {
   const dsDir = join(TOKENS_DIR, ds);
   const brands = discoverBrands(dsDir);
@@ -410,9 +494,13 @@ for (const ds of dsList) {
   if (modes.length === 0)  { console.warn(`  ⚠ Nessun mode trovato, skip.`);  continue; }
 
   // Crea directory di output per questo DS
-  for (const fmt of ['css', 'scss', 'ios', 'android', 'tailwind']) {
+  for (const fmt of OUTPUT_FORMATS) {
     mkdirSync(join('dist', ds, fmt), { recursive: true });
   }
+
+  const distDs = join('dist', ds);
+  removeLegacyPerFormatReports(distDs);
+  const unresolvedByVariant = [];
 
   // Carica file condivisi del DS
   const baseFiles = discoverBaseFiles(dsDir);
@@ -465,9 +553,10 @@ for (const ds of dsList) {
 
       // Component tokens
       const skipped = { count: 0 };
-      const componentMobileFlat  = flattenTokens(component, mobileTree,  '', skipped);
+      const unresolvedTokens = [];
+      const componentMobileFlat  = flattenTokens(component, mobileTree,  '', skipped, unresolvedTokens, 'component.mobile');
       const componentDesktopFlat = desktopTree
-        ? flattenTokens(component, desktopTree, '', { count: 0 })
+        ? flattenTokens(component, desktopTree, '', { count: 0 }, unresolvedTokens, 'component.desktop')
         : componentMobileFlat;
 
       // Typography tokens (optional)
@@ -476,9 +565,9 @@ for (const ds of dsList) {
       let fontFamilyVars = {};
 
       if (typographyJson) {
-        typographyMobileFlat  = flattenTokens(typographyJson, mobileTree,  'typography', { count: 0 });
+        typographyMobileFlat  = flattenTokens(typographyJson, mobileTree,  'typography', { count: 0 }, unresolvedTokens, 'typography.mobile');
         typographyDesktopFlat = desktopTree
-          ? flattenTokens(typographyJson, desktopTree, 'typography', { count: 0 })
+          ? flattenTokens(typographyJson, desktopTree, 'typography', { count: 0 }, unresolvedTokens, 'typography.desktop')
           : typographyMobileFlat;
 
         // Extract fontFamily tokens → brand-scoped :root block
@@ -502,7 +591,6 @@ for (const ds of dsList) {
       }
 
       const count  = Object.keys(mainFlat).length;
-      const distDs = join('dist', ds);
 
       writeFileSync(join(distDs, 'css',     `${brand}.${mode}.css`),
         serializeResponsiveCss(mainFlat, desktopOverrides, fontFamilyVars, brand, mode), 'utf-8');
@@ -518,12 +606,25 @@ for (const ds of dsList) {
         tailwindWritten = true;
       }
 
+      unresolvedByVariant.push({
+        brand,
+        mode,
+        items: unresolvedTokens,
+      });
+
       const skippedMsg = skipped.count > 0 ? ` (ignorati ${skipped.count} token OS non risolti)` : '';
       const desktopMsg = Object.keys(desktopOverrides).length > 0
         ? ` + ${Object.keys(desktopOverrides).length} desktop overrides` : '';
       console.log(`    ✓ ${count} token → CSS/SCSS${desktopMsg}, Swift, Android XML, Tailwind preset${skippedMsg}`);
     }
   }
+
+  unresolvedByDs.push({
+    ds,
+    variants: unresolvedByVariant,
+  });
 }
+
+writeUnresolvedTokensReport('dist', unresolvedByDs);
 
 console.log('\n✅ Build completata.');

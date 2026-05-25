@@ -25,6 +25,10 @@
         "$type": "color",
         "$value": "{Pokerstars.Teal.400}"
       },
+      "450": {
+        "$type": "color",
+        "$value": "{Pokerstars.Teal.400}"
+      },
       "500": {
         "$type": "color",
         "$value": "{Pokerstars.Teal.500}"

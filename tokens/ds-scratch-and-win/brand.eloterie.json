@@ -25,6 +25,10 @@
         "$type": "color",
         "$value": "{Eloterie.Blue.400}"
       },
+      "450": {
+        "$type": "color",
+        "$value": "{Eloterie.Blue.400}"
+      },
       "500": {
         "$type": "color",
         "$value": "{Eloterie.Blue.500}"

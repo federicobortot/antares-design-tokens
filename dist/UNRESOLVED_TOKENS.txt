@@ -1,0 +1,1215 @@
+UNRESOLVED TOKENS REPORT
+======================
+Generato: 2026-05-25T10:10:23.107Z
+
+Token non interpolati trovati: 966
+
+Design system: ds-cross-app
+Token non interpolati: 8
+
+pokerstars.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+pokerstars.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+sisal.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+sisal.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+sisalcasino.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+sisalcasino.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+snai.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+snai.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
+
+
+Design system: ds-dbox-bbox
+Token non interpolati: 48
+
+dbox.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+dbox.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+pokerstars.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+pokerstars.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+sisal.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+sisal.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+snai.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+snai.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | button-color-ghost-border-default | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-hover | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-pressed | {neutral.alpha.0} |
+| component.mobile | button-color-ghost-border-disabled | {neutral.alpha.0} |
+| component.mobile | scrimOverlay-color-bg | {neutral.alpha.800} |
+| component.mobile | progressBar-color-text-selected | {DBOX.neutral.900} |
+
+
+Design system: ds-generosity-platform
+Token non interpolati: 130
+
+eloterie.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+eloterie.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+pokerstars.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+pokerstars.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+sisal.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+sisal.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+sisalcasino.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+sisalcasino.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+snai.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+snai.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
+| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
+| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
+| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
+| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
+| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
+| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
+| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
+| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
+| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+
+
+Design system: ds-scratch-and-win
+Token non interpolati: 780
+
+eloterie.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.700} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.300} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.700} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.700} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.400} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+eloterie.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.100} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.100} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.100} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.200} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+pokerstars.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.700} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.300} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.700} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.700} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.400} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+pokerstars.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.100} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.100} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.100} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.200} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+sisal-business.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.700} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.300} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.700} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.700} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.400} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+sisal-business.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.100} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.100} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.100} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.200} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+sisal.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.700} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.300} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.700} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.700} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.400} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+sisal.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.100} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.100} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.100} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.200} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+sisalcasino.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.700} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.300} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.700} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.700} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.400} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+sisalcasino.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.100} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.100} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.100} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.200} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+snai.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.700} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.150} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.500} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.300} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.700} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.150} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.400} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.700} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.400} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.300} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.400} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+
+snai.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | badge-color-green-inverse-bg | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-inverse-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-default-bg | {CrossBrand.Green.100} |
+| component.mobile | badge-color-green-default-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-default-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-green-subtle-icon | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-text | {CrossBrand.Green.500} |
+| component.mobile | badge-color-green-subtle-border | {CrossBrand.Green.300} |
+| component.mobile | badge-color-purple-inverse-bg | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-inverse-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-default-bg | {CrossBrand.Purple.100} |
+| component.mobile | badge-color-purple-default-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-default-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-purple-subtle-icon | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-text | {CrossBrand.Purple.500} |
+| component.mobile | badge-color-purple-subtle-border | {CrossBrand.Purple.200} |
+| component.mobile | badge-color-red-inverse-bg | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-inverse-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-default-bg | {CrossBrand.Red.100} |
+| component.mobile | badge-color-red-default-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-default-border | {CrossBrand.Red.200} |
+| component.mobile | badge-color-red-subtle-icon | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-text | {CrossBrand.Red.500} |
+| component.mobile | badge-color-red-subtle-border | {CrossBrand.Red.200} |
+| typography.mobile | typography-d1-fontSize | {typography.d1.fontSize} |
+| typography.mobile | typography-d1-lineHeight | {typography.d1.lineHeight} |
+| typography.mobile | typography-d2-fontSize | {typography.d2.fontSize} |
+| typography.mobile | typography-d2-lineHeight | {typography.d2.lineHeight} |
+| typography.mobile | typography-h1-fontSize | {typography.h1.fontSize} |
+| typography.mobile | typography-h1-lineHeight | {typography.h1.lineHeight} |
+| typography.mobile | typography-h2-fontSize | {typography.h2.fontSize} |
+| typography.mobile | typography-h2-lineHeight | {typography.h2.lineHeight} |
+| typography.mobile | typography-h3-fontSize | {typography.h3.fontSize} |
+| typography.mobile | typography-h3-lineHeight | {typography.h3.lineHeight} |
+| typography.mobile | typography-p-regular-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-regular-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-bold-fontSize | {typography.p.fontSize} |
+| typography.mobile | typography-p-bold-lineHeight | {typography.p.lineHeight} |
+| typography.mobile | typography-p-lead-regular-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-regular-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-p-lead-bold-fontSize | {typography.p.lead.fontSize} |
+| typography.mobile | typography-p-lead-bold-lineHeight | {typography.p.lead.lineHeight} |
+| typography.mobile | typography-caption-regular-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-regular-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-bold-fontSize | {typography.caption.fontSize} |
+| typography.mobile | typography-caption-bold-lineHeight | {typography.caption.lineHeight} |
+| typography.mobile | typography-caption-micro-regular-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-regular-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-caption-micro-bold-fontSize | {typography.caption.micro.fontSize} |
+| typography.mobile | typography-caption-micro-bold-lineHeight | {typography.caption.micro.lineHeight} |
+| typography.mobile | typography-button-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-fontSize | {typography.button.fontSize} |
+| typography.mobile | typography-button-lineHeight | {typography.button.lineHeight} |
+| typography.mobile | typography-button-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-button-micro-fontSize | {typography.button.micro.fontSize} |
+| typography.mobile | typography-button-micro-lineHeight | {typography.button.micro.lineHeight} |
+| typography.mobile | typography-link-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-fontSize | {typography.link.fontSize} |
+| typography.mobile | typography-link-lineHeight | {typography.link.lineHeight} |
+| typography.mobile | typography-link-micro-fontWeight | {size.fontWeight.bold} |
+| typography.mobile | typography-link-micro-fontSize | {typography.link.micro.fontSize} |
+| typography.mobile | typography-link-micro-lineHeight | {typography.link.micro.lineHeight} |
+

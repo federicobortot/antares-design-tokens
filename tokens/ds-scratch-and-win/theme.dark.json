@@ -603,7 +603,11 @@
       },
       "inverse": {
         "$type": "color",
-        "$value": "{neutral.white}"
+        "$value": "{neutral.white}",
+        "subtle": {
+          "$type": "color",
+          "$value": "{neutral.300}"
+        }
       },
       "danger": {
         "$type": "color",

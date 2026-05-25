@@ -246,15 +246,15 @@
           "primary": {
             "default": {
               "$type": "color",
-              "$value": "{brand.primary.400}"
+              "$value": "{brand.primary.450}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{brand.primary.500}"
+              "$value": "{brand.primary.600}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{brand.primary.600}"
+              "$value": "{brand.primary.700}"
             },
             "subtle": {
               "default": {
@@ -294,15 +294,15 @@
               "bold": {
                 "default": {
                   "$type": "color",
-                  "$value": "{brand.primary.400}"
+                  "$value": "{brand.primary.500}"
                 },
                 "hover": {
                   "$type": "color",
-                  "$value": "{brand.primary.500}"
+                  "$value": "{brand.primary.600}"
                 },
                 "pressed": {
                   "$type": "color",
-                  "$value": "{brand.primary.600}"
+                  "$value": "{brand.primary.700}"
                 },
                 "disabled": {
                   "$type": "color",
@@ -318,15 +318,15 @@
           "secondary": {
             "default": {
               "$type": "color",
-              "$value": "{brand.secondary.400}"
+              "$value": "{brand.secondary.500}"
             },
             "hover": {
               "$type": "color",
-              "$value": "{brand.secondary.500}"
+              "$value": "{brand.secondary.600}"
             },
             "pressed": {
               "$type": "color",
-              "$value": "{brand.secondary.600}"
+              "$value": "{brand.secondary.700}"
             },
             "selected": {
               "default": {
@@ -348,15 +348,15 @@
               "bold": {
                 "default": {
                   "$type": "color",
-                  "$value": "{brand.secondary.400}"
+                  "$value": "{brand.secondary.500}"
                 },
                 "hover": {
                   "$type": "color",
-                  "$value": "{brand.secondary.500}"
+                  "$value": "{brand.secondary.600}"
                 },
                 "pressed": {
                   "$type": "color",
-                  "$value": "{brand.secondary.600}"
+                  "$value": "{brand.secondary.700}"
                 },
                 "disabled": {
                   "$type": "color",
@@ -603,7 +603,11 @@
       },
       "inverse": {
         "$type": "color",
-        "$value": "{neutral.black}"
+        "$value": "{neutral.black}",
+        "subtle": {
+          "$type": "color",
+          "$value": "{neutral.600}"
+        }
       },
       "danger": {
         "$type": "color",

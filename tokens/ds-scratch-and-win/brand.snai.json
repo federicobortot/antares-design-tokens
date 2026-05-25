@@ -25,6 +25,10 @@
         "$type": "color",
         "$value": "{Snai.Orange.400}"
       },
+      "450": {
+        "$type": "color",
+        "$value": "{Snai.Orange.400}"
+      },
       "500": {
         "$type": "color",
         "$value": "{Snai.Orange.500}"

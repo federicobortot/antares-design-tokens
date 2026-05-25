@@ -251,6 +251,10 @@
         "$type": "color",
         "$value": "#5FA747"
       },
+      "450": {
+        "$type": "color",
+        "$value": "#4F934C"
+      },
       "500": {
         "$type": "color",
         "$value": "#0B7D3E"
@@ -552,6 +556,10 @@
       "400": {
         "$type": "color",
         "$value": "#21AA8B"
+      },
+      "450": {
+        "$type": "color",
+        "$value": "#01967A"
       },
       "500": {
         "$type": "color",
@@ -995,15 +1003,15 @@
     "Cloud": {
       "50": {
         "$type": "color",
-        "$value": "#ECF4FF"
+        "$value": "#F1F5FA"
       },
       "100": {
         "$type": "color",
-        "$value": "#DAE4F0"
+        "$value": "#DCE4EE"
       },
       "150": {
         "$type": "color",
-        "$value": "#C9D6E5"
+        "$value": "#CBD6E3"
       },
       "200": {
         "$type": "color",

@@ -3,105 +3,105 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "{Casinò.Red.50}"
+        "$value": "{Sisal.Forest.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Casinò.Red.100}"
+        "$value": "{Sisal.Forest.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Casinò.Red.150}"
+        "$value": "{Sisal.Forest.150}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Casinò.Red.200}"
+        "$value": "{Sisal.Forest.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Casinò.Red.300}"
+        "$value": "{Sisal.Forest.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Casinò.Red.400}"
+        "$value": "{Sisal.Forest.400}"
       },
       "450": {
         "$type": "color",
-        "$value": "{Casinò.Red.400}"
+        "$value": "{Sisal.Forest.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Casinò.Red.500}"
+        "$value": "{Sisal.Forest.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Casinò.Red.600}"
+        "$value": "{Sisal.Forest.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Casinò.Red.700}"
+        "$value": "{Sisal.Forest.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Casinò.Red.800}"
+        "$value": "{Sisal.Forest.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Casinò.Red.900}"
+        "$value": "{Sisal.Forest.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Casinò.Red.1000}"
+        "$value": "{Sisal.Forest.1000}"
       }
     },
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "{Casinò.Purple.50}"
+        "$value": "{Sisal.Green.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Casinò.Purple.100}"
+        "$value": "{Sisal.Green.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Casinò.Purple.150}"
+        "$value": "{Sisal.Green.150}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Casinò.Purple.200}"
+        "$value": "{Sisal.Green.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Casinò.Purple.300}"
+        "$value": "{Sisal.Green.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Casinò.Purple.400}"
+        "$value": "{Sisal.Green.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Casinò.Purple.500}"
+        "$value": "{Sisal.Green.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Casinò.Purple.600}"
+        "$value": "{Sisal.Green.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Casinò.Purple.700}"
+        "$value": "{Sisal.Green.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Casinò.Purple.800}"
+        "$value": "{Sisal.Green.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Casinò.Purple.900}"
+        "$value": "{Sisal.Green.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Casinò.Purple.1000}"
+        "$value": "{Sisal.Green.1000}"
       }
     }
   },
@@ -546,7 +546,7 @@
     },
     "button": {
       "$type": "number",
-      "$value": "{size.128}"
+      "$value": "{size.12}"
     },
     "badge": {
       "$type": "number",
@@ -555,7 +555,7 @@
   },
   "brandName": {
     "$type": "string",
-    "$value": "sisal-casino"
+    "$value": "sisal"
   },
   "promo": {
     "bg": {
