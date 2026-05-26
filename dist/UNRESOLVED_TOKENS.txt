@@ -1,8 +1,8 @@
 UNRESOLVED TOKENS REPORT
 ======================
-Generato: 2026-05-25T12:22:27.211Z
+Generato: 2026-05-26T08:05:22.755Z
 
-Token non interpolati trovati: 402
+Token non interpolati trovati: 218
 
 Design system: ds-cross-app
 Token non interpolati: 8
@@ -359,329 +359,85 @@ snai.light
 
 
 Design system: ds-scratch-and-win
-Token non interpolati: 216
-
-dbox.dark
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-dbox.light
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
+Token non interpolati: 32
 
 eloterie.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 eloterie.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-mdjs.dark
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-mdjs.light
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-millipiyango.dark
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-millipiyango.light
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 pokerstars.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 pokerstars.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 sisal.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 sisal.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-sisalbusiness.dark
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-sisalbusiness.light
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-sisalcasino.dark
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
-
-sisalcasino.light
-----------------
-
-| context | token | reference |
-| --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
-| component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
-| component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
-| component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
-| component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 snai.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 
 snai.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | badgeDefault-color-Black-bg | {color.bg.inverse} |
 | component.mobile | listingItem-paragraph-color-text-subtle | {color.text.subtle} |
 | component.mobile | radio-supportingText-color-text-default | {color.text.subtle} |
-| component.mobile | inputText-color-icon-default | {color.icon.subtle} |
-| component.mobile | card-color-border | {color.border.subtle} |
 | component.mobile | footer-color-text | {color.text.subtle} |
-| component.mobile | avatar-color-default-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-hover-icon | {color.icon.subtle} |
-| component.mobile | avatar-color-pressed-icon | {color.icon.bold} |
 | component.mobile | upload-paragraph-color-text | {color.text.subtle} |
-| component.mobile | iconbox-color-icon | {color.icon.subtle} |
-| component.mobile | badge-color-neutral-inverse-bg | {color.bg.inverse.subtle} |
 

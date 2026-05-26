@@ -151,6 +151,10 @@
         "$type": "color",
         "$value": "{Eloterie.Blue.400}"
       },
+      "450": {
+        "$type": "color",
+        "$value": "{Eloterie.Blue.400}"
+      },
       "500": {
         "$type": "color",
         "$value": "{Eloterie.Blue.500}"
@@ -630,6 +634,20 @@
       "body": {
         "$type": "string",
         "$value": "Titillium Web"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "$type": "number",
+        "$value": 400
+      },
+      "bold": {
+        "$type": "number",
+        "$value": 700
+      },
+      "extraBold": {
+        "$type": "number",
+        "$value": 800
       }
     }
   }

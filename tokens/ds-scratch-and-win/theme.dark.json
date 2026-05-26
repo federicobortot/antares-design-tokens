@@ -17,11 +17,15 @@
         "$type": "color",
         "$value": "{info.800}"
       },
-      "neutral": {
-        "inverse": {
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.white}",
+        "subtle": {
           "$type": "color",
-          "$value": "{neutral.white}"
-        },
+          "$value": "{neutral.200}"
+        }
+      },
+      "neutral": {
         "subtle": {
           "$type": "color",
           "$value": "{neutral.800}"
@@ -739,15 +743,15 @@
         "$type": "color",
         "$value": "{neutral.500}"
       },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.400}"
+      },
+      "bold": {
+        "$type": "color",
+        "$value": "{neutral.white}"
+      },
       "default": {
-        "subtle": {
-          "$type": "color",
-          "$value": "{neutral.400}"
-        },
-        "bold": {
-          "$type": "color",
-          "$value": "{neutral.white}"
-        },
         "$type": "color",
         "$value": "{neutral.white}"
       },
@@ -781,6 +785,10 @@
             "pressed": {
               "$type": "color",
               "$value": "{brand.primary.200}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{neutral.600}"
             }
           }
         },
@@ -813,6 +821,10 @@
             "pressed": {
               "$type": "color",
               "$value": "{brand.secondary.100}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{neutral.600}"
             }
           }
         }
@@ -855,14 +867,6 @@
         "$type": "color",
         "$value": "{error.400}"
       },
-      "inverse": {
-        "default": {
-          "$type": "color",
-          "$value": "{neutral.900}"
-        },
-        "$type": "color",
-        "$value": "{neutral.900}"
-      },
       "marketing": {
         "promo": {
           "$type": "color",
@@ -884,6 +888,10 @@
           "$type": "color",
           "$value": "{special.icon}"
         }
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{neutral.900}"
       },
       "decorative": {
         "green": {
@@ -1088,6 +1096,10 @@
           "$type": "color",
           "$value": "{CrossBrand.Purple.500}"
         }
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{neutral.700}"
       }
     },
     "elevation": {

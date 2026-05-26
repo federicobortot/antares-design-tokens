@@ -3473,48 +3473,6 @@
       }
     }
   },
-  "jackpotInfo": {
-    "color": {
-      "bg": {
-        "$type": "color",
-        "$value": "{color.bg.transparent}"
-      },
-      "text": {
-        "$type": "color",
-        "$value": "{neutral.black}"
-      },
-      "icon": {
-        "$type": "color",
-        "$value": "{neutral.black}"
-      },
-      "border": {
-        "$type": "color",
-        "$value": "{color.border.neutral.default}"
-      }
-    },
-    "size": {
-      "padding": {
-        "horizontal": {
-          "$type": "number",
-          "$value": "{size.4}"
-        },
-        "vertical": {
-          "$type": "number",
-          "$value": "{size.4}"
-        }
-      },
-      "border": {
-        "width": {
-          "$type": "number",
-          "$value": "{size.1}"
-        },
-        "radius": {
-          "$type": "number",
-          "$value": "{cornerRadius.xs}"
-        }
-      }
-    }
-  },
   "bingoInfo": {
     "size": {
       "padding": {
@@ -4313,24 +4271,32 @@
   },
   "modal": {
     "color": {
-      "header": {
-        "bg": {
-          "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
-        },
-        "title": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.elevation.overlay.default}"
+      }
+    },
+    "header": {
+      "color": {
+        "text": {
           "$type": "color",
           "$value": "{color.text.default}"
-        },
-        "handle": {
-          "$type": "color",
-          "$value": "{color.bg.neutral.bold}"
         }
       },
-      "body": {
-        "bg": {
-          "$type": "color",
-          "$value": "{color.elevation.overlay.default}"
+      "size": {
+        "gap": {
+          "$type": "number",
+          "$value": "{size.0}"
+        },
+        "padding": {
+          "horizontal": {
+            "$type": "number",
+            "$value": "{size.16}"
+          },
+          "vertical": {
+            "$type": "number",
+            "$value": "{size.16}"
+          }
         }
       }
     },
@@ -4338,28 +4304,12 @@
       "border": {
         "radius": {
           "$type": "number",
-          "$value": "{cornerRadius.md}"
+          "$value": "{size.12}"
         }
-      },
-      "header": {
-        "gap": {
-          "$type": "number",
-          "$value": "{size.0}"
-        },
-        "horizontal": {
-          "padding": {
-            "$type": "number",
-            "$value": "{size.16}"
-          }
-        },
-        "vertical": {
-          "padding": {
-            "$type": "number",
-            "$value": "{size.16}"
-          }
-        }
-      },
-      "body": {
+      }
+    },
+    "body": {
+      "size": {
         "gap": {
           "$type": "number",
           "$value": "{size.16}"
