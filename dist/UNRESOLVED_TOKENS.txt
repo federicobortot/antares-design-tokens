@@ -1,6 +1,6 @@
 UNRESOLVED TOKENS REPORT
 ======================
-Generato: 2026-06-17T21:24:51.302Z
+Generato: 2026-06-18T07:15:15.196Z
 
 Token non interpolati trovati: 186
 
