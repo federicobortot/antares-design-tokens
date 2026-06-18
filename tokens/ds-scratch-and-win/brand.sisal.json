@@ -83,6 +83,14 @@
         "60": {
           "$type": "color",
           "$value": "{CrossBrand.White.Alpha.60}"
+        },
+        "70": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.70}"
+        },
+        "80": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.80}"
         }
       }
     },
@@ -117,6 +125,14 @@
         "60": {
           "$type": "color",
           "$value": "{CrossBrand.Black.Alpha.60}"
+        },
+        "70": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.70}"
+        },
+        "80": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.80}"
         }
       }
     }
@@ -571,46 +587,10 @@
       "$value": "{Sisal.Red.500}"
     }
   },
-  "cornerRadius": {
+  "borderRadius": {
     "none": {
       "$type": "number",
       "$value": "{size.0}"
-    },
-    "xxs": {
-      "$type": "number",
-      "$value": "{size.2}"
-    },
-    "xs": {
-      "$type": "number",
-      "$value": "{size.4}"
-    },
-    "sm": {
-      "$type": "number",
-      "$value": "{size.8}"
-    },
-    "md": {
-      "$type": "number",
-      "$value": "{size.12}"
-    },
-    "lg": {
-      "$type": "number",
-      "$value": "{size.16}"
-    },
-    "xl": {
-      "$type": "number",
-      "$value": "{size.20}"
-    },
-    "2xl": {
-      "$type": "number",
-      "$value": "{size.24}"
-    },
-    "3xl": {
-      "$type": "number",
-      "$value": "{size.28}"
-    },
-    "4xl": {
-      "$type": "number",
-      "$value": "{size.32}"
     },
     "full": {
       "$type": "number",
@@ -618,7 +598,7 @@
     },
     "button": {
       "$type": "number",
-      "$value": "{size.12}"
+      "$value": "{size.8}"
     },
     "badge": {
       "$type": "number",

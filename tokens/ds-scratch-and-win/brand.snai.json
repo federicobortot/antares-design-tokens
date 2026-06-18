@@ -83,6 +83,14 @@
         "60": {
           "$type": "color",
           "$value": "{CrossBrand.White.Alpha.60}"
+        },
+        "70": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.70}"
+        },
+        "80": {
+          "$type": "color",
+          "$value": "{CrossBrand.White.Alpha.80}"
         }
       }
     },
@@ -117,6 +125,14 @@
         "60": {
           "$type": "color",
           "$value": "{CrossBrand.Black.Alpha.60}"
+        },
+        "70": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.70}"
+        },
+        "80": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.80}"
         }
       }
     }
@@ -129,105 +145,105 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "{Snai.Orange.50}"
+        "$value": "{Snai.Alt Orange.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Snai.Orange.100}"
+        "$value": "{Snai.Alt Orange.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Snai.Orange.150}"
+        "$value": "{Snai.Alt Orange.150}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Snai.Orange.200}"
+        "$value": "{Snai.Alt Orange.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Snai.Orange.300}"
+        "$value": "{Snai.Alt Orange.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Snai.Orange.400}"
+        "$value": "{Snai.Alt Orange.400}"
       },
       "450": {
         "$type": "color",
-        "$value": "{Snai.Orange.400}"
+        "$value": "{Snai.Alt Orange.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Snai.Orange.500}"
+        "$value": "{Snai.Alt Orange.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Snai.Orange.600}"
+        "$value": "{Snai.Alt Orange.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Snai.Orange.700}"
+        "$value": "{Snai.Alt Orange.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Snai.Orange.800}"
+        "$value": "{Snai.Alt Orange.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Snai.Orange.900}"
+        "$value": "{Snai.Alt Orange.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Snai.Orange.1000}"
+        "$value": "{Snai.Alt Orange.1000}"
       }
     },
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "{Snai.Orange.50}"
+        "$value": "{Snai.Alt Orange.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Snai.Orange.100}"
+        "$value": "{Snai.Alt Orange.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Snai.Orange.150}"
+        "$value": "{Snai.Alt Orange.150}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Snai.Orange.200}"
+        "$value": "{Snai.Alt Orange.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Snai.Orange.300}"
+        "$value": "{Snai.Alt Orange.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Snai.Orange.400}"
+        "$value": "{Snai.Alt Orange.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Snai.Orange.500}"
+        "$value": "{Snai.Alt Orange.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Snai.Orange.600}"
+        "$value": "{Snai.Alt Orange.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Snai.Orange.700}"
+        "$value": "{Snai.Alt Orange.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Snai.Orange.800}"
+        "$value": "{Snai.Alt Orange.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Snai.Orange.900}"
+        "$value": "{Snai.Alt Orange.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Snai.Orange.1000}"
+        "$value": "{Snai.Alt Orange.1000}"
       }
     }
   },
@@ -571,46 +587,10 @@
       "$value": "{CrossBrand.Gray.1000}"
     }
   },
-  "cornerRadius": {
+  "borderRadius": {
     "none": {
       "$type": "number",
       "$value": "{size.0}"
-    },
-    "xxs": {
-      "$type": "number",
-      "$value": "{size.2}"
-    },
-    "xs": {
-      "$type": "number",
-      "$value": "{size.4}"
-    },
-    "sm": {
-      "$type": "number",
-      "$value": "{size.8}"
-    },
-    "md": {
-      "$type": "number",
-      "$value": "{size.12}"
-    },
-    "lg": {
-      "$type": "number",
-      "$value": "{size.16}"
-    },
-    "xl": {
-      "$type": "number",
-      "$value": "{size.20}"
-    },
-    "2xl": {
-      "$type": "number",
-      "$value": "{size.24}"
-    },
-    "3xl": {
-      "$type": "number",
-      "$value": "{size.28}"
-    },
-    "4xl": {
-      "$type": "number",
-      "$value": "{size.32}"
     },
     "full": {
       "$type": "number",

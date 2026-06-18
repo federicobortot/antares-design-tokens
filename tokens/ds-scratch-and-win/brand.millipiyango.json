@@ -145,356 +145,356 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.50}"
+        "$value": "{Millipiyango.blue.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.100}"
+        "$value": "{Millipiyango.blue.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.150}"
+        "$value": "{Millipiyango.blue.200}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.200}"
+        "$value": "{Millipiyango.blue.250}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.300}"
+        "$value": "{Millipiyango.blue.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.400}"
+        "$value": "{Millipiyango.blue.400}"
       },
       "450": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.400}"
+        "$value": "{Millipiyango.blue.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.500}"
+        "$value": "{Millipiyango.blue.500t}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.600}"
+        "$value": "{Millipiyango.blue.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.700}"
+        "$value": "{Millipiyango.blue.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.800}"
+        "$value": "{Millipiyango.blue.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.900}"
+        "$value": "{Millipiyango.blue.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.1000}"
+        "$value": "{Millipiyango.blue.1000}"
       }
     },
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.50}"
+        "$value": "{Millipiyango.blue.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.100}"
+        "$value": "{Millipiyango.blue.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.150}"
+        "$value": "{Millipiyango.blue.200}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.200}"
+        "$value": "{Millipiyango.blue.250}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.300}"
+        "$value": "{Millipiyango.blue.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.400}"
+        "$value": "{Millipiyango.blue.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.500}"
+        "$value": "{Millipiyango.blue.500t}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.600}"
+        "$value": "{Millipiyango.blue.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.700}"
+        "$value": "{Millipiyango.blue.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.800}"
+        "$value": "{Millipiyango.blue.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.900}"
+        "$value": "{Millipiyango.blue.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Eloterie.Blue.1000}"
+        "$value": "{Millipiyango.blue.1000}"
       }
     }
   },
   "accent": {
     "50": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.50}"
+      "$value": "{Millipiyango.orange.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.100}"
+      "$value": "{Millipiyango.orange.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.150}"
+      "$value": "{Millipiyango.orange.200}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.200}"
+      "$value": "{Millipiyango.orange.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.300}"
+      "$value": "{Millipiyango.orange.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.400}"
+      "$value": "{Millipiyango.orange.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.500}"
+      "$value": "{Millipiyango.orange.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.600}"
+      "$value": "{Millipiyango.orange.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.700}"
+      "$value": "{Millipiyango.orange.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.800}"
+      "$value": "{Millipiyango.orange.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.900}"
+      "$value": "{Millipiyango.orange.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.1000}"
+      "$value": "{Millipiyango.orange.1000}"
     }
   },
   "error": {
     "50": {
       "$type": "color",
-      "$value": "{Eloterie.Red.50}"
+      "$value": "{CrossBrand.Red.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Eloterie.Red.100}"
+      "$value": "{CrossBrand.Red.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Eloterie.Red.150}"
+      "$value": "{CrossBrand.Red.150}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Eloterie.Red.200}"
+      "$value": "{CrossBrand.Red.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Eloterie.Red.300}"
+      "$value": "{CrossBrand.Red.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Eloterie.Red.400}"
+      "$value": "{CrossBrand.Red.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Eloterie.Red.500}"
+      "$value": "{CrossBrand.Red.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Eloterie.Red.600}"
+      "$value": "{CrossBrand.Red.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Red.700}"
+      "$value": "{CrossBrand.Red.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Red.800}"
+      "$value": "{CrossBrand.Red.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Red.900}"
+      "$value": "{CrossBrand.Red.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Red.1000}"
+      "$value": "{CrossBrand.Red.1000}"
     }
   },
   "success": {
     "50": {
       "$type": "color",
-      "$value": "{Eloterie.Green.50}"
+      "$value": "{CrossBrand.Green.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Eloterie.Green.100}"
+      "$value": "{CrossBrand.Green.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Eloterie.Green.150}"
+      "$value": "{CrossBrand.Green.150}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Eloterie.Green.200}"
+      "$value": "{CrossBrand.Green.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Eloterie.Green.300}"
+      "$value": "{CrossBrand.Green.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Eloterie.Green.400}"
+      "$value": "{CrossBrand.Green.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Eloterie.Green.500}"
+      "$value": "{CrossBrand.Green.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Eloterie.Green.600}"
+      "$value": "{CrossBrand.Green.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Green.700}"
+      "$value": "{CrossBrand.Green.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Green.800}"
+      "$value": "{CrossBrand.Green.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Green.900}"
+      "$value": "{CrossBrand.Green.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Green.1000}"
+      "$value": "{CrossBrand.Green.1000}"
     }
   },
   "warning": {
     "50": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.50}"
+      "$value": "{CrossBrand.Yellow.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.100}"
+      "$value": "{CrossBrand.Yellow.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.150}"
+      "$value": "{CrossBrand.Yellow.150}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.200}"
+      "$value": "{CrossBrand.Yellow.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.300}"
+      "$value": "{CrossBrand.Yellow.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.400}"
+      "$value": "{CrossBrand.Yellow.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.500}"
+      "$value": "{CrossBrand.Yellow.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.600}"
+      "$value": "{CrossBrand.Yellow.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.700}"
+      "$value": "{CrossBrand.Yellow.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.800}"
+      "$value": "{CrossBrand.Yellow.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.900}"
+      "$value": "{CrossBrand.Yellow.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Yellow.1000}"
+      "$value": "{CrossBrand.Yellow.1000}"
     }
   },
   "info": {
     "50": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.50}"
+      "$value": "{CrossBrand.Blue.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.100}"
+      "$value": "{CrossBrand.Blue.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.150}"
+      "$value": "{CrossBrand.Blue.150}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.200}"
+      "$value": "{CrossBrand.Blue.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.300}"
+      "$value": "{CrossBrand.Blue.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.400}"
+      "$value": "{CrossBrand.Blue.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.500}"
+      "$value": "{CrossBrand.Blue.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.600}"
+      "$value": "{CrossBrand.Blue.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.700}"
+      "$value": "{CrossBrand.Blue.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.800}"
+      "$value": "{CrossBrand.Blue.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.900}"
+      "$value": "{CrossBrand.Blue.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Eloterie.Blue.1000}"
+      "$value": "{CrossBrand.Blue.1000}"
     }
   },
   "promo": {
@@ -609,11 +609,11 @@
     "fontFamily": {
       "heading": {
         "$type": "string",
-        "$value": "Titillium Web"
+        "$value": "DM Sans"
       },
       "body": {
         "$type": "string",
-        "$value": "Titillium Web"
+        "$value": "DM Sans"
       }
     },
     "fontWeight": {
