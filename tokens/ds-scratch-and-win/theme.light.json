@@ -51,7 +51,7 @@
           "$value": "{neutral.300}"
         },
         "$type": "color",
-        "$value": "{neutral.50}",
+        "$value": "{neutral.100}",
         "alternate": {
           "$type": "color",
           "$value": "{neutral.black.alpha.10}"

@@ -1253,11 +1253,7 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.subtler}"
-      },
-      "border": {
-        "$type": "color",
-        "$value": "{color.border.neutral.default}"
+        "$value": "{color.bg.neutral.subtle}"
       }
     },
     "size": {
@@ -5167,7 +5163,7 @@
     "color": {
       "bg": {
         "$type": "color",
-        "$value": "{color.bg.neutral.bold}"
+        "$value": "{color.bg.neutral}"
       },
       "appliedOrder": {
         "border": {
@@ -5202,7 +5198,7 @@
         },
         "odd": {
           "$type": "color",
-          "$value": "{color.bg.neutral}"
+          "$value": "{color.bg.neutral.subtle}"
         }
       }
     }
@@ -6530,6 +6526,28 @@
               "$type": "color",
               "$value": "{color.border.brand.primary.disabled}"
             }
+          },
+          "icon": {
+            "default": {
+              "$type": "color",
+              "$value": "{color.icon.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{color.icon.inverse}"
+            },
+            "pressed": {
+              "$type": "color",
+              "$value": "{color.icon.inverse}"
+            },
+            "selected": {
+              "$type": "color",
+              "$value": "{color.icon.inverse}"
+            },
+            "disabled": {
+              "$type": "color",
+              "$value": "{color.icon.disabled}"
+            }
           }
         },
         "size": {
@@ -6645,6 +6663,86 @@
         "border": {
           "$type": "color",
           "$value": "{color.border.neutral.default}"
+        }
+      }
+    },
+    "PAFCard": {
+      "PafCardHeader": {
+        "size": {
+          "mobile": {
+            "padding": {
+              "horizontal": {
+                "$type": "number",
+                "$value": "{size.12}"
+              },
+              "vertical": {
+                "$type": "number",
+                "$value": "{size.12}"
+              }
+            },
+            "border": {
+              "width": {
+                "$type": "number",
+                "$value": "{size.1}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{size.12}"
+              }
+            },
+            "gap": {
+              "text": {
+                "$type": "number",
+                "$value": "{size.16}"
+              },
+              "icon": {
+                "$type": "number",
+                "$value": "{size.12}"
+              }
+            }
+          },
+          "desktop": {
+            "padding": {
+              "horizontal": {
+                "$type": "number",
+                "$value": "{size.12}"
+              },
+              "vertical": {
+                "$type": "number",
+                "$value": "{size.12}"
+              }
+            },
+            "border": {
+              "width": {
+                "$type": "number",
+                "$value": "{size.1}"
+              },
+              "radius": {
+                "$type": "number",
+                "$value": "{size.12}"
+              }
+            },
+            "gap": {
+              "text": {
+                "$type": "number",
+                "$value": "{size.16}"
+              },
+              "icon": {
+                "$type": "number",
+                "$value": "{size.12}"
+              }
+            }
+          }
+        },
+        "color": {
+          "bg": {
+            "$type": "color",
+            "$value": "{color.bg.neutral.subtler}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{color.text.default}"
+          }
         }
       }
     }

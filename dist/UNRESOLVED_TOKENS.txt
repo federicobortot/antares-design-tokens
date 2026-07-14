@@ -1,8 +1,8 @@
 UNRESOLVED TOKENS REPORT
 ======================
-Generato: 2026-06-18T07:15:15.196Z
+Generato: 2026-07-14T14:32:31.320Z
 
-Token non interpolati trovati: 186
+Token non interpolati trovati: 76
 
 Design system: ds-cross-app
 Token non interpolati: 8
@@ -165,197 +165,87 @@ snai.light
 
 
 Design system: ds-generosity-platform
-Token non interpolati: 130
+Token non interpolati: 20
 
 eloterie.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 eloterie.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 pokerstars.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 pokerstars.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 sisal.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 sisal.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 sisalcasino.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 sisalcasino.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 snai.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 snai.light
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
-| component.mobile | color-text-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-text-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-text-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-bg-decorative-red | {CrossBrand.Red.700} |
-| component.mobile | color-bg-decorative-green | {CrossBrand.Green.700} |
-| component.mobile | color-bg-decorative-purple | {CrossBrand.Purple.700} |
-| component.mobile | color-icon-decorative-red | {CrossBrand.Red.300} |
-| component.mobile | color-icon-decorative-green | {CrossBrand.Green.150} |
-| component.mobile | color-icon-decorative-purple | {CrossBrand.Purple.150} |
-| component.mobile | color-border-decorative-green | {CrossBrand.Green.500} |
-| component.mobile | color-border-decorative-red | {CrossBrand.Red.400} |
-| component.mobile | color-border-decorative-purple | {CrossBrand.Purple.400} |
-| component.mobile | color-elevation-backdrop-inverse | {CrossBrand.Gray.Alpha.0} |
+| component.mobile | color-border-focus | {color.border.brand.primary.selected.main} |
+| component.mobile | color-highlight | {color.bg.brand.primary.bolder} |
 
 
 Design system: ds-scratch-and-win
