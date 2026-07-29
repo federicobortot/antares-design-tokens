@@ -1433,21 +1433,72 @@
   --datePicker-size-border-width: 1px;
   --datePickerMenu-color-bg: #FFFFFF;
   --datePickerMenu-color-border: #D1D1D1;
+  --typography-d1-fontSize: 1.75rem;
+  --typography-d1-lineHeight: 2rem;
   --typography-d1-fontWeight: 800;
   --typography-d2-fontWeight: 800;
+  --typography-d2-fontSize: 1.5rem;
+  --typography-d2-lineHeight: 1.75rem;
   --typography-h1-fontWeight: 800;
+  --typography-h1-fontSize: 1.25rem;
+  --typography-h1-lineHeight: 1.5rem;
   --typography-h2-fontWeight: 800;
+  --typography-h2-fontSize: 1.125rem;
+  --typography-h2-lineHeight: 1.25rem;
   --typography-h3-fontWeight: 800;
+  --typography-h3-fontSize: 1rem;
+  --typography-h3-lineHeight: 1.125rem;
   --typography-p-regular-fontWeight: 400;
+  --typography-p-regular-fontSize: 0.875rem;
+  --typography-p-regular-lineHeight: 1.125rem;
   --typography-p-bold-fontWeight: 700;
+  --typography-p-bold-fontSize: 0.875rem;
+  --typography-p-bold-lineHeight: 1.125rem;
   --typography-p-lead-regular-fontWeight: 400;
+  --typography-p-lead-regular-fontSize: 0.875rem;
+  --typography-p-lead-regular-lineHeight: 1.125rem;
   --typography-p-lead-bold-fontWeight: 700;
+  --typography-p-lead-bold-fontSize: 0.875rem;
+  --typography-p-lead-bold-lineHeight: 1.125rem;
   --typography-caption-regular-fontWeight: 400;
+  --typography-caption-regular-fontSize: 0.75rem;
+  --typography-caption-regular-lineHeight: 0.875rem;
   --typography-caption-bold-fontWeight: 700;
+  --typography-caption-bold-fontSize: 0.75rem;
+  --typography-caption-bold-lineHeight: 0.875rem;
   --typography-caption-micro-regular-fontWeight: 400;
+  --typography-caption-micro-regular-fontSize: 0.625rem;
+  --typography-caption-micro-regular-lineHeight: 0.75rem;
   --typography-caption-micro-bold-fontWeight: 700;
+  --typography-caption-micro-bold-fontSize: 0.625rem;
+  --typography-caption-micro-bold-lineHeight: 0.75rem;
   --typography-button-fontWeight: 700;
+  --typography-button-fontSize: 0.875rem;
+  --typography-button-lineHeight: 0.875rem;
   --typography-button-micro-fontWeight: 700;
+  --typography-button-micro-fontSize: 0.75rem;
+  --typography-button-micro-lineHeight: 0.75rem;
   --typography-link-fontWeight: 700;
+  --typography-link-fontSize: 0.875rem;
+  --typography-link-lineHeight: 1.125rem;
   --typography-link-micro-fontWeight: 700;
+  --typography-link-micro-fontSize: 0.75rem;
+  --typography-link-micro-lineHeight: 1rem;
+}
+
+@media (min-width: 1024px) {
+  :root[data-brand="millipiyango"][data-theme="light"] {
+    --typography-d1-fontSize: 2.625rem;
+    --typography-d1-lineHeight: 3rem;
+    --typography-d2-fontSize: 1.75rem;
+    --typography-d2-lineHeight: 2rem;
+    --typography-h1-fontSize: 1.5rem;
+    --typography-h1-lineHeight: 1.75rem;
+    --typography-h2-fontSize: 1.25rem;
+    --typography-h2-lineHeight: 1.5rem;
+    --typography-h3-fontSize: 1.125rem;
+    --typography-h3-lineHeight: 1.25rem;
+    --typography-p-lead-regular-fontSize: 1rem;
+    --typography-p-lead-bold-fontSize: 1rem;
+  }
 }
