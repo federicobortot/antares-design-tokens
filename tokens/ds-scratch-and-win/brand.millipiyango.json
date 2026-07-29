@@ -26,7 +26,7 @@
     },
     "500": {
       "$type": "color",
-      "$value": "{CrossBrand.Gray.500}"
+      "$value": "{CrossBrand.Gray.600}"
     },
     "600": {
       "$type": "color",
@@ -139,7 +139,7 @@
   },
   "brandName": {
     "$type": "string",
-    "$value": "eloterie"
+    "$value": "millipiyango"
   },
   "brand": {
     "primary": {
@@ -157,17 +157,13 @@
       },
       "200": {
         "$type": "color",
-        "$value": "{Millipiyango.blue.250}"
+        "$value": "{Millipiyango.blue.300}"
       },
       "300": {
         "$type": "color",
         "$value": "{Millipiyango.blue.300}"
       },
       "400": {
-        "$type": "color",
-        "$value": "{Millipiyango.blue.400}"
-      },
-      "450": {
         "$type": "color",
         "$value": "{Millipiyango.blue.400}"
       },
@@ -602,7 +598,7 @@
     },
     "badge": {
       "$type": "number",
-      "$value": "{size.12}"
+      "$value": "{size.128}"
     }
   },
   "typography": {
@@ -628,6 +624,32 @@
       "extraBold": {
         "$type": "number",
         "$value": 800
+      }
+    }
+  },
+  "tab": {
+    "booleans": {
+      "underline": {
+        "$type": "boolean",
+        "$value": true
+      }
+    },
+    "size": {
+      "border": {
+        "width": {
+          "$type": "number",
+          "$value": 4
+        }
+      }
+    },
+    "color": {
+      "underline": {
+        "$type": "color",
+        "$value": "{c.millipiyango.primary.500}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0)"
       }
     }
   }

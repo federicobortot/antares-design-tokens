@@ -139,382 +139,382 @@
   },
   "brandName": {
     "$type": "string",
-    "$value": "pokerstars"
+    "$value": "mdjs"
   },
   "brand": {
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.50}"
+        "$value": "{MDJS.blue.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.100}"
+        "$value": "{MDJS.blue.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.150}"
+        "$value": "{MDJS.blue.200}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.200}"
+        "$value": "{MDJS.blue.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.300}"
+        "$value": "{MDJS.blue.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.400}"
+        "$value": "{MDJS.blue.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.500}"
+        "$value": "{MDJS.blue.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.600}"
+        "$value": "{MDJS.blue.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.700}"
+        "$value": "{MDJS.blue.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.800}"
+        "$value": "{MDJS.blue.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.900}"
+        "$value": "{MDJS.blue.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Pokerstars.Teal.1000}"
+        "$value": "{MDJS.blue.1000}"
       }
     },
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.50}"
+        "$value": "{MDJS.stone.50}"
       },
       "100": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.100}"
+        "$value": "{MDJS.stone.100}"
       },
       "150": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.150}"
+        "$value": "{MDJS.stone.200}"
       },
       "200": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.200}"
+        "$value": "{MDJS.stone.200}"
       },
       "300": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.300}"
+        "$value": "{MDJS.stone.300}"
       },
       "400": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.400}"
+        "$value": "{MDJS.stone.400}"
       },
       "500": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.500}"
+        "$value": "{MDJS.stone.500}"
       },
       "600": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.600}"
+        "$value": "{MDJS.stone.600}"
       },
       "700": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.700}"
+        "$value": "{MDJS.stone.700}"
       },
       "800": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.800}"
+        "$value": "{MDJS.stone.800}"
       },
       "900": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.900}"
+        "$value": "{MDJS.stone.900}"
       },
       "1000": {
         "$type": "color",
-        "$value": "{Pokerstars.Red.1000}"
+        "$value": "{MDJS.stone.1000}"
       }
     }
   },
   "accent": {
     "50": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.50}"
+      "$value": "{MDJS.yellow.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.100}"
+      "$value": "{MDJS.yellow.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.150}"
+      "$value": "{MDJS.yellow.200}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.200}"
+      "$value": "{MDJS.yellow.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.300}"
+      "$value": "{MDJS.yellow.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.400}"
+      "$value": "{MDJS.yellow.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.500}"
+      "$value": "{MDJS.yellow.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.600}"
+      "$value": "{MDJS.yellow.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.700}"
+      "$value": "{MDJS.yellow.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.800}"
+      "$value": "{MDJS.yellow.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.900}"
+      "$value": "{MDJS.yellow.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Pokerstars.Teal.1000}"
+      "$value": "{MDJS.yellow.1000}"
     }
   },
   "error": {
     "50": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.50}"
+      "$value": "{MDJS.red.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.100}"
+      "$value": "{MDJS.red.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.150}"
+      "$value": "{MDJS.red.200}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.200}"
+      "$value": "{MDJS.red.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.300}"
+      "$value": "{MDJS.red.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.400}"
+      "$value": "{MDJS.red.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{MDJS.red.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.600}"
+      "$value": "{MDJS.red.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.700}"
+      "$value": "{MDJS.red.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.800}"
+      "$value": "{MDJS.red.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.900}"
+      "$value": "{MDJS.red.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.1000}"
+      "$value": "{MDJS.red.1000}"
     }
   },
   "success": {
     "50": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.50}"
+      "$value": "{MDJS.green.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.100}"
+      "$value": "{MDJS.green.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.150}"
+      "$value": "{MDJS.green.200}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.200}"
+      "$value": "{MDJS.green.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.300}"
+      "$value": "{MDJS.green.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.400}"
+      "$value": "{MDJS.green.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.500}"
+      "$value": "{MDJS.green.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.600}"
+      "$value": "{MDJS.green.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.700}"
+      "$value": "{MDJS.green.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.800}"
+      "$value": "{MDJS.green.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.900}"
+      "$value": "{MDJS.green.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Pokerstars.Green.1000}"
+      "$value": "{MDJS.green.1000}"
     }
   },
   "warning": {
     "50": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.50}"
+      "$value": "{MDJS.orange.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.100}"
+      "$value": "{MDJS.orange.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.150}"
+      "$value": "{MDJS.orange.200}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.200}"
+      "$value": "{MDJS.orange.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.300}"
+      "$value": "{MDJS.orange.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.400}"
+      "$value": "{MDJS.orange.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.500}"
+      "$value": "{MDJS.orange.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.600}"
+      "$value": "{MDJS.orange.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.700}"
+      "$value": "{MDJS.orange.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.800}"
+      "$value": "{MDJS.orange.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.900}"
+      "$value": "{MDJS.orange.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Pokerstars.Yellow.1000}"
+      "$value": "{MDJS.orange.1000}"
     }
   },
   "info": {
     "50": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.50}"
+      "$value": "{MDJS.grey.50}"
     },
     "100": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.100}"
+      "$value": "{MDJS.grey.100}"
     },
     "150": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.150}"
+      "$value": "{MDJS.grey.200}"
     },
     "200": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.200}"
+      "$value": "{MDJS.grey.200}"
     },
     "300": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.300}"
+      "$value": "{MDJS.grey.300}"
     },
     "400": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.400}"
+      "$value": "{MDJS.grey.400}"
     },
     "500": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.500}"
+      "$value": "{MDJS.grey.500}"
     },
     "600": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.600}"
+      "$value": "{MDJS.grey.600}"
     },
     "700": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.700}"
+      "$value": "{MDJS.grey.700}"
     },
     "800": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.800}"
+      "$value": "{MDJS.grey.800}"
     },
     "900": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.900}"
+      "$value": "{MDJS.grey.900}"
     },
     "1000": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.1000}"
+      "$value": "{MDJS.grey.900}"
     }
   },
   "promo": {
     "bg": {
       "$type": "color",
-      "$value": "{Pokerstars.Magenta.400}"
+      "$value": "{Sisal.Gold.200}"
     },
     "text": {
       "$type": "color",
-      "$value": "{CrossBrand.White}"
+      "$value": "{CrossBrand.Black}"
     },
     "icon": {
       "$type": "color",
-      "$value": "{CrossBrand.White}"
+      "$value": "{CrossBrand.Black}"
     },
     "border": {
       "$type": "color",
-      "$value": "{Pokerstars.Magenta.400}"
+      "$value": "{Sisal.Gold.200}"
     }
   },
   "highlight": {
     "bg": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.400}"
+      "$value": "{CrossBrand.Blue.400}"
     },
     "text": {
       "$type": "color",
@@ -526,25 +526,25 @@
     },
     "border": {
       "$type": "color",
-      "$value": "{Pokerstars.Blue.400}"
+      "$value": "{CrossBrand.Blue.400}"
     }
   },
   "jackpot": {
     "bg": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{CrossBrand.Teal.200}"
     },
     "text": {
       "$type": "color",
-      "$value": "{CrossBrand.White}"
+      "$value": "{CrossBrand.Black}"
     },
     "icon": {
       "$type": "color",
-      "$value": "{CrossBrand.White}"
+      "$value": "{CrossBrand.Black}"
     },
     "border": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{CrossBrand.Teal.200}"
     }
   },
   "special": {
@@ -568,19 +568,19 @@
   "live": {
     "bg": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{CrossBrand.Red.500}"
     },
     "text": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{CrossBrand.Red.500}"
     },
     "icon": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{CrossBrand.Red.500}"
     },
     "border": {
       "$type": "color",
-      "$value": "{Pokerstars.Red.500}"
+      "$value": "{CrossBrand.Red.500}"
     }
   },
   "borderRadius": {
@@ -598,14 +598,14 @@
     },
     "badge": {
       "$type": "number",
-      "$value": "{size.4}"
+      "$value": "{size.128}"
     }
   },
   "typography": {
     "fontFamily": {
       "heading": {
         "$type": "string",
-        "$value": "Roboto"
+        "$value": "Mulish"
       },
       "body": {
         "$type": "string",
@@ -638,7 +638,7 @@
       "border": {
         "width": {
           "$type": "number",
-          "$value": 4
+          "$value": 0
         }
       }
     },
@@ -649,7 +649,7 @@
       },
       "border": {
         "$type": "color",
-        "$value": "{c.pokerstars.secondary.500}"
+        "$value": "{c.mdjs.primary.600}"
       }
     }
   }

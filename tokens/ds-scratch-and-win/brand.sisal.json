@@ -167,10 +167,6 @@
         "$type": "color",
         "$value": "{Sisal.Green.400}"
       },
-      "450": {
-        "$type": "color",
-        "$value": "{Sisal.Green.450}"
-      },
       "500": {
         "$type": "color",
         "$value": "{Sisal.Green.500}"
@@ -602,7 +598,7 @@
     },
     "badge": {
       "$type": "number",
-      "$value": "{size.12}"
+      "$value": "{size.128}"
     }
   },
   "typography": {
@@ -628,6 +624,32 @@
       "extraBold": {
         "$type": "number",
         "$value": 700
+      }
+    }
+  },
+  "tab": {
+    "booleans": {
+      "underline": {
+        "$type": "boolean",
+        "$value": false
+      }
+    },
+    "size": {
+      "border": {
+        "width": {
+          "$type": "number",
+          "$value": 4
+        }
+      }
+    },
+    "color": {
+      "underline": {
+        "$type": "color",
+        "$value": "rgba(255, 255, 255, 0)"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{c.sisal.primary.700}"
       }
     }
   }
