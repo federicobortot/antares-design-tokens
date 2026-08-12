@@ -660,6 +660,7 @@ struct EloterieLightTokens {
   static let inputTextColorBgHover = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let inputTextColorBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
+  static let inputTextColorBgError = Color(red: 0.9961, green: 0.9412, blue: 0.9333, opacity: 1.0)
   static let inputTextColorBorderDefault = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let inputTextColorBorderHover = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let inputTextColorBorderActive = Color(red: 0.4392, green: 0.6745, blue: 0.9647, opacity: 1.0)

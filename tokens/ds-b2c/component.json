@@ -3474,7 +3474,7 @@
         },
         "error": {
           "$type": "color",
-          "$value": "{color.bg.error}"
+          "$value": "{color.bg.danger}"
         }
       },
       "border": {

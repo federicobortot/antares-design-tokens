@@ -450,6 +450,7 @@ module.exports = {
       'inputText-color-bg-hover': 'var(--inputText-color-bg-hover)',
       'inputText-color-bg-active': 'var(--inputText-color-bg-active)',
       'inputText-color-bg-disabled': 'var(--inputText-color-bg-disabled)',
+      'inputText-color-bg-error': 'var(--inputText-color-bg-error)',
       'inputText-color-border-default': 'var(--inputText-color-border-default)',
       'inputText-color-border-hover': 'var(--inputText-color-border-hover)',
       'inputText-color-border-active': 'var(--inputText-color-border-active)',

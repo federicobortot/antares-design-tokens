@@ -676,6 +676,7 @@
   --inputText-color-bg-hover: #1F2F42;
   --inputText-color-bg-active: #0F202D;
   --inputText-color-bg-disabled: #0F202D;
+  --inputText-color-bg-error: #520907;
   --inputText-color-border-default: #517897;
   --inputText-color-border-hover: #7397B5;
   --inputText-color-border-active: #FF6A00;

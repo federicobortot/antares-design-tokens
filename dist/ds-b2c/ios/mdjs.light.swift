@@ -660,6 +660,7 @@ struct MdjsLightTokens {
   static let inputTextColorBgHover = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let inputTextColorBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
+  static let inputTextColorBgError = Color(red: 0.9922, green: 0.9647, blue: 0.9647, opacity: 1.0)
   static let inputTextColorBorderDefault = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let inputTextColorBorderHover = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let inputTextColorBorderActive = Color(red: 0.6784, green: 0.7020, blue: 0.8235, opacity: 1.0)

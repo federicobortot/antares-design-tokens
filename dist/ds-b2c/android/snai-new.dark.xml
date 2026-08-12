@@ -659,6 +659,7 @@
   <color name="inputtext_color_bg_hover">#FF1F2F42</color>
   <color name="inputtext_color_bg_active">#FF0F202D</color>
   <color name="inputtext_color_bg_disabled">#FF0F202D</color>
+  <color name="inputtext_color_bg_error">#FF520907</color>
   <color name="inputtext_color_border_default">#FF517897</color>
   <color name="inputtext_color_border_hover">#FF7397B5</color>
   <color name="inputtext_color_border_active">#FFFF6A00</color>

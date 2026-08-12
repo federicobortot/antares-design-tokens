@@ -660,6 +660,7 @@ struct SnaiDarkTokens {
   static let inputTextColorBgHover = Color(red: 0.2392, green: 0.2824, blue: 0.3294, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 0.1373, green: 0.1686, blue: 0.2039, opacity: 1.0)
   static let inputTextColorBgDisabled = Color(red: 0.1373, green: 0.1686, blue: 0.2039, opacity: 1.0)
+  static let inputTextColorBgError = Color(red: 0.3216, green: 0.0353, blue: 0.0275, opacity: 1.0)
   static let inputTextColorBorderDefault = Color(red: 0.4039, green: 0.4549, blue: 0.5216, opacity: 1.0)
   static let inputTextColorBorderHover = Color(red: 0.5451, green: 0.5882, blue: 0.6471, opacity: 1.0)
   static let inputTextColorBorderActive = Color(red: 0.8863, green: 0.3647, blue: 0.0000, opacity: 1.0)
