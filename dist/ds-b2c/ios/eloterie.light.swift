@@ -163,6 +163,7 @@ struct EloterieLightTokens {
   static let buttonSizeSmBorderWidthFocus: CGFloat = 2
   static let buttonSizeSmIconSize: CGFloat = 20
   static let buttonSizeSmGap: CGFloat = 0
+  static let buttonLabelSizePadding: CGFloat = 8
   static let pageControlPageControlItemSizeBorderRadius: CGFloat = 128
   static let pageControlPageControlItemSizeSegmentWidth: CGFloat = 48
   static let pageControlPageControlItemSizeHeight: CGFloat = 4
@@ -660,7 +661,6 @@ struct EloterieLightTokens {
   static let inputTextColorBgHover = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let inputTextColorBgDisabled = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
-  static let inputTextColorBgError = Color(red: 0.9961, green: 0.9412, blue: 0.9333, opacity: 1.0)
   static let inputTextColorBorderDefault = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let inputTextColorBorderHover = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
   static let inputTextColorBorderActive = Color(red: 0.4392, green: 0.6745, blue: 0.9647, opacity: 1.0)
@@ -730,7 +730,7 @@ struct EloterieLightTokens {
   static let gameCardMainSizeBorderRadius: CGFloat = 12
   static let gameCardMainSizeBorderWidth: CGFloat = 1
   static let chipsNavigationListSizeGap: CGFloat = 8
-  static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
+  static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientStart = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)

@@ -162,6 +162,7 @@
   <dimen name="button_size_sm_border_width_focus">2</dimen>
   <dimen name="button_size_sm_icon_size">20</dimen>
   <dimen name="button_size_sm_gap">0</dimen>
+  <dimen name="button_label_size_padding">8</dimen>
   <dimen name="pagecontrol_pagecontrolitem_size_border_radius">128</dimen>
   <dimen name="pagecontrol_pagecontrolitem_size_segment_width">48</dimen>
   <dimen name="pagecontrol_pagecontrolitem_size_height">4</dimen>
@@ -659,7 +660,6 @@
   <color name="inputtext_color_bg_hover">#FFF2F2F2</color>
   <color name="inputtext_color_bg_active">#FFFFFFFF</color>
   <color name="inputtext_color_bg_disabled">#FFF2F2F2</color>
-  <color name="inputtext_color_bg_error">#FFFFEFEE</color>
   <color name="inputtext_color_border_default">#FFD1D1D1</color>
   <color name="inputtext_color_border_hover">#FFA8A8A8</color>
   <color name="inputtext_color_border_active">#FF24ABE3</color>
@@ -729,7 +729,7 @@
   <dimen name="gamecardmain_size_border_radius">12</dimen>
   <dimen name="gamecardmain_size_border_width">1</dimen>
   <dimen name="chipsnavigationlist_size_gap">8</dimen>
-  <color name="chipsnavigationlist_chipnavigation_color_border">#FFE1E1E1</color>
+  <color name="chipsnavigationlist_chipnavigation_color_border">#FFD1D1D1</color>
   <color name="chipsnavigationlist_chipnavigation_color_text">#FF141414</color>
   <color name="chipsnavigationlist_chipnavigation_color_gradient_start">#FFFFFFFF</color>
   <color name="chipsnavigationlist_chipnavigation_color_gradient_end">#FFF2F2F2</color>

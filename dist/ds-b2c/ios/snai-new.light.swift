@@ -163,6 +163,7 @@ struct Snai-newLightTokens {
   static let buttonSizeSmBorderWidthFocus: CGFloat = 2
   static let buttonSizeSmIconSize: CGFloat = 20
   static let buttonSizeSmGap: CGFloat = 0
+  static let buttonLabelSizePadding: CGFloat = 8
   static let pageControlPageControlItemSizeBorderRadius: CGFloat = 12
   static let pageControlPageControlItemSizeSegmentWidth: CGFloat = 48
   static let pageControlPageControlItemSizeHeight: CGFloat = 4
@@ -660,7 +661,6 @@ struct Snai-newLightTokens {
   static let inputTextColorBgHover = Color(red: 0.9216, green: 0.9608, blue: 0.9922, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let inputTextColorBgDisabled = Color(red: 0.9216, green: 0.9608, blue: 0.9922, opacity: 1.0)
-  static let inputTextColorBgError = Color(red: 0.9804, green: 0.9294, blue: 0.9176, opacity: 1.0)
   static let inputTextColorBorderDefault = Color(red: 0.7569, green: 0.8431, blue: 0.9176, opacity: 1.0)
   static let inputTextColorBorderHover = Color(red: 0.5569, green: 0.6745, blue: 0.7765, opacity: 1.0)
   static let inputTextColorBorderActive = Color(red: 1.0000, green: 0.4902, blue: 0.2392, opacity: 1.0)
@@ -730,7 +730,7 @@ struct Snai-newLightTokens {
   static let gameCardMainSizeBorderRadius: CGFloat = 12
   static let gameCardMainSizeBorderWidth: CGFloat = 1
   static let chipsNavigationListSizeGap: CGFloat = 8
-  static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.8510, green: 0.9137, blue: 0.9686, opacity: 1.0)
+  static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.7569, green: 0.8431, blue: 0.9176, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorText = Color(red: 0.0196, green: 0.0863, blue: 0.1333, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientStart = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)

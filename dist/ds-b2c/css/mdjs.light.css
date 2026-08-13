@@ -179,6 +179,7 @@
   --button-size-sm-border-width-focus: 2px;
   --button-size-sm-icon-size: 20px;
   --button-size-sm-gap: 0px;
+  --button-label-size-padding: 8px;
   --pageControl-pageControlItem-size-border-radius: 128px;
   --pageControl-pageControlItem-size-segment-width: 48px;
   --pageControl-pageControlItem-size-height: 4px;
@@ -676,7 +677,6 @@
   --inputText-color-bg-hover: #F2F2F2;
   --inputText-color-bg-active: #FFFFFF;
   --inputText-color-bg-disabled: #F2F2F2;
-  --inputText-color-bg-error: #FDF6F6;
   --inputText-color-border-default: #D1D1D1;
   --inputText-color-border-hover: #A8A8A8;
   --inputText-color-border-active: #ADB3D2;
@@ -746,7 +746,7 @@
   --gameCardMain-size-border-radius: 12px;
   --gameCardMain-size-border-width: 1px;
   --chipsNavigationList-size-gap: 8px;
-  --chipsNavigationList-chipNavigation-color-border: #E1E1E1;
+  --chipsNavigationList-chipNavigation-color-border: #D1D1D1;
   --chipsNavigationList-chipNavigation-color-text: #141414;
   --chipsNavigationList-chipNavigation-color-gradient-start: #FFFFFF;
   --chipsNavigationList-chipNavigation-color-gradient-end: #F2F2F2;

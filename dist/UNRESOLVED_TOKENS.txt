@@ -1,8 +1,8 @@
 UNRESOLVED TOKENS REPORT
 ======================
-Generato: 2026-08-03T13:42:20.981Z
+Generato: 2026-08-13T07:47:15.636Z
 
-Token non interpolati trovati: 1516
+Token non interpolati trovati: 1544
 
 Design system: ds-b2b
 Token non interpolati: 720
@@ -800,6 +800,122 @@ snai.light
 | component.desktop | PAF-iconBoxed-color-10-bg | {CrossBrand.Charts.10.subtlest} |
 
 
+Design system: ds-b2c
+Token non interpolati: 28
+
+eloterie.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+eloterie.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+mdjs.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+mdjs.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+millipiyango.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+millipiyango.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+pokerstars.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+pokerstars.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+sisal.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+sisal.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+snai-new.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+snai-new.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+snai.dark
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+snai.light
+----------------
+
+| context | token | reference |
+| --- | --- | --- |
+| component.mobile | inputText-color-bg-error | {color.bg.error} |
+| component.desktop | inputText-color-bg-error | {color.bg.error} |
+
+
 Design system: ds-cross-app
 Token non interpolati: 8
 
@@ -831,14 +947,14 @@ sisal.light
 | --- | --- | --- |
 | component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
 
-sisalcasino.dark
+sisalCasino.dark
 ----------------
 
 | context | token | reference |
 | --- | --- | --- |
 | component.mobile | buttonGroup-size-sticky-width | {viewportWidth} |
 
-sisalcasino.light
+sisalCasino.light
 ----------------
 
 | context | token | reference |

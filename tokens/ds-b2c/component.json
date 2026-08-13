@@ -745,6 +745,14 @@
           "$value": "{size.0}"
         }
       }
+    },
+    "label": {
+      "size": {
+        "padding": {
+          "$type": "number",
+          "$value": "{size.8}"
+        }
+      }
     }
   },
   "pageControl": {
@@ -3474,7 +3482,7 @@
         },
         "error": {
           "$type": "color",
-          "$value": "{color.bg.danger}"
+          "$value": "{color.bg.error}"
         }
       },
       "border": {
@@ -3884,7 +3892,7 @@
       "color": {
         "border": {
           "$type": "color",
-          "$value": "{color.border.neutral.subtle}"
+          "$value": "{color.border.neutral.default}"
         },
         "text": {
           "$type": "color",

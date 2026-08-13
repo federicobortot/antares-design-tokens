@@ -163,6 +163,7 @@ struct MillipiyangoDarkTokens {
   static let buttonSizeSmBorderWidthFocus: CGFloat = 2
   static let buttonSizeSmIconSize: CGFloat = 20
   static let buttonSizeSmGap: CGFloat = 0
+  static let buttonLabelSizePadding: CGFloat = 8
   static let pageControlPageControlItemSizeBorderRadius: CGFloat = 128
   static let pageControlPageControlItemSizeSegmentWidth: CGFloat = 48
   static let pageControlPageControlItemSizeHeight: CGFloat = 4
@@ -660,7 +661,6 @@ struct MillipiyangoDarkTokens {
   static let inputTextColorBgHover = Color(red: 0.2392, green: 0.2392, blue: 0.2392, opacity: 1.0)
   static let inputTextColorBgActive = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
   static let inputTextColorBgDisabled = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
-  static let inputTextColorBgError = Color(red: 0.3059, green: 0.0000, blue: 0.0431, opacity: 1.0)
   static let inputTextColorBorderDefault = Color(red: 0.3451, green: 0.3451, blue: 0.3451, opacity: 1.0)
   static let inputTextColorBorderHover = Color(red: 0.5725, green: 0.5725, blue: 0.5725, opacity: 1.0)
   static let inputTextColorBorderActive = Color(red: 0.0863, green: 0.6039, blue: 0.8392, opacity: 1.0)
@@ -730,7 +730,7 @@ struct MillipiyangoDarkTokens {
   static let gameCardMainSizeBorderRadius: CGFloat = 12
   static let gameCardMainSizeBorderWidth: CGFloat = 1
   static let chipsNavigationListSizeGap: CGFloat = 8
-  static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.2392, green: 0.2392, blue: 0.2392, opacity: 1.0)
+  static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.3451, green: 0.3451, blue: 0.3451, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorText = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientStart = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
