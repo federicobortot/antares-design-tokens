@@ -627,7 +627,7 @@
           },
           "end": {
             "$type": "color",
-            "$value": "{CrossBrand.Gray.50}"
+            "$value": "{CrossBrand.Gray.100}"
           }
         }
       }

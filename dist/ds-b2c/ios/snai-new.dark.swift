@@ -736,7 +736,7 @@ struct Snai-newDarkTokens {
   static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.3176, green: 0.4706, blue: 0.5922, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorText = Color(red: 0.9216, green: 0.9608, blue: 0.9922, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientStart = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 1.0)
-  static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
+  static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.2392, green: 0.2392, blue: 0.2392, opacity: 1.0)
   static let chipsNavigationListChipNavigationSizeHeight: CGFloat = 36
   static let chipsNavigationListChipNavigationSizePaddingHorizontal: CGFloat = 12
   static let chipsNavigationListChipNavigationSizePaddingVertical: CGFloat = 6

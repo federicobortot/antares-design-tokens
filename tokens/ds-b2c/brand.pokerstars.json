@@ -630,6 +630,10 @@
       "extraBold": {
         "$type": "number",
         "$value": 800
+      },
+      "medium": {
+        "$type": "number",
+        "$value": 500
       }
     }
   },

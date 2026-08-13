@@ -735,7 +735,7 @@
   <color name="chipsnavigationlist_chipnavigation_color_border">#FF677485</color>
   <color name="chipsnavigationlist_chipnavigation_color_text">#FFF0F3FA</color>
   <color name="chipsnavigationlist_chipnavigation_color_gradient_start">#FF000000</color>
-  <color name="chipsnavigationlist_chipnavigation_color_gradient_end">#FF262626</color>
+  <color name="chipsnavigationlist_chipnavigation_color_gradient_end">#FF3D3D3D</color>
   <dimen name="chipsnavigationlist_chipnavigation_size_height">36</dimen>
   <dimen name="chipsnavigationlist_chipnavigation_size_padding_horizontal">12</dimen>
   <dimen name="chipsnavigationlist_chipnavigation_size_padding_vertical">6</dimen>

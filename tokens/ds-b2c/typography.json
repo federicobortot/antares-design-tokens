@@ -163,6 +163,24 @@
           "$value": "{typography.p.lead.lineHeight}"
         }
       }
+    },
+    "medium": {
+      "fontFamily": {
+        "$type": "string",
+        "$value": "{typography.fontFamily.body}"
+      },
+      "fontWeight": {
+        "$type": "number",
+        "$value": "{typography.fontWeight.medium}"
+      },
+      "fontSize": {
+        "$type": "number",
+        "$value": "{typography.p.fontSize}"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": "{typography.p.lineHeight}"
+      }
     }
   },
   "caption": {

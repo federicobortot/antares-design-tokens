@@ -8,6 +8,7 @@
   --typography-p-bold-fontFamily: 'Roboto', sans-serif;
   --typography-p-lead-regular-fontFamily: 'Roboto', sans-serif;
   --typography-p-lead-bold-fontFamily: 'Roboto', sans-serif;
+  --typography-p-medium-fontFamily: 'Roboto', sans-serif;
   --typography-caption-regular-fontFamily: 'Roboto', sans-serif;
   --typography-caption-bold-fontFamily: 'Roboto', sans-serif;
   --typography-caption-micro-regular-fontFamily: 'Roboto', sans-serif;
@@ -752,7 +753,7 @@
   --chipsNavigationList-chipNavigation-color-border: #C1D7EA;
   --chipsNavigationList-chipNavigation-color-text: #051622;
   --chipsNavigationList-chipNavigation-color-gradient-start: #FFFFFF;
-  --chipsNavigationList-chipNavigation-color-gradient-end: #F2F2F2;
+  --chipsNavigationList-chipNavigation-color-gradient-end: #E1E1E1;
   --chipsNavigationList-chipNavigation-size-height: 36px;
   --chipsNavigationList-chipNavigation-size-padding-horizontal: 12px;
   --chipsNavigationList-chipNavigation-size-padding-vertical: 6px;
@@ -786,6 +787,9 @@
   --typography-p-lead-bold-fontWeight: 700;
   --typography-p-lead-bold-fontSize: 0.875rem;
   --typography-p-lead-bold-lineHeight: 1.125rem;
+  --typography-p-medium-fontWeight: 500;
+  --typography-p-medium-fontSize: 0.875rem;
+  --typography-p-medium-lineHeight: 1.125rem;
   --typography-caption-regular-fontWeight: 400;
   --typography-caption-regular-fontSize: 0.75rem;
   --typography-caption-regular-lineHeight: 0.875rem;

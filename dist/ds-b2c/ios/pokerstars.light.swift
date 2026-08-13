@@ -736,7 +736,7 @@ struct PokerstarsLightTokens {
   static let chipsNavigationListChipNavigationColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let chipsNavigationListChipNavigationColorGradientStart = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
-  static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
+  static let chipsNavigationListChipNavigationColorGradientEnd = Color(red: 0.8824, green: 0.8824, blue: 0.8824, opacity: 1.0)
   static let chipsNavigationListChipNavigationSizeHeight: CGFloat = 36
   static let chipsNavigationListChipNavigationSizePaddingHorizontal: CGFloat = 12
   static let chipsNavigationListChipNavigationSizePaddingVertical: CGFloat = 6
