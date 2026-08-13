@@ -182,7 +182,8 @@ struct SnaiLightTokens {
   static let searchBarColorTextPlaceholder = Color(red: 0.4039, green: 0.4549, blue: 0.5216, opacity: 1.0)
   static let searchBarColorTextDefault = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
   static let textboxSizeGap: CGFloat = 8
-  static let textboxColorText = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
+  static let textboxTitleColorText = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
+  static let textboxParagraphColorText = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
   static let linkSizeGap: CGFloat = 4
   static let linkSizeIcon: CGFloat = 16
   static let linkColorNeutralTextDisabled = Color(red: 0.6471, green: 0.6784, blue: 0.7294, opacity: 1.0)
@@ -435,8 +436,10 @@ struct SnaiLightTokens {
   static let badgeColorSpecialBg = Color(red: 0.4902, green: 0.2275, blue: 0.7255, opacity: 1.0)
   static let badgeColorSpecialText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeSizeMdPadding: CGFloat = 8
-  static let badgeSizeMdBorderRadius: CGFloat = 128
   static let badgeSizeMdHeight: CGFloat = 24
+  static let badgeSizeBorderRadius: CGFloat = 128
+  static let badgeSizeSmPadding: CGFloat = 4
+  static let badgeSizeSmHeight: CGFloat = 16
   static let promoBannerColorBg = Color(red: 0.9961, green: 0.8863, blue: 0.7294, opacity: 1.0)
   static let promoBannerColorBorder = Color(red: 0.9725, green: 0.8039, blue: 0.5490, opacity: 1.0)
   static let promoBannerColorText = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)

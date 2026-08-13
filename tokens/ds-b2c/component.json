@@ -862,10 +862,20 @@
         "$value": "{size.8}"
       }
     },
-    "color": {
-      "text": {
-        "$type": "color",
-        "$value": "{color.text.default}"
+    "title": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        }
+      }
+    },
+    "paragraph": {
+      "color": {
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        }
       }
     }
   },
@@ -2250,15 +2260,25 @@
           "$type": "number",
           "$value": 8
         },
-        "border": {
-          "radius": {
-            "$type": "number",
-            "$value": "{borderRadius.badge}"
-          }
-        },
         "height": {
           "$type": "number",
           "$value": 24
+        }
+      },
+      "border": {
+        "radius": {
+          "$type": "number",
+          "$value": "{borderRadius.badge}"
+        }
+      },
+      "sm": {
+        "padding": {
+          "$type": "number",
+          "$value": 4
+        },
+        "height": {
+          "$type": "number",
+          "$value": 16
         }
       }
     }

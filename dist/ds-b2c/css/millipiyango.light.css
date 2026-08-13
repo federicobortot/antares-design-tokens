@@ -198,7 +198,8 @@
   --searchBar-color-text-placeholder: #585858;
   --searchBar-color-text-default: #141414;
   --textbox-size-gap: 8px;
-  --textbox-color-text: #141414;
+  --textbox-title-color-text: #141414;
+  --textbox-paragraph-color-text: #141414;
   --link-size-gap: 4px;
   --link-size-icon: 16px;
   --link-color-neutral-text-disabled: #A8A8A8;
@@ -451,8 +452,10 @@
   --badge-color-special-bg: #7D3AB9;
   --badge-color-special-text: #FFFFFF;
   --badge-size-md-padding: 8px;
-  --badge-size-md-border-radius: 128px;
   --badge-size-md-height: 24px;
+  --badge-size-border-radius: 128px;
+  --badge-size-sm-padding: 4px;
+  --badge-size-sm-height: 16px;
   --promoBanner-color-bg: #FEE1BF;
   --promoBanner-color-border: #FEAC2E;
   --promoBanner-color-text: #141414;

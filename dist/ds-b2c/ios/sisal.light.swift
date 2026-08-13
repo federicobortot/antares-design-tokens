@@ -182,7 +182,8 @@ struct SisalLightTokens {
   static let searchBarColorTextPlaceholder = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)
   static let searchBarColorTextDefault = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let textboxSizeGap: CGFloat = 8
-  static let textboxColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
+  static let textboxTitleColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
+  static let textboxParagraphColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let linkSizeGap: CGFloat = 4
   static let linkSizeIcon: CGFloat = 16
   static let linkColorNeutralTextDisabled = Color(red: 0.6588, green: 0.6588, blue: 0.6588, opacity: 1.0)
@@ -435,8 +436,10 @@ struct SisalLightTokens {
   static let badgeColorSpecialBg = Color(red: 0.4902, green: 0.2275, blue: 0.7255, opacity: 1.0)
   static let badgeColorSpecialText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let badgeSizeMdPadding: CGFloat = 8
-  static let badgeSizeMdBorderRadius: CGFloat = 128
   static let badgeSizeMdHeight: CGFloat = 24
+  static let badgeSizeBorderRadius: CGFloat = 128
+  static let badgeSizeSmPadding: CGFloat = 4
+  static let badgeSizeSmHeight: CGFloat = 16
   static let promoBannerColorBg = Color(red: 0.9961, green: 0.8824, blue: 0.7490, opacity: 1.0)
   static let promoBannerColorBorder = Color(red: 0.9961, green: 0.6745, blue: 0.1804, opacity: 1.0)
   static let promoBannerColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
