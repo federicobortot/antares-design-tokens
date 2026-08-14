@@ -745,4 +745,12 @@
   <dimen name="chipsnavigationlist_chipnavigation_size_gap">6</dimen>
   <dimen name="chipsnavigationlist_chipnavigation_size_border_radius">100</dimen>
   <dimen name="chipsnavigationlist_chipnavigation_size_border_width">1</dimen>
+  <color name="playerbutton_color_icon">#FFFFFFFF</color>
+  <color name="playerbutton_color_bg_default">#52000000</color>
+  <color name="playerbutton_color_bg_hover">#73000000</color>
+  <color name="playerbutton_color_bg_pressed">#B3000000</color>
+  <dimen name="playerbutton_size_md_icon">24</dimen>
+  <dimen name="playerbutton_size_md_all">44</dimen>
+  <dimen name="playerbutton_size_sm_icon">12</dimen>
+  <dimen name="playerbutton_size_sm_all">22</dimen>
 </resources>

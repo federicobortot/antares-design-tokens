@@ -746,4 +746,12 @@ struct SnaiLightTokens {
   static let chipsNavigationListChipNavigationSizeGap: CGFloat = 6
   static let chipsNavigationListChipNavigationSizeBorderRadius: CGFloat = 100
   static let chipsNavigationListChipNavigationSizeBorderWidth: CGFloat = 1
+  static let playerButtonColorIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let playerButtonColorBgDefault = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.3200)
+  static let playerButtonColorBgHover = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.4500)
+  static let playerButtonColorBgPressed = Color(red: 0.0000, green: 0.0000, blue: 0.0000, opacity: 0.7000)
+  static let playerButtonSizeMdIcon: CGFloat = 24
+  static let playerButtonSizeMdAll: CGFloat = 44
+  static let playerButtonSizeSmIcon: CGFloat = 12
+  static let playerButtonSizeSmAll: CGFloat = 22
 }

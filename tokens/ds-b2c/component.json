@@ -3972,5 +3972,49 @@
         }
       }
     }
+  },
+  "playerButton": {
+    "color": {
+      "icon": {
+        "$type": "color",
+        "$value": "{color.fixed.icon.inverse}"
+      },
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.40}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.50}"
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{CrossBrand.Black.Alpha.70}"
+        }
+      }
+    },
+    "size": {
+      "md": {
+        "icon": {
+          "$type": "number",
+          "$value": "{size.24}"
+        },
+        "all": {
+          "$type": "number",
+          "$value": "{size.44}"
+        }
+      },
+      "sm": {
+        "icon": {
+          "$type": "number",
+          "$value": "{size.12}"
+        },
+        "all": {
+          "$type": "number",
+          "$value": 22
+        }
+      }
+    }
   }
 }

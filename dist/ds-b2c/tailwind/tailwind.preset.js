@@ -496,7 +496,11 @@ module.exports = {
       'chipsNavigationList-chipNavigation-color-border': 'var(--chipsNavigationList-chipNavigation-color-border)',
       'chipsNavigationList-chipNavigation-color-text': 'var(--chipsNavigationList-chipNavigation-color-text)',
       'chipsNavigationList-chipNavigation-color-gradient-start': 'var(--chipsNavigationList-chipNavigation-color-gradient-start)',
-      'chipsNavigationList-chipNavigation-color-gradient-end': 'var(--chipsNavigationList-chipNavigation-color-gradient-end)'
+      'chipsNavigationList-chipNavigation-color-gradient-end': 'var(--chipsNavigationList-chipNavigation-color-gradient-end)',
+      'playerButton-color-icon': 'var(--playerButton-color-icon)',
+      'playerButton-color-bg-default': 'var(--playerButton-color-bg-default)',
+      'playerButton-color-bg-hover': 'var(--playerButton-color-bg-hover)',
+      'playerButton-color-bg-pressed': 'var(--playerButton-color-bg-pressed)'
     },
       spacing: {
       'button-size-md-height': 'var(--button-size-md-height)',
@@ -678,6 +682,10 @@ module.exports = {
       'chipsNavigationList-chipNavigation-size-padding-horizontal': 'var(--chipsNavigationList-chipNavigation-size-padding-horizontal)',
       'chipsNavigationList-chipNavigation-size-padding-vertical': 'var(--chipsNavigationList-chipNavigation-size-padding-vertical)',
       'chipsNavigationList-chipNavigation-size-gap': 'var(--chipsNavigationList-chipNavigation-size-gap)',
+      'playerButton-size-md-icon': 'var(--playerButton-size-md-icon)',
+      'playerButton-size-md-all': 'var(--playerButton-size-md-all)',
+      'playerButton-size-sm-icon': 'var(--playerButton-size-sm-icon)',
+      'playerButton-size-sm-all': 'var(--playerButton-size-sm-all)',
       'typography-d1-fontSize': 'var(--typography-d1-fontSize)',
       'typography-d1-lineHeight': 'var(--typography-d1-lineHeight)',
       'typography-d1-fontWeight': 'var(--typography-d1-fontWeight)',
