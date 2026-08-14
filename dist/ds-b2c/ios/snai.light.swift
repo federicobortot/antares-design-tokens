@@ -164,12 +164,12 @@ struct SnaiLightTokens {
   static let buttonSizeSmIconSize: CGFloat = 20
   static let buttonSizeSmGap: CGFloat = 0
   static let buttonLabelSizePadding: CGFloat = 8
-  static let pageControlPageControlItemSizeBorderRadius: CGFloat = 12
-  static let pageControlPageControlItemSizeSegmentWidth: CGFloat = 48
-  static let pageControlPageControlItemSizeHeight: CGFloat = 4
-  static let pageControlPageControlItemColorPageControlItemBgDefault = Color(red: 0.7098, green: 0.7412, blue: 0.7843, opacity: 1.0)
-  static let pageControlPageControlItemColorPageControlItemBgActive = Color(red: 0.7176, green: 0.3098, blue: 0.0784, opacity: 1.0)
+  static let pageControlSizeBorderRadius: CGFloat = 12
+  static let pageControlSizeHeight: CGFloat = 4
   static let pageControlSizeGap: CGFloat = 4
+  static let pageControlSegmentSizeWidth: CGFloat = 48
+  static let pageControlColorBgDefault = Color(red: 0.7098, green: 0.7412, blue: 0.7843, opacity: 1.0)
+  static let pageControlColorBgActive = Color(red: 0.7176, green: 0.3098, blue: 0.0784, opacity: 1.0)
   static let searchBarSizeBorderRadius: CGFloat = 128
   static let searchBarSizeBorderWidth: CGFloat = 1
   static let searchBarSizeGap: CGFloat = 8
@@ -187,7 +187,7 @@ struct SnaiLightTokens {
   static let linkSizeGap: CGFloat = 4
   static let linkSizeIcon: CGFloat = 16
   static let linkColorNeutralTextDisabled = Color(red: 0.6471, green: 0.6784, blue: 0.7294, opacity: 1.0)
-  static let linkColorNeutralTextHover = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
+  static let linkColorNeutralTextHover = Color(red: 0.4039, green: 0.4549, blue: 0.5216, opacity: 1.0)
   static let linkColorNeutralTextDefault = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
   static let linkColorNeutralIconDisabled = Color(red: 0.6471, green: 0.6784, blue: 0.7294, opacity: 1.0)
   static let linkColorNeutralIconHover = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
@@ -286,6 +286,7 @@ struct SnaiLightTokens {
   static let chipSizePaddingHorizontal: CGFloat = 16
   static let chipSizePaddingVertical: CGFloat = 8
   static let chipSizeGap: CGFloat = 8
+  static let chipSizeIcon: CGFloat = 16
   static let appliedFilterSizeBorderWidth: CGFloat = 1
   static let appliedFilterSizeBorderRadius: CGFloat = 128
   static let appliedFilterSizePaddingHorizontal: CGFloat = 16
@@ -485,6 +486,8 @@ struct SnaiLightTokens {
   static let heroDetailSizeDesktopHeight: CGFloat = 480
   static let heroDetailColorText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let heroDetailColorIcon = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let heroDetailImageSizeHeight: CGFloat = 31
+  static let heroDetailImageSizeWidth: CGFloat = 87
   static let featureCardColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let featureCardColorBorder = Color(red: 0.8078, green: 0.8353, blue: 0.8706, opacity: 1.0)
   static let featureCardColorText = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)

@@ -163,12 +163,12 @@
   <dimen name="button_size_sm_icon_size">20</dimen>
   <dimen name="button_size_sm_gap">0</dimen>
   <dimen name="button_label_size_padding">8</dimen>
-  <dimen name="pagecontrol_pagecontrolitem_size_border_radius">12</dimen>
-  <dimen name="pagecontrol_pagecontrolitem_size_segment_width">48</dimen>
-  <dimen name="pagecontrol_pagecontrolitem_size_height">4</dimen>
-  <color name="pagecontrol_pagecontrolitem_color_pagecontrolitem_bg_default">#FF7397B5</color>
-  <color name="pagecontrol_pagecontrolitem_color_pagecontrolitem_bg_active">#FFFF7D3D</color>
+  <dimen name="pagecontrol_size_border_radius">12</dimen>
+  <dimen name="pagecontrol_size_height">4</dimen>
   <dimen name="pagecontrol_size_gap">4</dimen>
+  <dimen name="pagecontrol_segment_size_width">48</dimen>
+  <color name="pagecontrol_color_bg_default">#FF7397B5</color>
+  <color name="pagecontrol_color_bg_active">#FFFF7D3D</color>
   <dimen name="searchbar_size_border_radius">128</dimen>
   <dimen name="searchbar_size_border_width">1</dimen>
   <dimen name="searchbar_size_gap">8</dimen>
@@ -186,7 +186,7 @@
   <dimen name="link_size_gap">4</dimen>
   <dimen name="link_size_icon">16</dimen>
   <color name="link_color_neutral_text_disabled">#FF335672</color>
-  <color name="link_color_neutral_text_hover">#FFEBF5FD</color>
+  <color name="link_color_neutral_text_hover">#FFD9E9F7</color>
   <color name="link_color_neutral_text_default">#FFEBF5FD</color>
   <color name="link_color_neutral_icon_disabled">#FF335672</color>
   <color name="link_color_neutral_icon_hover">#FFEBF5FD</color>
@@ -285,6 +285,7 @@
   <dimen name="chip_size_padding_horizontal">16</dimen>
   <dimen name="chip_size_padding_vertical">8</dimen>
   <dimen name="chip_size_gap">8</dimen>
+  <dimen name="chip_size_icon">16</dimen>
   <dimen name="appliedfilter_size_border_width">1</dimen>
   <dimen name="appliedfilter_size_border_radius">128</dimen>
   <dimen name="appliedfilter_size_padding_horizontal">16</dimen>
@@ -484,6 +485,8 @@
   <dimen name="herodetail_size_desktop_height">480</dimen>
   <color name="herodetail_color_text">#FFFFFFFF</color>
   <color name="herodetail_color_icon">#FFFFFFFF</color>
+  <dimen name="herodetail_image_size_height">31</dimen>
+  <dimen name="herodetail_image_size_width">87</dimen>
   <color name="featurecard_color_bg">#FF0F202D</color>
   <color name="featurecard_color_border">#FF517897</color>
   <color name="featurecard_color_text">#FFEBF5FD</color>

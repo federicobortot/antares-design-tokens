@@ -181,12 +181,12 @@
   --button-size-sm-icon-size: 20px;
   --button-size-sm-gap: 0px;
   --button-label-size-padding: 8px;
-  --pageControl-pageControlItem-size-border-radius: 12px;
-  --pageControl-pageControlItem-size-segment-width: 48px;
-  --pageControl-pageControlItem-size-height: 4px;
-  --pageControl-pageControlItem-color-pageControlItem-bg-default: #8B96A5;
-  --pageControl-pageControlItem-color-pageControlItem-bg-active: #FF6A00;
+  --pageControl-size-border-radius: 12px;
+  --pageControl-size-height: 4px;
   --pageControl-size-gap: 4px;
+  --pageControl-segment-size-width: 48px;
+  --pageControl-color-bg-default: #8B96A5;
+  --pageControl-color-bg-active: #FF6A00;
   --searchBar-size-border-radius: 128px;
   --searchBar-size-border-width: 1px;
   --searchBar-size-gap: 8px;
@@ -204,7 +204,7 @@
   --link-size-gap: 4px;
   --link-size-icon: 16px;
   --link-color-neutral-text-disabled: #57626F;
-  --link-color-neutral-text-hover: #F0F3FA;
+  --link-color-neutral-text-hover: #DDE3EC;
   --link-color-neutral-text-default: #F0F3FA;
   --link-color-neutral-icon-disabled: #57626F;
   --link-color-neutral-icon-hover: #F0F3FA;
@@ -303,6 +303,7 @@
   --chip-size-padding-horizontal: 16px;
   --chip-size-padding-vertical: 8px;
   --chip-size-gap: 8px;
+  --chip-size-icon: 16px;
   --appliedFilter-size-border-width: 1px;
   --appliedFilter-size-border-radius: 128px;
   --appliedFilter-size-padding-horizontal: 16px;
@@ -502,6 +503,8 @@
   --heroDetail-size-desktop-height: 480px;
   --heroDetail-color-text: #FFFFFF;
   --heroDetail-color-icon: #FFFFFF;
+  --heroDetail-image-size-height: 31px;
+  --heroDetail-image-size-width: 87px;
   --featureCard-color-bg: #232B34;
   --featureCard-color-border: #677485;
   --featureCard-color-text: #F0F3FA;
