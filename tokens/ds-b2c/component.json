@@ -1610,20 +1610,18 @@
         }
       },
       "md": {
-        "size": {
-          "gap": {
+        "gap": {
+          "$type": "number",
+          "$value": "{size.8}"
+        },
+        "width": {
+          "min": {
             "$type": "number",
-            "$value": "{size.8}"
+            "$value": "{size.120}"
           },
-          "width": {
-            "min": {
-              "$type": "number",
-              "$value": "{size.120}"
-            },
-            "max": {
-              "$type": "number",
-              "$value": 160
-            }
+          "max": {
+            "$type": "number",
+            "$value": 160
           }
         },
         "iTuoiGiochi": {
@@ -2708,19 +2706,19 @@
         },
         "end": {
           "$type": "color",
-          "$value": "rgba(0, 0, 0, 0.3)"
+          "$value": "{color.elevation.backdrop.default}"
         }
       }
     },
     "size": {
       "padding": {
         "$type": "number",
-        "$value": 12
+        "$value": "{size.16}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": 8
+          "$value": "{size.8}"
         }
       },
       "height": {
@@ -2899,26 +2897,26 @@
     "size": {
       "padding": {
         "$type": "number",
-        "$value": 16
+        "$value": "{size.16}"
       },
       "border": {
         "radius": {
           "$type": "number",
-          "$value": 8
+          "$value": "{size.8}"
         },
         "width": {
           "$type": "number",
-          "$value": 1
+          "$value": "{size.1}"
         }
       },
       "gap": {
         "section": {
           "$type": "number",
-          "$value": 8
+          "$value": "{size.12}"
         },
         "content": {
           "$type": "number",
-          "$value": 4
+          "$value": "{size.4}"
         }
       },
       "minWidth": {
@@ -3682,14 +3680,16 @@
     }
   },
   "notificationBadge": {
-    "color": {
-      "bg": {
-        "$type": "color",
-        "$value": "#FFFFFF"
-      },
-      "text": {
-        "$type": "color",
-        "$value": "{color.fixed.text.default}"
+    "alert": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{color.bg.danger.boldest}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.fixed.text.inverse}"
+        }
       }
     },
     "size": {
@@ -3713,6 +3713,18 @@
         "radius": {
           "$type": "number",
           "$value": 128
+        }
+      }
+    },
+    "default": {
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{color.bg.action.neutral.inverse.default}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.inverse}"
         }
       }
     }
