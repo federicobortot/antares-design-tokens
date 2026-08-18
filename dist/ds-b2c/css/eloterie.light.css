@@ -724,6 +724,8 @@
   --notificationBadge-size-border-radius: 128px;
   --notificationBadge-default-color-bg: #262626;
   --notificationBadge-default-color-text: #FFFFFF;
+  --notificationBadge-inverse-color-bg: #FFFFFF;
+  --notificationBadge-inverse-color-text: #141414;
   --gameGrid-size-gap-outer: 8px;
   --gameGrid-content-size-gap: 8px;
   --filterSearchEntrypoint-color-border: #D1D1D1;

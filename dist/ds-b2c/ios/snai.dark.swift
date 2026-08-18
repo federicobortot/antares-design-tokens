@@ -707,6 +707,8 @@ struct SnaiDarkTokens {
   static let notificationBadgeSizeBorderRadius: CGFloat = 128
   static let notificationBadgeDefaultColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let notificationBadgeDefaultColorText = Color(red: 0.0824, green: 0.1020, blue: 0.1255, opacity: 1.0)
+  static let notificationBadgeInverseColorBg = Color(red: 0.1373, green: 0.1686, blue: 0.2039, opacity: 1.0)
+  static let notificationBadgeInverseColorText = Color(red: 0.9412, green: 0.9529, blue: 0.9804, opacity: 1.0)
   static let gameGridSizeGapOuter: CGFloat = 8
   static let gameGridContentSizeGap: CGFloat = 8
   static let filterSearchEntrypointColorBorder = Color(red: 0.4039, green: 0.4549, blue: 0.5216, opacity: 1.0)

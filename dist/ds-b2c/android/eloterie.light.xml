@@ -706,6 +706,8 @@
   <dimen name="notificationbadge_size_border_radius">128</dimen>
   <color name="notificationbadge_default_color_bg">#FF262626</color>
   <color name="notificationbadge_default_color_text">#FFFFFFFF</color>
+  <color name="notificationbadge_inverse_color_bg">#FFFFFFFF</color>
+  <color name="notificationbadge_inverse_color_text">#FF141414</color>
   <dimen name="gamegrid_size_gap_outer">8</dimen>
   <dimen name="gamegrid_content_size_gap">8</dimen>
   <color name="filtersearchentrypoint_color_border">#FFD1D1D1</color>

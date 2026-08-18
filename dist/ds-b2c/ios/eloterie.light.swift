@@ -707,6 +707,8 @@ struct EloterieLightTokens {
   static let notificationBadgeSizeBorderRadius: CGFloat = 128
   static let notificationBadgeDefaultColorBg = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
   static let notificationBadgeDefaultColorText = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let notificationBadgeInverseColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let notificationBadgeInverseColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
   static let gameGridSizeGapOuter: CGFloat = 8
   static let gameGridContentSizeGap: CGFloat = 8
   static let filterSearchEntrypointColorBorder = Color(red: 0.8196, green: 0.8196, blue: 0.8196, opacity: 1.0)

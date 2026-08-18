@@ -707,6 +707,8 @@ struct EloterieDarkTokens {
   static let notificationBadgeSizeBorderRadius: CGFloat = 128
   static let notificationBadgeDefaultColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
   static let notificationBadgeDefaultColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
+  static let notificationBadgeInverseColorBg = Color(red: 0.1490, green: 0.1490, blue: 0.1490, opacity: 1.0)
+  static let notificationBadgeInverseColorText = Color(red: 0.9490, green: 0.9490, blue: 0.9490, opacity: 1.0)
   static let gameGridSizeGapOuter: CGFloat = 8
   static let gameGridContentSizeGap: CGFloat = 8
   static let filterSearchEntrypointColorBorder = Color(red: 0.4549, green: 0.4549, blue: 0.4549, opacity: 1.0)

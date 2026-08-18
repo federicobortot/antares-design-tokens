@@ -477,6 +477,8 @@ module.exports = {
       'notificationBadge-alert-color-text': 'var(--notificationBadge-alert-color-text)',
       'notificationBadge-default-color-bg': 'var(--notificationBadge-default-color-bg)',
       'notificationBadge-default-color-text': 'var(--notificationBadge-default-color-text)',
+      'notificationBadge-inverse-color-bg': 'var(--notificationBadge-inverse-color-bg)',
+      'notificationBadge-inverse-color-text': 'var(--notificationBadge-inverse-color-text)',
       'filterSearchEntrypoint-color-border': 'var(--filterSearchEntrypoint-color-border)',
       'filterSearchEntrypoint-CTA-color-bg-hover': 'var(--filterSearchEntrypoint-CTA-color-bg-hover)',
       'filterSearchEntrypoint-CTA-color-icon': 'var(--filterSearchEntrypoint-CTA-color-icon)',
