@@ -757,4 +757,16 @@
   <dimen name="playerbutton_size_md_all">44</dimen>
   <dimen name="playerbutton_size_sm_icon">12</dimen>
   <dimen name="playerbutton_size_sm_all">22</dimen>
+  <dimen name="gamecardhot_size_sm_height">72</dimen>
+  <dimen name="gamecardhot_size_md_height">96</dimen>
+  <dimen name="gamecardhot_rightcontainer_size_sm_padding">4</dimen>
+  <dimen name="gamecardhot_rightcontainer_size_md_padding">8</dimen>
+  <dimen name="gamecardhot_rightcontainer_size_gap">8</dimen>
+  <dimen name="gamecardhot_numerogiocatori_size_padding_vertical">2</dimen>
+  <dimen name="gamecardhot_numerogiocatori_size_border_radius">4</dimen>
+  <color name="gamecardhot_numerogiocatori_color_bg">#FFF1F4F5</color>
+  <color name="gamecardhot_numerogiocatori_color_text">#FF141414</color>
+  <color name="gamecardhot_color_bg">#FFFFFFFF</color>
+  <color name="gamecardhot_color_text">#FF141414</color>
+  <color name="gamecardhot_color_promo_border">#FFFEAC2E</color>
 </resources>

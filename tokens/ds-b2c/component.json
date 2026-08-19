@@ -4040,5 +4040,83 @@
         }
       }
     }
+  },
+  "gameCardHot": {
+    "size": {
+      "sm": {
+        "height": {
+          "$type": "number",
+          "$value": "{size.72}"
+        }
+      },
+      "md": {
+        "height": {
+          "$type": "number",
+          "$value": "{size.96}"
+        }
+      }
+    },
+    "rightContainer": {
+      "size": {
+        "sm": {
+          "padding": {
+            "$type": "number",
+            "$value": "{size.4}"
+          }
+        },
+        "md": {
+          "padding": {
+            "$type": "number",
+            "$value": "{size.8}"
+          }
+        },
+        "gap": {
+          "$type": "number",
+          "$value": "{size.8}"
+        }
+      }
+    },
+    "numeroGiocatori": {
+      "size": {
+        "padding": {
+          "vertical": {
+            "$type": "number",
+            "$value": "{size.2}"
+          }
+        },
+        "border": {
+          "radius": {
+            "$type": "number",
+            "$value": "{size.4}"
+          }
+        }
+      },
+      "color": {
+        "bg": {
+          "$type": "color",
+          "$value": "{color.bg.secondary}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{color.text.default}"
+        }
+      }
+    },
+    "color": {
+      "bg": {
+        "$type": "color",
+        "$value": "{color.elevation.canvas}"
+      },
+      "text": {
+        "$type": "color",
+        "$value": "{color.text.default}"
+      },
+      "promo": {
+        "border": {
+          "$type": "color",
+          "$value": "{promo.bg.default}"
+        }
+      }
+    }
   }
 }

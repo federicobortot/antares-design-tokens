@@ -504,7 +504,12 @@ module.exports = {
       'playerButton-color-icon': 'var(--playerButton-color-icon)',
       'playerButton-color-bg-default': 'var(--playerButton-color-bg-default)',
       'playerButton-color-bg-hover': 'var(--playerButton-color-bg-hover)',
-      'playerButton-color-bg-pressed': 'var(--playerButton-color-bg-pressed)'
+      'playerButton-color-bg-pressed': 'var(--playerButton-color-bg-pressed)',
+      'gameCardHot-numeroGiocatori-color-bg': 'var(--gameCardHot-numeroGiocatori-color-bg)',
+      'gameCardHot-numeroGiocatori-color-text': 'var(--gameCardHot-numeroGiocatori-color-text)',
+      'gameCardHot-color-bg': 'var(--gameCardHot-color-bg)',
+      'gameCardHot-color-text': 'var(--gameCardHot-color-text)',
+      'gameCardHot-color-promo-border': 'var(--gameCardHot-color-promo-border)'
     },
       spacing: {
       'button-size-md-height': 'var(--button-size-md-height)',
@@ -690,6 +695,12 @@ module.exports = {
       'playerButton-size-md-all': 'var(--playerButton-size-md-all)',
       'playerButton-size-sm-icon': 'var(--playerButton-size-sm-icon)',
       'playerButton-size-sm-all': 'var(--playerButton-size-sm-all)',
+      'gameCardHot-size-sm-height': 'var(--gameCardHot-size-sm-height)',
+      'gameCardHot-size-md-height': 'var(--gameCardHot-size-md-height)',
+      'gameCardHot-rightContainer-size-sm-padding': 'var(--gameCardHot-rightContainer-size-sm-padding)',
+      'gameCardHot-rightContainer-size-md-padding': 'var(--gameCardHot-rightContainer-size-md-padding)',
+      'gameCardHot-rightContainer-size-gap': 'var(--gameCardHot-rightContainer-size-gap)',
+      'gameCardHot-numeroGiocatori-size-padding-vertical': 'var(--gameCardHot-numeroGiocatori-size-padding-vertical)',
       'typography-d1-fontSize': 'var(--typography-d1-fontSize)',
       'typography-d1-lineHeight': 'var(--typography-d1-lineHeight)',
       'typography-d1-fontWeight': 'var(--typography-d1-fontWeight)',
@@ -787,7 +798,8 @@ module.exports = {
       'notificationBadge-size-border-radius': 'var(--notificationBadge-size-border-radius)',
       'filterSearchEntrypoint-size-border-radius': 'var(--filterSearchEntrypoint-size-border-radius)',
       'gameCardMain-size-border-radius': 'var(--gameCardMain-size-border-radius)',
-      'chipsNavigationList-chipNavigation-size-border-radius': 'var(--chipsNavigationList-chipNavigation-size-border-radius)'
+      'chipsNavigationList-chipNavigation-size-border-radius': 'var(--chipsNavigationList-chipNavigation-size-border-radius)',
+      'gameCardHot-numeroGiocatori-size-border-radius': 'var(--gameCardHot-numeroGiocatori-size-border-radius)'
     },
       borderWidth: {
       'button-size-md-border-width': 'var(--button-size-md-border-width)',

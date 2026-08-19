@@ -758,4 +758,16 @@ struct PokerstarsLightTokens {
   static let playerButtonSizeMdAll: CGFloat = 44
   static let playerButtonSizeSmIcon: CGFloat = 12
   static let playerButtonSizeSmAll: CGFloat = 22
+  static let gameCardHotSizeSmHeight: CGFloat = 72
+  static let gameCardHotSizeMdHeight: CGFloat = 96
+  static let gameCardHotRightContainerSizeSmPadding: CGFloat = 4
+  static let gameCardHotRightContainerSizeMdPadding: CGFloat = 8
+  static let gameCardHotRightContainerSizeGap: CGFloat = 8
+  static let gameCardHotNumeroGiocatoriSizePaddingVertical: CGFloat = 2
+  static let gameCardHotNumeroGiocatoriSizeBorderRadius: CGFloat = 4
+  static let gameCardHotNumeroGiocatoriColorBg = Color(red: 0.9843, green: 0.9059, blue: 0.9059, opacity: 1.0)
+  static let gameCardHotNumeroGiocatoriColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
+  static let gameCardHotColorBg = Color(red: 1.0000, green: 1.0000, blue: 1.0000, opacity: 1.0)
+  static let gameCardHotColorText = Color(red: 0.0784, green: 0.0784, blue: 0.0784, opacity: 1.0)
+  static let gameCardHotColorPromoBorder = Color(red: 0.9529, green: 0.2745, blue: 0.5451, opacity: 1.0)
 }
