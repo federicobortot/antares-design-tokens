@@ -1533,7 +1533,7 @@
       }
     }
   },
-  "gameCardItem": {
+  "cardGameItem": {
     "size": {
       "promo": {
         "border": {
@@ -1559,7 +1559,7 @@
       }
     }
   },
-  "gameCard": {
+  "cardGame": {
     "color": {
       "jackpot": {
         "bg": {
@@ -1705,7 +1705,7 @@
       }
     }
   },
-  "gameCardItemITuoiGiochi": {
+  "cardItuoiGiochi": {
     "size": {
       "border": {
         "radius": {
@@ -2543,7 +2543,7 @@
       }
     }
   },
-  "featureCard": {
+  "cardFeature": {
     "color": {
       "bg": {
         "$type": "color",
@@ -2637,7 +2637,7 @@
       }
     }
   },
-  "jackpotCard": {
+  "cardJackpot": {
     "color": {
       "text": {
         "$type": "color",
@@ -2675,7 +2675,7 @@
       }
     }
   },
-  "jackpotCardCarousel": {
+  "carouselCardJackpot": {
     "size": {
       "gap": {
         "$type": "number",
@@ -2683,7 +2683,7 @@
       }
     }
   },
-  "bonusCard": {
+  "cardBonus": {
     "color": {
       "text": {
         "default": {
@@ -2752,8 +2752,14 @@
     },
     "size": {
       "gap": {
-        "$type": "number",
-        "$value": "{size.4}"
+        "sm": {
+          "$type": "number",
+          "$value": "{size.4}"
+        },
+        "default": {
+          "$type": "number",
+          "$value": "{size.12}"
+        }
       },
       "gameList": {
         "gap": {
@@ -2879,7 +2885,7 @@
       }
     }
   },
-  "payoutCard": {
+  "cardPayout": {
     "color": {
       "bg": {
         "$type": "color",
@@ -3093,7 +3099,7 @@
       }
     }
   },
-  "giocoResponsabileCard": {
+  "cardGiocoResponsabile": {
     "color": {
       "gradient": {
         "start": {
@@ -3135,7 +3141,7 @@
       }
     }
   },
-  "promoCard": {
+  "cardPromo": {
     "color": {
       "bg": {
         "$type": "color",
@@ -3357,17 +3363,17 @@
       }
     }
   },
-  "newPlayerCardCarousel": {
+  "carouselCardNewPlayer": {
     "size": {
       "gap": {
         "outer": {
           "$type": "number",
-          "$value": 12
+          "$value": 8
         }
       }
     }
   },
-  "newPlayerCard": {
+  "cardNewPlayer": {
     "color": {
       "bg": {
         "$type": "color",
@@ -3895,7 +3901,7 @@
       }
     }
   },
-  "gameCardMain": {
+  "cardGameMain": {
     "color": {
       "bg": {
         "$type": "color",
@@ -4041,7 +4047,7 @@
       }
     }
   },
-  "gameCardHot": {
+  "cardGameHot": {
     "size": {
       "sm": {
         "height": {
@@ -4054,6 +4060,10 @@
           "$type": "number",
           "$value": "{size.96}"
         }
+      },
+      "border": {
+        "$type": "number",
+        "$value": "{size.8}"
       }
     },
     "rightContainer": {
@@ -4115,6 +4125,46 @@
         "border": {
           "$type": "color",
           "$value": "{promo.bg.default}"
+        }
+      }
+    }
+  },
+  "cardGameTop10": {
+    "size": {
+      "sm": {
+        "gap": {
+          "$type": "number",
+          "$value": -16
+        }
+      },
+      "md": {
+        "gap": {
+          "$type": "number",
+          "$value": -24
+        }
+      }
+    },
+    "color": {
+      "text": {
+        "gradient": {
+          "start": {
+            "$type": "color",
+            "$value": "#D9C500"
+          },
+          "middle": {
+            "$type": "color",
+            "$value": "#FCF514"
+          },
+          "end": {
+            "$type": "color",
+            "$value": "#AD690A"
+          }
+        }
+      },
+      "color": {
+        "border": {
+          "$type": "color",
+          "$value": "#645120"
         }
       }
     }
